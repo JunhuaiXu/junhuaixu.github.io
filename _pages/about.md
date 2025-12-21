@@ -12,9 +12,9 @@ redirect_from:
 
 <div id="about"></div>
 
-Hi, I am a Ph.D. candidate at the Department of Physics, **Tsinghua University**, advised by Prof. [Zhigang Xiao](https://inspirehep.net/authors/1062622). 
+Hi, I am a Ph.D. candidate at the Department of Physics, **Tsinghua University**. My research focuses on heavy-ion collisions (HICs) and short-range correlations (SRCs), as well as neutrino detection and data analysis. 
 
-My research focuses on heavy-ion collisions (HICs) and short-range correlations (SRCs), as well as neutrino detection and data analysis. I have been involved in several experimental programs, including the Compact Spectrometer for Heavy IoN Experiment (CSHINE), femtoscopic two-particle correlation studies, and deep-sea neutrino detection projects. My work centers on detector response characterization, event reconstruction, and the extraction of physical observables from complex experimental data.
+I have been involved in several experimental programs, including the Compact Spectrometer for Heavy IoN Experiment (CSHINE), femtoscopic two-particle correlation studies, and deep-sea neutrino detection projects. My work centers on detector response characterization, event reconstruction, and the extraction of physical observables from complex experimental data.
 
 
 <!-- ## Biography
