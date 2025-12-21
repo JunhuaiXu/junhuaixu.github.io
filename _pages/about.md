@@ -15,7 +15,7 @@ I am a Ph.D. candidate in **Experimental Nuclear Physics** at **Tsinghua Univers
 ## Research Interests
 My research lies at the intersection of nuclear physics and advanced data analysis:
     * **Nucleon Short-Range Correlations (SRCs):** Probing high-momentum nucleons using hard bremsstrahlung $\gamma$-rays.
-    * **Femtoscopy & Imaging:** Reconstructing emission sources in relativistic HICs (Au+Au collisions).
+    * **Femtoscopy & Imaging:** Reconstructing emission sources in relativistic HICs.
     * **Deep-Sea Neutrino Detection:** Applying Deep Learning to atmospheric neutrino classification.
 
 ## Recent News
