@@ -80,36 +80,36 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ruijie Zhu"
+  name             : "Junhuai Xu"
   avatar           : "profile.png"
-  bio              : "Postgraduate at USTC"
-  location         : "Anhui, China"
+  bio              : "Ph.D. Candidate, Tsinghua University"
+  location         : "Beijing, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=6uuAEdkAAAAJ&hl=en"
-  email            :
+  googlescholar    : "https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl"
+  email            : "xjh22@mails.tsinghua.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "profile.php?id=100040304211690"
+  facebook         : #"profile.php?id=100040304211690"
   foursquare       :
-  github           : "RuijieZhu94"
+  github           : #"RuijieZhu94"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0001-6092-0712"
+  orcid            : "https://orcid.org/0000-0001-7529-8786"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "zhruji101109"
+  twitter          : #"zhruji101109"
   vine             :
   weibo            :
   xing             :
