@@ -290,6 +290,6 @@ My research interests lie in 3D Computer Vision, with a particular focus on:
 <div style="text-align: center;">
   <br>
   <div id="clustr_globe_container" style="display: inline-block; width: 150px; height: 150px;">
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=QX_iyI0zlBx07-CIFxMa5gP8MwYnoZjUFm6acc6v2DM"></script>
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=0y7sxcbqs8DpRDKtY8hidLM1WXMbALHYbCdxnPx6ZkY"></script>
   </div>
 </div>
