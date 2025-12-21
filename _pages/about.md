@@ -12,7 +12,6 @@ redirect_from:
 
 I am a Ph.D. candidate in **Experimental Nuclear Physics** at **Tsinghua University**, Beijing, expected to graduate in 2027. My research focuses on probing the fundamental properties of nuclear matter through heavy-ion collisions.
 
-## Research Interests
 My research lies at the intersection of nuclear physics and advanced data analysis:
     * **Nucleon Short-Range Correlations (SRCs):** Probing high-momentum nucleons using hard bremsstrahlung $\gamma$-rays.
     * **Femtoscopy & Imaging:** Reconstructing emission sources in relativistic HICs.
