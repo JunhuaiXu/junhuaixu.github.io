@@ -20,6 +20,14 @@ I have been involved in several experimental programs, including the Compact Spe
 ## Recent News
 
 
+## Publications
+<small>
+Full list available on <a href="https://scholar.google.com/citations?user=6uuAEdkAAAAJ&hl=en">Google Scholar</a>.
+</small>
+
+
+## Awards
+
 <!-- ## Biography
 
 
