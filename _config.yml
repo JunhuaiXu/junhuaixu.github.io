@@ -86,7 +86,10 @@ author:
   location         : "Beijing, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  orcid            : "https://orcid.org/0000-0001-7529-8786"
+  inspire-hep      : "https://inspirehep.net/authors/1866896"
   googlescholar    : "https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl"
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=59154303800"
   email            : "xjh22@mails.tsinghua.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -103,7 +106,6 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0001-7529-8786"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
