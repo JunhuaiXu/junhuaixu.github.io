@@ -10,11 +10,13 @@ redirect_from:
 
 ## Biography
 
-I obtained my Master's degree from the University of Science and Technology of China (USTC) in 2025, where I was advised by Prof. [Yongdong Zhang](https://scholar.google.com/citations?user=hxGs4ukAAAAJ&hl) and Prof. [Tianzhu Zhang](http://staff.ustc.edu.cn/~tzzhang/). Prior to that, I received my B.Eng. degree in Computer Science and Technology from Northwestern Polytechnical University (NWPU) in 2022, under the guidance of Prof. [Yuchao Dai](https://scholar.google.com/citations?user=fddAbqsAAAAJ&hl).
+I am a Ph.D. candidate in **Experimental Nuclear Physics** at **Tsinghua University**, Beijing, expected to graduate in 2027. My research focuses on probing the fundamental properties of nuclear matter through heavy-ion collisions.
 
-My research interests lie in 3D Computer Vision, with a particular focus on:
-*   3D Gaussian Splatting & Neural Rendering
-*   Monocular Depth Estimation
+## Research Interests
+My research lies at the intersection of nuclear physics and advanced data analysis:
+    * **Nucleon Short-Range Correlations (SRCs):** Probing high-momentum nucleons using hard bremsstrahlung $\gamma$-rays.
+    * **Femtoscopy & Imaging:** Reconstructing emission sources in relativistic HICs (Au+Au collisions).
+    * **Deep-Sea Neutrino Detection:** Applying Deep Learning to atmospheric neutrino classification.
 
 ## Recent News
 
