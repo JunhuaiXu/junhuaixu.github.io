@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Biography"
-    url: /#biography
+  - title: "About"
+    url: /#about
 
   - title: "Recent News"
     url: /#recent-news
