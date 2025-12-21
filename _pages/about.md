@@ -22,7 +22,7 @@ I have been involved in several experimental programs, including the Compact Spe
 
 ## Publications
 <small>
-Full list available on <a href="https://scholar.google.com/citations?user=6uuAEdkAAAAJ&hl=en">Google Scholar</a>.
+Full list available on <a href="https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl">Google Scholar</a>.
 </small>
 
 
