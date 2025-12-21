@@ -8,23 +8,31 @@ redirect_from:
   - /about.html
 ---
 
-## Biography
+<!-- ## Biography
 
-I am a Ph.D. candidate in **Experimental Nuclear Physics** at **Tsinghua University**, Beijing, expected to graduate in 2027. My research focuses on probing the fundamental properties of nuclear matter through heavy-ion collisions.
+I obtained my Master's degree from the University of Science and Technology of China (USTC) in 2025, where I was advised by Prof. [Yongdong Zhang](https://scholar.google.com/citations?user=hxGs4ukAAAAJ&hl) and Prof. [Tianzhu Zhang](http://staff.ustc.edu.cn/~tzzhang/). Prior to that, I received my B.Eng. degree in Computer Science and Technology from Northwestern Polytechnical University (NWPU) in 2022, under the guidance of Prof. [Yuchao Dai](https://scholar.google.com/citations?user=fddAbqsAAAAJ&hl).
 
-My research lies at the intersection of nuclear physics and advanced data analysis:
-    * **Nucleon Short-Range Correlations (SRCs):** Probing high-momentum nucleons using hard bremsstrahlung $\gamma$-rays.
-    * **Femtoscopy & Imaging:** Reconstructing emission sources in relativistic HICs.
-    * **Deep-Sea Neutrino Detection:** Applying Deep Learning to atmospheric neutrino classification.
+My research interests lie in 3D Computer Vision, with a particular focus on:
+*   3D Gaussian Splatting & Neural Rendering
+*   Monocular Depth Estimation
 
 ## Recent News
 
-<div style="border: 1px solid #ddd; padding: 10px; height: 180px; overflow-y: scroll; border-radius: 5px; background-color: #f9f9f9;">
+<div style="border: 1px solid #ddd; padding: 10px; height: 220px; overflow-y: scroll; border-radius: 5px; background-color: #f9f9f9;">
   <ul style="padding-left: 20px;">
-    <li><b>Feb. 2025:</b> Our paper on <b>CsI(Tl) crystal response</b> was accepted by NIM A!</li>
-    <li><b>Jan. 2025:</b> "Precise measurement of SRCs via gamma-rays" published in <b>Phys. Rev. Research</b>.</li>
-    <li><b>Aug. 2024:</b> New preprint on arXiv: "Experimental study of SRCs in Sn+Sn collisions".</li>
-    <li><b>Jun. 2024:</b> Started collaboration on Deep-Sea Neutrino detection.</li>
+    <li>Nov. 2025: <a href="https://hanzhichang.github.io/meshsplat_web/">MeshSplat</a> was accepted by AAAI 2026.</li>
+    <li>Jun. 2025: <a href="https://ruijiezhu94.github.io/ObjectGS_page/">ObjectGS</a> was accepted by ICCV 2025.</li>
+    <li>Jun. 2025: Graduated from USTC! 🎓</li>
+    <li>Jan. 2025: <a href="https://indu1ge.github.io/DepthMaster_page/">DepthMaster</a> was released on arXiv.</li>
+    <li>Oct. 2024: <a href="https://ruijiezhu94.github.io/plane2depth_page/">Plane2Depth</a> was accepted by IEEE TCSVT.</li>  
+    <li>Sep. 2024: Two papers, <a href="https://ruijiezhu94.github.io/MotionGS_page">MotionGS</a> and <a href="https://arxiv.org/abs/2410.13607">DN-4DGS</a>, were accepted by NeurIPS 2024.</li>
+    <li>Jul. 2024: <a href="https://ruijiezhu94.github.io/ScaleDepth">ScaleDepth</a> was released on arXiv.</li>
+    <li>Dec. 2023: <a href="https://arxiv.org/abs/2312.09527">TI-Face</a> was released on arXiv.</li>
+    <li>Nov. 2023: <a href="https://ruijiezhu94.github.io/HABins_TCSVT2023">HA-Bins</a> was accepted by IEEE TCSVT.</li>
+    <li>Oct. 2023: <a href="https://ruijiezhu94.github.io/ERDepth_page">EC-Depth</a> was released on arXiv.</li>
+    <li>Oct. 2023: Won the 1st Place in ICCV 2023 workshop: <a href="https://sites.google.com/view/vschh/home">To NeRF or not to NeRF</a>. <a href="https://openaccess.thecvf.com/content/ICCV2023W/RHWC/papers/Jang_VSCHH_2023_A_Benchmark_for_the_View_Synthesis_Challenge_of_ICCVW_2023_paper.pdf">[paper]</a> <a href="https://youtu.be/QRuVvtpoeVM">[video]</a></li>
+    <li>June 2023: Won the 1st Place on RoboDepth (Track 1) and 2nd Place (Track 2) at ICRA 2023. <a href="https://arxiv.org/pdf/2307.15061">[paper]</a> <a href="https://youtu.be/C97J5SDXmZc?list=PLxxrIfcH-qBGZ6x_e1AT2_YnAxiHIKtkB&t=2767">[video]</a></li>
+    <li>Oct. 2022: Won the 2nd Place on Monocular Depth Estimation leaderboard in ECCV 2022 workshop: <a href="http://www.robustvision.net/leaderboard.php?benchmark=depth">Robust Vision Challenge 2022</a>. <a href="https://youtu.be/8ZwiSUYNJiI">[video]</a></li>
   </ul>
 </div>
 
@@ -277,7 +285,7 @@ My research lies at the intersection of nuclear physics and advanced data analys
 ## Posts
 
 *   VALSE•2021 meeting record. [[Yuque]](https://www.yuque.com/docs/share/99290803-dfd7-4343-9ee6-0887f10bcec0?#) [[Zhihu]](https://zhuanlan.zhihu.com/p/422911676)
-*   Course Notes of Statistical Learning course in USTC. [[Git repo]](https://github.com/RuijieZhu94/StatisticalLearning_USTC) [[Zhihu]](https://www.zhihu.com/question/49386395/answer/3121492954) [[PDF]](https://github.com/RuijieZhu94/StatisticalLearning_USTC/releases/download/v1.0/outline.pdf) [[Abstract]](https://github.com/RuijieZhu94/StatisticalLearning_USTC/releases/download/v1.0/cheatsheet.pdf)
+*   Course Notes of Statistical Learning course in USTC. [[Git repo]](https://github.com/RuijieZhu94/StatisticalLearning_USTC) [[Zhihu]](https://www.zhihu.com/question/49386395/answer/3121492954) [[PDF]](https://github.com/RuijieZhu94/StatisticalLearning_USTC/releases/download/v1.0/outline.pdf) [[Abstract]](https://github.com/RuijieZhu94/StatisticalLearning_USTC/releases/download/v1.0/cheatsheet.pdf) -->
 
 <div style="text-align: center;">
   <br>
