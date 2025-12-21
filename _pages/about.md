@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Ruijie Zhu 朱睿杰"
+title: "Junhuai Xu"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
