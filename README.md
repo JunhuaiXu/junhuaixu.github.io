@@ -1,1 +1,1 @@
-Welcome to JunhuaiXu's website. [Ruijiezhu's Homepage](https://junhuaixu.github.io)
+Welcome to JunhuaiXu's website. [JunhuaiXu's Homepage](https://junhuaixu.github.io)
