@@ -89,7 +89,7 @@ author:
   orcid            : "https://orcid.org/0000-0001-7529-8786"
   inspire-hep      : "https://inspirehep.net/authors/1866896"
   googlescholar    : "https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl"
-  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=59154303800"
+  # scopus           : "https://www.scopus.com/authid/detail.uri?authorId=59154303800"
   email            : "xjh22@mails.tsinghua.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
