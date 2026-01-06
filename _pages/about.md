@@ -21,15 +21,15 @@ I have been involved in several experimental programs, including the Compact Spe
 
 
 ## Publications
-<!-- <small>
+<small>
 Full list available on <a href="https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl">🎓 Google Scholar</a>.
-</small> -->
-<div style="display: flex; align-items: baseline; gap: 15px;">
+</small>
+<!-- <div style="display: flex; align-items: baseline; gap: 15px;">
   <h2 style="margin: 0;">Publications</h2>
   <a href="https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl" style="text-decoration: none; border: 1px solid #4285F4; color: #4285F4; padding: 2px 8px; border-radius: 4px; font-size: 0.8em;">
     Google Scholar
   </a>
-</div>
+</div> -->
 
 
 ## Awards
