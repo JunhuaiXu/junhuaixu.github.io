@@ -22,6 +22,15 @@ redirect_from:
     </div>
   </div>
 
+<div style="margin-top: 15px; display: flex; gap: 10px;">
+  <a href="assets/CV_JunhuaiXu.pdf" target="_blank" style="text-decoration: none; color: #660874; border: 1px solid #660874; padding: 6px 15px; border-radius: 20px; font-size: 0.85em; font-family: sans-serif; display: flex; align-items: center; transition: all 0.3s ease; background-color: #fff;">
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" style="margin-right: 6px;">
+      <path d="M20 2M4 22V2h12l4 4v16H4zm2-2h12V7h-5V2H6v18zm7-14h3.17L13 3.17V6zM8 12v2h8v-2H8zm0 4v2h5v-2H8z"/>
+    </svg>
+    Curriculum Vitae (PDF)
+  </a>
+</div>
+
 
 
 <!-- ## Education -->
