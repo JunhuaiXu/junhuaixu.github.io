@@ -32,6 +32,12 @@ Full list available on <a href="https://scholar.google.com/citations?user=XK-LVe
 
 ## Awards
 
+* **First-class Comprehensive Scholarship**, Tsinghua University <span style="float:right;">2025</span>
+* **Second-class Comprehensive Scholarship**, Tsinghua University <span style="float:right;">2024</span>
+* **Outstanding Teaching Assistant**, Tsinghua University <span style="float:right;">2024</span>
+* **Third Prize**, 11th National Undergraduate Mathematics Competition (Final Round) <span style="float:right;">2021</span>
+* **First Prize**, China Undergraduate Mathematical Contest in Modeling (CUMCM) <span style="float:right;">2020</span>
+
 <!-- ## Biography
 
 
