@@ -21,10 +21,22 @@ redirect_from:
 
 
 
-## Education
+<!-- ## Education -->
+<div id="education"></div>
 
-*   Aug. 2022 - Present: Ph.D. Student, Department of Physics, Tsinghua University
-*   Sept. 2018 - July 2022: Undergraduate Student, South China Normal University
+<div style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 0.9em; line-height: 1.5;">
+  <h2 style="border-bottom: 2px solid #660874; padding-bottom: 5px; color: #333; font-size: 1.4em;">🎓 Education</h2>
+
+  <div style="margin-bottom: 8px; padding: 10px 12px; border-left: 4px solid #660874; background-color: #fbf5fc; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
+    <span><strong>Ph.D. Student in Physics</strong>, Tsinghua University</span>
+    <span style="color: #777; font-size: 0.85em; font-weight: bold; margin-left: 10px; white-space: nowrap;">2022 - Present</span>
+  </div>
+
+  <div style="margin-bottom: 8px; padding: 10px 12px; border-left: 4px solid #4a90e2; background-color: #f0f7ff; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
+    <span><strong>B.Sc. in Physics</strong>, South China Normal University</span>
+    <span style="color: #777; font-size: 0.85em; font-weight: bold; margin-left: 10px; white-space: nowrap;">2018 - 2022</span>
+  </div>
+</div>
 
 ## Recent News
 
