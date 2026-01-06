@@ -10,71 +10,80 @@ redirect_from:
 
 
 
-<div id="about"></div>
+<!-- <div id="about"></div> -->
 
-<!-- Hi, I am a Ph.D. candidate at the Department of Physics, **Tsinghua University**, advised by Prof. **[Zhigang Xiao](https://inspirehep.net/authors/1062622)**. I have been involved in several experimental programs, including the Compact Spectrometer for Heavy IoN Experiment (CSHINE), femtoscopic two-particle correlation studies, and deep-sea neutrino detection projects. My work centers on detector response characterization, event reconstruction, and the extraction of physical observables from complex experimental data. -->
-<div style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 0.92em; line-height: 1.7; color: #333; background-color: #fdfcff; padding: 15px; border-left: 4px solid #660874; border-radius: 0 5px 5px 0;">
-  Hi, I am a Ph.D. candidate at the <strong>Department of Physics, <span style="color: #660874;">Tsinghua University</span></strong>, advised by Prof. <a href="https://inspirehep.net/authors/1062622" style="color: #660874; text-decoration: none; font-weight: bold; border-bottom: 1px solid rgba(102, 8, 116, 0.3);">Zhigang Xiao</a>. 
-  I have been involved in several experimental programs, including the <strong>Compact Spectrometer for Heavy IoN Experiment (CSHINE)</strong>, <strong>femtoscopic two-particle correlation</strong> studies, and <strong>deep-sea neutrino detection</strong> projects. 
-  My work centers on <em>detector response characterization</em>, <em>event reconstruction</em>, and the <em>extraction of physical observables</em> from complex experimental data.
-</div>
+<div style="font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; max-width: 900px; margin: auto; color: #333;">
+
+  <div id="about" style="margin-bottom: 35px;">
+    <div style="font-size: 0.92em; line-height: 1.75; background-color: #fdfcff; padding: 18px 20px; border-left: 5px solid #660874; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+      Hi, I am a Ph.D. candidate at the <strong>Department of Physics, <span style="color: #660874;">Tsinghua University</span></strong>, advised by Prof. <a href="https://inspirehep.net/authors/1062622" style="color: #660874; text-decoration: none; font-weight: bold; border-bottom: 1px solid rgba(102, 8, 116, 0.3); transition: 0.3s;">Zhigang Xiao</a>. 
+      I have been involved in several experimental programs, including the <strong>Compact Spectrometer for Heavy IoN Experiment (CSHINE)</strong>, <strong>femtoscopic two-particle correlation</strong> studies, and <strong>deep-sea neutrino detection</strong> projects. 
+      My work centers on <em>detector response characterization</em>, <em>event reconstruction</em>, and the <em>extraction of physical observables</em> from complex experimental data.
+    </div>
+  </div>
 
 
 
 <!-- ## Education -->
-<div id="education"></div>
+<!-- <div id="education"></div> -->
 
-<div style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 0.9em; line-height: 1.5;">
-  <h2 style="border-bottom: 2px solid #660874; padding-bottom: 5px; color: #333; font-size: 1.4em;">🎓 Education</h2>
-
-  <div style="margin-bottom: 8px; padding: 10px 12px; border-left: 4px solid #660874; background-color: #fbf5fc; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-    <span><strong>Ph.D. Student in Physics</strong>, Tsinghua University (THU)</span>
-    <span style="color: #777; font-size: 0.85em; font-weight: bold; margin-left: 10px; white-space: nowrap;">2022 - Present</span>
+<div id="education" style="margin-bottom: 35px;">
+    <h2 style="border-bottom: 2px solid #660874; padding-bottom: 8px; color: #333; font-size: 1.3em; margin-bottom: 15px;">🎓 Education</h2>
+    <div style="font-size: 0.9em; line-height: 1.5;">
+      <div style="margin-bottom: 10px; padding: 10px 15px; border-left: 4px solid #660874; background-color: #fbf5fc; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
+        <span><strong>Ph.D. Student in Physics</strong>, Tsinghua University (THU)</span>
+        <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2022 - Present</span>
+      </div>
+      <div style="margin-bottom: 10px; padding: 10px 15px; border-left: 4px solid #4a90e2; background-color: #f0f7ff; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
+        <span><strong>Bachelor of Science</strong>, South China Normal University (SCNU)</span>
+        <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2018 - 2022</span>
+      </div>
+    </div>
   </div>
-
-  <div style="margin-bottom: 8px; padding: 10px 12px; border-left: 4px solid #4a90e2; background-color: #f0f7ff; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-    <span><strong>Bachelor of Science</strong>, South China Normal University (SCNU)</span>
-    <span style="color: #777; font-size: 0.85em; font-weight: bold; margin-left: 10px; white-space: nowrap;">2018 - 2022</span>
-  </div>
-</div>
 
 ## Recent News
 
 
-## Publications
-<small>
-Full list available on <a href="https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl">🎓 Google Scholar</a>.
-</small>
-
-
-
-## Awards
-
-<div style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 0.9em; line-height: 1.5;">  
-  <div style="margin-bottom: 8px; padding: 10px 12px; border-left: 4px solid #660874; background-color: #fbf5fc; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-    <span><strong>First-class Comprehensive Scholarship</strong>, Tsinghua University</span>
-    <span style="color: #777; font-size: 0.85em; font-weight: bold; margin-left: 10px; white-space: nowrap;">2025</span>
+<div id="publications" style="margin-bottom: 35px;">
+    <h2 style="border-bottom: 2px solid #660874; padding-bottom: 8px; color: #333; font-size: 1.3em; margin-bottom: 15px;">📚 Publications</h2>
+    <div style="padding: 12px 15px; background: #fff; border: 1px solid #eaeaea; border-radius: 6px; display: inline-block;">
+      <span style="font-size: 0.9em; color: #555;">For a full list of my research, please visit my </span>
+      <a href="https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl" style="text-decoration: none; color: #4285F4; font-weight: bold; font-size: 0.9em;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" style="width: 16px; vertical-align: middle; margin-right: 4px; margin-top: -2px;">Google Scholar
+      </a>
+    </div>
   </div>
 
-  <div style="margin-bottom: 8px; padding: 10px 12px; border-left: 4px solid #660874; background-color: #fbf5fc; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-    <span><strong>Second-class Comprehensive Scholarship</strong>, Tsinghua University</span>
-    <span style="color: #777; font-size: 0.85em; font-weight: bold; margin-left: 10px; white-space: nowrap;">2024</span>
+
+
+<!-- ## Awards -->
+
+<div id="awards" style="margin-bottom: 35px;">
+    <h2 style="border-bottom: 2px solid #660874; padding-bottom: 8px; color: #333; font-size: 1.3em; margin-bottom: 15px;">🏆 Honors and Awards</h2>
+    <div style="font-size: 0.9em; line-height: 1.5;">  
+      <div style="margin-bottom: 8px; padding: 10px 15px; border-left: 4px solid #660874; background-color: #fbf5fc; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
+        <span><strong>First-class Comprehensive Scholarship</strong>, Tsinghua University</span>
+        <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2025</span>
+      </div>
+      <div style="margin-bottom: 8px; padding: 10px 15px; border-left: 4px solid #660874; background-color: #fbf5fc; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
+        <span><strong>Second-class Comprehensive Scholarship</strong>, Tsinghua University</span>
+        <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2024</span>
+      </div>
+      <div style="margin-bottom: 8px; padding: 10px 15px; border-left: 4px solid #ffc107; background-color: #fffdf5; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
+        <span><strong>Outstanding Teaching Assistant</strong>, Tsinghua University</span>
+        <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2024</span>
+      </div>
+      <div style="margin-bottom: 8px; padding: 10px 15px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
+        <span><strong>Third Prize</strong>, 11th Nat'l Undergraduate Math Competition (Final Round)</span>
+        <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2021</span>
+      </div>
+      <div style="margin-bottom: 8px; padding: 10px 15px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
+        <span><strong>First Prize</strong>, China Undergraduate Mathematical Contest in Modeling (CUMCM)</span>
+        <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2020</span>
+      </div>
+    </div>
   </div>
 
-  <div style="margin-bottom: 8px; padding: 10px 12px; border-left: 4px solid #ffc107; background-color: #fffdf5; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-    <span><strong>Outstanding Teaching Assistant</strong>, Tsinghua University</span>
-    <span style="color: #777; font-size: 0.85em; font-weight: bold; margin-left: 10px; white-space: nowrap;">2024</span>
-  </div>
-
-  <div style="margin-bottom: 8px; padding: 10px 12px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-    <span><strong>Third Prize</strong>, 11th National Undergraduate Mathematics Competition, Final Round (Non-Math Major)</span>
-    <span style="color: #777; font-size: 0.85em; font-weight: bold; margin-left: 10px; white-space: nowrap;">2021</span>
-  </div>
-
-  <div style="margin-bottom: 8px; padding: 10px 12px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-    <span><strong>First Prize</strong>, China Undergraduate Mathematical Contest in Modeling (CUMCM)</span>
-    <span style="color: #777; font-size: 0.85em; font-weight: bold; margin-left: 10px; white-space: nowrap;">2020</span>
-  </div>
 </div>
 
 <!-- ## Biography
