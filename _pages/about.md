@@ -32,9 +32,7 @@ Full list available on <a href="https://scholar.google.com/citations?user=XK-LVe
 
 ## Awards
 
-<div style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-  <h2 style="border-bottom: 2px solid #0052cc; padding-bottom: 5px; color: #333;">🏆 Honors and Awards</h2>
-  
+<div style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">  
   <div style="margin-bottom: 10px; padding: 12px; border-left: 4px solid #0052cc; background-color: #f8f9fa; border-radius: 0 5px 5px 0; display: flex; justify-content: space-between; align-items: center;">
     <span><strong>First-class Comprehensive Scholarship</strong>, Tsinghua University</span>
     <span style="color: #666; font-size: 0.9em; font-weight: bold;">2025</span>
