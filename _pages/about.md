@@ -41,7 +41,9 @@ redirect_from:
     </div>
   </div>
 
-## Recent News
+
+
+<!-- ## Recent News -->
 
 
 <div id="publications" style="margin-bottom: 35px;">
@@ -59,7 +61,7 @@ redirect_from:
 <!-- ## Awards -->
 
 <div id="awards" style="margin-bottom: 35px;">
-    <h2 style="border-bottom: 2px solid #660874; padding-bottom: 8px; color: #333; font-size: 1.3em; margin-bottom: 15px;">🏆 Honors and Awards</h2>
+    <h2 style="border-bottom: 2px solid #660874; padding-bottom: 8px; color: #333; font-size: 1.3em; margin-bottom: 15px;">🏆 Awards</h2>
     <div style="font-size: 0.9em; line-height: 1.5;">  
       <div style="margin-bottom: 8px; padding: 10px 15px; border-left: 4px solid #660874; background-color: #fbf5fc; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
         <span><strong>First-class Comprehensive Scholarship</strong>, Tsinghua University</span>
@@ -74,7 +76,7 @@ redirect_from:
         <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2024</span>
       </div>
       <div style="margin-bottom: 8px; padding: 10px 15px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-        <span><strong>Third Prize</strong>, 11th Nat'l Undergraduate Math Competition (Final Round)</span>
+        <span><strong>Third Prize</strong>, 11th National Undergraduate Math Competition, Final Round (Non-Math Major)</span>
         <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2021</span>
       </div>
       <div style="margin-bottom: 8px; padding: 10px 15px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
