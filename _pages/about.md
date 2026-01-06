@@ -51,7 +51,7 @@ Full list available on <a href="https://scholar.google.com/citations?user=XK-LVe
   </div>
 
   <div style="margin-bottom: 10px; padding: 12px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 5px 5px 0; display: flex; justify-content: space-between; align-items: center;">
-    <span><strong>Third Prize</strong>, 11th National Undergraduate Mathematics Competition (Final Round)</span>
+    <span><strong>Third Prize</strong>, 11th National Undergraduate Mathematics Competition, Final Round (Non-Math Major)</span>
     <span style="color: #666; font-size: 0.9em; font-weight: bold;">2021</span>
   </div>
 
