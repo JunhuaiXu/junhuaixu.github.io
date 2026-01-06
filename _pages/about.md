@@ -32,30 +32,30 @@ Full list available on <a href="https://scholar.google.com/citations?user=XK-LVe
 
 ## Awards
 
-<div style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">  
-  <div style="margin-bottom: 10px; padding: 12px; border-left: 4px solid #0052cc; background-color: #f8f9fa; border-radius: 0 5px 5px 0; display: flex; justify-content: space-between; align-items: center;">
+<div style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 0.9em; line-height: 1.5;">  
+  <div style="margin-bottom: 8px; padding: 10px 12px; border-left: 4px solid #660874; background-color: #fbf5fc; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
     <span><strong>First-class Comprehensive Scholarship</strong>, Tsinghua University</span>
-    <span style="color: #666; font-size: 0.9em; font-weight: bold;">2025</span>
+    <span style="color: #777; font-size: 0.85em; font-weight: bold; margin-left: 10px; white-space: nowrap;">2025</span>
   </div>
 
-  <div style="margin-bottom: 10px; padding: 12px; border-left: 4px solid #0052cc; background-color: #f8f9fa; border-radius: 0 5px 5px 0; display: flex; justify-content: space-between; align-items: center;">
+  <div style="margin-bottom: 8px; padding: 10px 12px; border-left: 4px solid #660874; background-color: #fbf5fc; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
     <span><strong>Second-class Comprehensive Scholarship</strong>, Tsinghua University</span>
-    <span style="color: #666; font-size: 0.9em; font-weight: bold;">2024</span>
+    <span style="color: #777; font-size: 0.85em; font-weight: bold; margin-left: 10px; white-space: nowrap;">2024</span>
   </div>
 
-  <div style="margin-bottom: 10px; padding: 12px; border-left: 4px solid #ffc107; background-color: #fffdf5; border-radius: 0 5px 5px 0; display: flex; justify-content: space-between; align-items: center;">
+  <div style="margin-bottom: 8px; padding: 10px 12px; border-left: 4px solid #ffc107; background-color: #fffdf5; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
     <span><strong>Outstanding Teaching Assistant</strong>, Tsinghua University</span>
-    <span style="color: #666; font-size: 0.9em; font-weight: bold;">2024</span>
+    <span style="color: #777; font-size: 0.85em; font-weight: bold; margin-left: 10px; white-space: nowrap;">2024</span>
   </div>
 
-  <div style="margin-bottom: 10px; padding: 12px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 5px 5px 0; display: flex; justify-content: space-between; align-items: center;">
-    <span><strong>Third Prize</strong>, 11th National Undergraduate Mathematics Competition, Final Round (Non-Math Major)</span>
-    <span style="color: #666; font-size: 0.9em; font-weight: bold;">2021</span>
+  <div style="margin-bottom: 8px; padding: 10px 12px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
+    <span><strong>Third Prize</strong>, 11th National Undergraduate Mathematics Competition, Final Round</span>
+    <span style="color: #777; font-size: 0.85em; font-weight: bold; margin-left: 10px; white-space: nowrap;">2021</span>
   </div>
 
-  <div style="margin-bottom: 10px; padding: 12px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 5px 5px 0; display: flex; justify-content: space-between; align-items: center;">
+  <div style="margin-bottom: 8px; padding: 10px 12px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
     <span><strong>First Prize</strong>, China Undergraduate Mathematical Contest in Modeling (CUMCM)</span>
-    <span style="color: #666; font-size: 0.9em; font-weight: bold;">2020</span>
+    <span style="color: #777; font-size: 0.85em; font-weight: bold; margin-left: 10px; white-space: nowrap;">2020</span>
   </div>
 </div>
 
