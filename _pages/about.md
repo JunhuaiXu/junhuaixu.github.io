@@ -12,7 +12,7 @@ redirect_from:
 
 <div id="about"></div>
 
-Hi, I am a Ph.D. candidate at the Department of Physics, **Tsinghua University**. My research focuses on heavy-ion collisions (HICs) and short-range correlations (SRCs), as well as neutrino detection and data analysis. 
+Hi, I am a Ph.D. candidate at the Department of Physics, **Tsinghua University**, advised by **[Prof. Zhigang Xiao](https://inspirehep.net/authors/1062622)**. My research focuses on heavy-ion collisions (HICs) and short-range correlations (SRCs), as well as neutrino detection and data analysis.
 
 I have been involved in several experimental programs, including the Compact Spectrometer for Heavy IoN Experiment (CSHINE), femtoscopic two-particle correlation studies, and deep-sea neutrino detection projects. My work centers on detector response characterization, event reconstruction, and the extraction of physical observables from complex experimental data.
 
@@ -24,12 +24,7 @@ I have been involved in several experimental programs, including the Compact Spe
 <small>
 Full list available on <a href="https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl">🎓 Google Scholar</a>.
 </small>
-<!-- <div style="display: flex; align-items: baseline; gap: 15px;">
-  <h2 style="margin: 0;">Publications</h2>
-  <a href="https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl" style="text-decoration: none; border: 1px solid #4285F4; color: #4285F4; padding: 2px 8px; border-radius: 4px; font-size: 0.8em;">
-    Google Scholar
-  </a>
-</div> -->
+
 
 
 ## Awards
