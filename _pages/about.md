@@ -11,32 +11,14 @@ redirect_from:
 
 
 <div id="about"></div>
-<!-- 
-Hi, I am a Ph.D. candidate at the Department of Physics, **Tsinghua University**, advised by Prof. **[Zhigang Xiao](https://inspirehep.net/authors/1062622)**. I have been involved in several experimental programs, including the Compact Spectrometer for Heavy IoN Experiment (CSHINE), femtoscopic two-particle correlation studies, and deep-sea neutrino detection projects. My work centers on detector response characterization, event reconstruction, and the extraction of physical observables from complex experimental data. -->
-<div style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px;">
-  
-  <div style="padding: 20px; background-color: #fcfaff; border-left: 5px solid #660874; border-radius: 0 8px 8px 0; margin-bottom: 20px;">
-    <p style="margin: 0; font-size: 1.1em;">
-      Hi, I am a <strong>Ph.D. Candidate</strong> at the <strong>Department of Physics, Tsinghua University</strong>. 
-      I am fortunate to be advised by <a href="https://inspirehep.net/authors/1062622" style="color: #660874; text-decoration: none; border-bottom: 1px dashed #660874;"><strong>Prof. Zhigang Xiao</strong></a>.
-    </p>
-  </div>
 
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; font-size: 0.95em;">
-    <div style="padding: 15px; border: 1px solid #eee; border-radius: 8px; background: white;">
-      <h4 style="margin-top: 0; color: #660874; display: flex; align-items: center;">⚛️ Nuclear Physics</h4>
-      Collaborating on <strong>CSHINE</strong> and <strong>femtoscopic correlation</strong> studies to explore heavy-ion collisions and short-range correlations.
-    </div>
-    <div style="padding: 15px; border: 1px solid #eee; border-radius: 8px; background: white;">
-      <h4 style="margin-top: 0; color: #0052cc; display: flex; align-items: center;">🌊 Neutrino Physics</h4>
-      Engaged in <strong>deep-sea neutrino detection</strong> projects, focusing on detector response, event reconstruction, and data analysis.
-    </div>
-  </div>
-
-  <p style="margin-top: 20px; font-size: 0.9em; color: #666; font-style: italic;">
-    <strong>Keywords:</strong> Detector Characterization · Event Reconstruction · Physical Observable Extraction
-  </p>
+<!-- Hi, I am a Ph.D. candidate at the Department of Physics, **Tsinghua University**, advised by Prof. **[Zhigang Xiao](https://inspirehep.net/authors/1062622)**. I have been involved in several experimental programs, including the Compact Spectrometer for Heavy IoN Experiment (CSHINE), femtoscopic two-particle correlation studies, and deep-sea neutrino detection projects. My work centers on detector response characterization, event reconstruction, and the extraction of physical observables from complex experimental data. -->
+<div style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 0.92em; line-height: 1.7; color: #333; background-color: #fdfcff; padding: 15px; border-left: 4px solid #660874; border-radius: 0 5px 5px 0;">
+  Hi, I am a Ph.D. candidate at the <strong>Department of Physics, <span style="color: #660874;">Tsinghua University</span></strong>, advised by Prof. <a href="https://inspirehep.net/authors/1062622" style="color: #660874; text-decoration: none; font-weight: bold; border-bottom: 1px solid rgba(102, 8, 116, 0.3);">Zhigang Xiao</a>. 
+  I have been involved in several experimental programs, including the <strong>Compact Spectrometer for Heavy IoN Experiment (CSHINE)</strong>, <strong>femtoscopic two-particle correlation</strong> studies, and <strong>deep-sea neutrino detection</strong> projects. 
+  My work centers on <em>detector response characterization</em>, <em>event reconstruction</em>, and the <em>extraction of physical observables</em> from complex experimental data.
 </div>
+
 
 
 ## Education
