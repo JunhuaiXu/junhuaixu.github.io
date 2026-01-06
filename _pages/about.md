@@ -17,7 +17,7 @@ Hi, I am a Ph.D. candidate at the Department of Physics, **Tsinghua University**
 
 ## Education
 
-*   Sept. 2022 - Present: Ph.D. Student, Department of Physics, Tsinghua University
+*   Aug. 2022 - Present: Ph.D. Student, Department of Physics, Tsinghua University
 *   Sept. 2018 - July 2022: Undergraduate Student, South China Normal University
 
 ## Recent News
@@ -32,11 +32,34 @@ Full list available on <a href="https://scholar.google.com/citations?user=XK-LVe
 
 ## Awards
 
-* **First-class Comprehensive Scholarship**, Tsinghua University <span style="float:right;">2025</span>
-* **Second-class Comprehensive Scholarship**, Tsinghua University <span style="float:right;">2024</span>
-* **Outstanding Teaching Assistant**, Tsinghua University <span style="float:right;">2024</span>
-* **Third Prize**, 11th National Undergraduate Mathematics Competition (Final Round) <span style="float:right;">2021</span>
-* **First Prize**, China Undergraduate Mathematical Contest in Modeling (CUMCM) <span style="float:right;">2020</span>
+<div style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <h2 style="border-bottom: 2px solid #0052cc; padding-bottom: 5px; color: #333;">🏆 Honors and Awards</h2>
+  
+  <div style="margin-bottom: 10px; padding: 12px; border-left: 4px solid #0052cc; background-color: #f8f9fa; border-radius: 0 5px 5px 0; display: flex; justify-content: space-between; align-items: center;">
+    <span><strong>First-class Comprehensive Scholarship</strong>, Tsinghua University</span>
+    <span style="color: #666; font-size: 0.9em; font-weight: bold;">2025</span>
+  </div>
+
+  <div style="margin-bottom: 10px; padding: 12px; border-left: 4px solid #0052cc; background-color: #f8f9fa; border-radius: 0 5px 5px 0; display: flex; justify-content: space-between; align-items: center;">
+    <span><strong>Second-class Comprehensive Scholarship</strong>, Tsinghua University</span>
+    <span style="color: #666; font-size: 0.9em; font-weight: bold;">2024</span>
+  </div>
+
+  <div style="margin-bottom: 10px; padding: 12px; border-left: 4px solid #ffc107; background-color: #fffdf5; border-radius: 0 5px 5px 0; display: flex; justify-content: space-between; align-items: center;">
+    <span><strong>Outstanding Teaching Assistant</strong>, Tsinghua University</span>
+    <span style="color: #666; font-size: 0.9em; font-weight: bold;">2024</span>
+  </div>
+
+  <div style="margin-bottom: 10px; padding: 12px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 5px 5px 0; display: flex; justify-content: space-between; align-items: center;">
+    <span><strong>Third Prize</strong>, 11th National Undergraduate Mathematics Competition (Final Round)</span>
+    <span style="color: #666; font-size: 0.9em; font-weight: bold;">2021</span>
+  </div>
+
+  <div style="margin-bottom: 10px; padding: 12px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 5px 5px 0; display: flex; justify-content: space-between; align-items: center;">
+    <span><strong>First Prize</strong>, China Undergraduate Mathematical Contest in Modeling (CUMCM)</span>
+    <span style="color: #666; font-size: 0.9em; font-weight: bold;">2020</span>
+  </div>
+</div>
 
 <!-- ## Biography
 
