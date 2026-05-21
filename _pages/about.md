@@ -50,19 +50,19 @@ redirect_from:
       <a class="research-card research-card--purple" href="/research/short-range-correlations/">
         <span class="research-card__index">01</span>
         <h3>Short-Range Correlations in Nuclei</h3>
-        <span class="status-pill">Updating</span>
+        <span class="status-pill">Details</span>
       </a>
 
       <a class="research-card research-card--teal" href="/research/atmospheric-neutrino-simulation/">
         <span class="research-card__index">02</span>
         <h3>Atmospheric Neutrino Simulation</h3>
-        <span class="status-pill">Updating</span>
+        <span class="status-pill">Details</span>
       </a>
 
       <a class="research-card research-card--gold" href="/research/correlation-function-imaging/">
         <span class="research-card__index">03</span>
         <h3>Correlation Function Imaging</h3>
-        <span class="status-pill">Updating</span>
+        <span class="status-pill">Details</span>
       </a>
     </div>
   </section>
