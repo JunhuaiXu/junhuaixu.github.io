@@ -94,6 +94,7 @@
 .home-page h2,
 .research-detail h2 {
   margin-top: 0;
+  padding-bottom: 0;
   border-bottom: 0;
   color: var(--jh-ink);
   font-size: 1.35em;
@@ -380,8 +381,7 @@
 }
 
 .detail-hero {
-  padding: 1.35rem 0 1.5rem;
-  border-top: 1px solid var(--jh-line);
+  padding: 1.1rem 0 0.35rem;
 }
 
 .detail-hero h1 {
@@ -393,27 +393,30 @@
 }
 
 .detail-subtitle {
-  margin: 0 0 1rem;
+  margin: 0;
   color: var(--jh-blue);
   font-size: 1.05em !important;
   font-weight: 700;
 }
 
 .detail-section {
-  margin: 2.05rem 0;
-  padding-top: 1.05rem;
-  border-top: 1px solid var(--jh-line);
+  margin: 1.7rem 0;
+  padding-top: 0;
+}
+
+.detail-hero + .detail-section {
+  margin-top: 1.35rem;
 }
 
 .detail-section h2 {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.48rem;
   color: var(--jh-purple);
   font-size: 1.34em;
   font-weight: 750;
 }
 
 .detail-section p {
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.72rem;
   color: var(--jh-muted);
 }
 
@@ -424,18 +427,27 @@
 
 .clean-list {
   margin: 0;
-  padding-left: 1.2rem;
-  list-style: disc;
+  padding: 0;
+  list-style: none;
 }
 
 .clean-list li {
-  margin-bottom: 0.62rem;
+  position: relative;
+  margin-bottom: 0.68rem;
+  padding-left: 1rem;
   color: var(--jh-muted);
   line-height: 1.55;
 }
 
-.clean-list li::marker {
-  color: var(--jh-purple);
+.clean-list li::before {
+  content: "";
+  position: absolute;
+  top: 0.64em;
+  left: 0;
+  width: 0.32rem;
+  height: 0.32rem;
+  border-radius: 50%;
+  background: var(--jh-purple);
 }
 
 .publication-list {
