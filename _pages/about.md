@@ -22,9 +22,9 @@ redirect_from:
     <!-- <a class="home-button" href="/assets/CV_JunhuaiXu.pdf" target="_blank" rel="noopener">Curriculum Vitae</a> -->
   </section>
 
-  <section id="research" class="home-section">
+  <section id="physics-research" class="home-section">
     <div class="section-heading">
-      <p class="section-kicker">Research</p>
+      <p class="section-kicker">Physics Research</p>
     </div>
 
     <div class="research-grid">
