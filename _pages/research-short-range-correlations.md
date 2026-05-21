@@ -70,10 +70,9 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
 
   <section class="detail-section detail-section--result">
     <h2>Key Result</h2>
-    <div class="result-band">
-      <span>High-momentum-tail fraction in <sup>124</sup>Sn</span>
-      <strong>R<sub>HMT</sub> = (20 &plusmn; 3)%</strong>
-    </div>
+    <p class="result-equation">
+      R<sub>HMT</sub>(<sup>124</sup>Sn) = (20 &plusmn; 3)%
+    </p>
     <p>
       This result shows that approximately one fifth of the nucleons in <sup>124</sup>Sn occupy the
       SRC-induced high-momentum region within the adopted HMT description. The PRR paper reports the primary

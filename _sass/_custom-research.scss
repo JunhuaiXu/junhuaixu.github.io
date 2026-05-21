@@ -442,27 +442,12 @@
   text-align: center;
 }
 
-.result-band {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 1rem;
-  align-items: baseline;
-  margin: 0.9rem 0 1rem;
-  padding: 0.85rem 0;
-  border-top: 1px solid var(--jh-line);
-  border-bottom: 1px solid var(--jh-line);
-}
-
-.result-band span {
-  color: var(--jh-muted);
-  font-size: 0.92em;
-}
-
-.result-band strong {
+.result-equation {
+  margin: 0.15rem 0 0.95rem;
   color: var(--jh-purple);
-  font-size: 1.4em;
-  line-height: 1.2;
-  white-space: nowrap;
+  font-size: 1.18em !important;
+  font-weight: 750;
+  line-height: 1.35 !important;
 }
 
 .clean-list {
@@ -552,16 +537,6 @@
 
   .detail-lead {
     font-size: 1.08em !important;
-  }
-
-  .result-band {
-    display: block;
-  }
-
-  .result-band strong {
-    display: block;
-    margin-top: 0.35rem;
-    white-space: normal;
   }
 
   .cv-list__item,
