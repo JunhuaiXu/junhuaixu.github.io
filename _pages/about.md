@@ -11,7 +11,6 @@ redirect_from:
 <div class="home-page">
   <section id="about" class="home-hero">
     <p class="home-kicker">Ph.D. Candidate in Physics &middot; Tsinghua University</p>
-    <h2>Experimental Nuclear and Particle Physics</h2>
     <p class="home-lead">
       Hi, I am a Ph.D. candidate at the Department of Physics, Tsinghua University, advised by Prof.
       <a href="https://inspirehep.net/authors/1062622" target="_blank" rel="noopener">Zhigang Xiao</a>.
@@ -26,7 +25,6 @@ redirect_from:
   <section id="research" class="home-section">
     <div class="section-heading">
       <p class="section-kicker">Research</p>
-      <p>Detailed project pages are under construction.</p>
     </div>
 
     <div class="research-grid">
@@ -58,15 +56,15 @@ redirect_from:
       <p class="section-kicker">Education</p>
     </div>
 
-    <div class="clean-list">
-      <div class="clean-list__item">
+    <div class="cv-list">
+      <div class="cv-list__item">
         <div>
           <strong>Ph.D. Student in Physics</strong>
           <span>Tsinghua University</span>
         </div>
         <time>2022 - Present</time>
       </div>
-      <div class="clean-list__item">
+      <div class="cv-list__item">
         <div>
           <strong>Bachelor of Science</strong>
           <span>South China Normal University</span>
@@ -76,54 +74,41 @@ redirect_from:
     </div>
   </section>
 
-  <section id="publications" class="home-section">
-    <div class="section-heading">
-      <p class="section-kicker">Publications</p>
-      <p>Selected publication list is updating.</p>
-    </div>
-
-    <div class="quiet-panel">
-      <span>Publication section under construction.</span>
-      <a href="https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-    </div>
-  </section>
-
   <section id="awards" class="home-section">
     <div class="section-heading">
-      <p class="section-kicker">Awards</p>
-      <p>Selected honors and scholarships.</p>
+      <p class="section-kicker">Selected Awards</p>
     </div>
 
-    <div class="clean-list">
-      <div class="clean-list__item">
+    <div class="cv-list">
+      <div class="cv-list__item">
         <div>
           <strong>First-class Comprehensive Scholarship</strong>
           <span>Tsinghua University</span>
         </div>
         <time>2025</time>
       </div>
-      <div class="clean-list__item">
+      <div class="cv-list__item">
         <div>
           <strong>Second-class Comprehensive Scholarship</strong>
           <span>Tsinghua University</span>
         </div>
         <time>2024</time>
       </div>
-      <div class="clean-list__item">
+      <div class="cv-list__item">
         <div>
           <strong>Outstanding Teaching Assistant</strong>
           <span>Tsinghua University</span>
         </div>
         <time>2024</time>
       </div>
-      <div class="clean-list__item">
+      <div class="cv-list__item">
         <div>
           <strong>Third Prize, National Undergraduate Math Competition Final Round</strong>
           <span>Non-Math Major</span>
         </div>
         <time>2021</time>
       </div>
-      <div class="clean-list__item">
+      <div class="cv-list__item">
         <div>
           <strong>First Prize, China Undergraduate Mathematical Contest in Modeling</strong>
           <span>CUMCM</span>
