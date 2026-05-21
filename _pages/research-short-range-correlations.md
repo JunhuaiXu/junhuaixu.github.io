@@ -115,7 +115,7 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
         </a>.
       </li>
       <li>
-        <strong>J. Xu, Y. Qin, Z. Qin, D. Si, B. Zhang, Y. Wang, Q. Niu, C. Xu, and Z. Xiao</strong>,
+        <strong>J. Xu et al.</strong>,
         "Reconstruction of bremsstrahlung gamma-ray spectrum in heavy ion reactions with Richardson-Lucy
         algorithm,"
         <a href="https://doi.org/10.1016/j.physletb.2024.139009" target="_blank" rel="noopener">
@@ -123,7 +123,7 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
         </a>.
       </li>
       <li>
-        <strong>J. Xu, D. Si, Y. Qin, M. Xu, K. Chen, Z. Hao, G. Fan, H. Wang, Y. Wang, and Z. Xiao</strong>,
+        <strong>J. Xu et al.</strong>,
         "Linear response of CsI(Tl) crystal to energetic photons below 20 MeV,"
         <a href="https://doi.org/10.1016/j.nima.2025.170787" target="_blank" rel="noopener">
           <em>Nuclear Instruments and Methods in Physics Research Section A</em> <strong>1080</strong>, 170787 (2025)
