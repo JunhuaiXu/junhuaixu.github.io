@@ -6,6 +6,41 @@
   padding-top: 0.15rem;
 }
 
+.author__methods {
+  display: none;
+  margin-top: 1rem;
+  padding-top: 0.95rem;
+  border-top: 1px solid #e2e7ef;
+  font-family: $sans-serif;
+}
+
+.author__methods-title {
+  margin: 0 0 0.55rem;
+  color: #5b3f8c;
+  font-size: 0.86em;
+  font-weight: 750;
+  line-height: 1.25;
+}
+
+.author__methods-list {
+  margin: 0;
+  padding: 0;
+  color: #667286;
+  font-size: 0.84em;
+  line-height: 1.45;
+  list-style: none;
+}
+
+.author__methods-list li {
+  padding: 0.22rem 0;
+}
+
+@include breakpoint($large) {
+  .author__methods {
+    display: block;
+  }
+}
+
 .home-page,
 .research-detail {
   --jh-ink: #202733;

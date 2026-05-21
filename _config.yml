@@ -83,6 +83,12 @@ author:
   name             : "Junhuai Xu"
   avatar           : "profile.png"
   bio              : "Ph.D. Candidate, Tsinghua University"
+  methods:
+    - "Detector simulation and reconstruction"
+    - "Statistical inference and inverse problems"
+    - "Graph neural networks"
+    - "Bayesian filtering"
+    - "Python / C++ / ROOT / Geant4"
   location         : "Beijing, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

@@ -123,9 +123,20 @@
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
-{% endif %}
+      {% endif %}
     </ul>
   </div>
+
+  {% if author.methods %}
+    <div class="author__methods">
+      <h3 class="author__methods-title">Methods / Skills</h3>
+      <ul class="author__methods-list">
+        {% for method in author.methods %}
+          <li>{{ method }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
 </div>
 
 <!-- <div class="author__content author__education">
