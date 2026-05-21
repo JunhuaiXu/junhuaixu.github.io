@@ -199,18 +199,9 @@
   margin-top: 1.85rem;
 }
 
-.home-hero + .home-section .section-heading {
-  padding-top: 0;
-  border-top: 0;
-}
-
-.home-hero + .home-section .section-heading::before {
-  display: none;
-}
-
 .section-heading {
   position: relative;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.65rem;
   padding-top: 1.25rem;
   border-top: 1px solid var(--jh-line);
 }
@@ -239,11 +230,13 @@
 }
 
 .research-grid {
-  border-top: 1px solid var(--jh-line);
+  display: grid;
+  gap: 0.55rem;
 }
 
 .news-list {
-  border-top: 1px solid var(--jh-line);
+  display: grid;
+  gap: 0.5rem;
 }
 
 .news-item {
@@ -251,8 +244,7 @@
   grid-template-columns: 6.8rem minmax(0, 1fr);
   gap: 1.05rem;
   align-items: baseline;
-  padding: 0.72rem 0;
-  border-bottom: 1px solid var(--jh-line);
+  padding: 0.3rem 0;
 }
 
 .news-item time {
@@ -283,15 +275,14 @@
   grid-template-columns: 3.5rem minmax(0, 1fr) auto;
   gap: 1rem;
   align-items: baseline;
-  padding: 1.05rem 0;
-  border-bottom: 1px solid var(--jh-line);
+  padding: 0.45rem 0;
   color: inherit !important;
   text-decoration: none !important;
-  transition: border-color 160ms ease, color 160ms ease;
+  transition: color 160ms ease, transform 160ms ease;
 }
 
 .research-card:hover {
-  border-bottom-color: var(--jh-line-strong);
+  transform: translateX(2px);
 }
 
 .research-card:hover h3 {
@@ -327,7 +318,8 @@
 }
 
 .cv-list {
-  border-top: 1px solid var(--jh-line);
+  display: grid;
+  gap: 0.58rem;
 }
 
 .cv-list__item {
@@ -335,8 +327,7 @@
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 1rem;
   align-items: baseline;
-  padding: 0.74rem 0;
-  border-bottom: 1px solid var(--jh-line);
+  padding: 0.15rem 0;
 }
 
 .cv-list__item strong,
