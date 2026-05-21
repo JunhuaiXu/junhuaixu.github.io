@@ -3,385 +3,165 @@ permalink: /
 title: "Junhuai Xu"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-
-
-<!-- <div id="about"></div> -->
-
-<div style="font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; max-width: 900px; margin: auto; color: #333;">
-
-  <div id="about" style="margin-bottom: 35px;">
-    <div style="font-size: 0.92em; line-height: 1.75; background-color: #fdfcff; padding: 18px 20px; border-left: 5px solid #660874; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
-      Hi, I am a Ph.D. candidate at the <strong>Department of Physics, <span style="color: #660874;">Tsinghua University</span></strong>, advised by Prof. <a href="https://inspirehep.net/authors/1062622" style="color: #660874; text-decoration: none; font-weight: bold; border-bottom: 1px solid rgba(102, 8, 116, 0.3); transition: 0.3s;">Zhigang Xiao</a>. 
-      I have been involved in several experimental programs, including the <strong>Compact Spectrometer for Heavy IoN Experiment (CSHINE)</strong>, <strong>femtoscopic two-particle correlation</strong> studies, and <strong>deep-sea neutrino detection</strong> projects. 
-      My work centers on <em>detector response characterization</em>, <em>event reconstruction</em>, and the <em>extraction of physical observables</em> from complex experimental data.
+<div class="home-page">
+  <section id="about" class="home-intro">
+    <p class="home-intro__eyebrow">Ph.D. Candidate in Physics &middot; Tsinghua University</p>
+    <p class="home-intro__text">
+      I work on experimental nuclear and particle physics, with a focus on detector response characterization,
+      event reconstruction, simulation, and the extraction of physical observables from complex data. My current
+      research connects the <strong>Compact Spectrometer for Heavy IoN Experiment (CSHINE)</strong>,
+      <strong>femtoscopic two-particle correlation</strong> studies, and <strong>deep-sea neutrino detection</strong>.
+    </p>
+    <div class="home-actions">
+      <a class="home-button home-button--primary" href="#research">Research Areas</a>
+      <a class="home-button" href="/assets/CV_JunhuaiXu.pdf" target="_blank" rel="noopener">Curriculum Vitae</a>
+      <a class="home-button" href="https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
     </div>
-  </div>
+  </section>
 
+  <section id="research" class="home-section">
+    <div class="section-heading">
+      <p class="section-kicker">Research</p>
+      <h2>Three connected directions across nuclear dynamics, neutrino simulation, and correlation imaging</h2>
+      <p>
+        These pages are written as research stories rather than only publication lists: each one summarizes the
+        scientific question, analysis strategy, my contribution, and the results that can be expanded with figures,
+        papers, and talks.
+      </p>
+    </div>
 
+    <div class="research-grid">
+      <article class="research-card research-card--purple">
+        <div class="research-card__visual">
+          <img src="/images/research-src.svg" alt="Schematic of short-range correlated nucleons">
+        </div>
+        <h3>Short-Range Correlations in Nuclei</h3>
+        <p>
+          Probing correlated nucleon pairs and their signatures in heavy-ion reaction observables measured with CSHINE.
+        </p>
+        <div class="research-card__tags">
+          <span>CSHINE</span>
+          <span>Nuclear dynamics</span>
+          <span>Event reconstruction</span>
+        </div>
+        <a class="research-card__link" href="/research/short-range-correlations/">Read more</a>
+      </article>
 
+      <article class="research-card research-card--teal">
+        <div class="research-card__visual">
+          <img src="/images/research-neutrino.svg" alt="Schematic of atmospheric neutrino simulation and detector response">
+        </div>
+        <h3>Atmospheric Neutrino Simulation</h3>
+        <p>
+          Building simulation workflows that connect atmospheric neutrino fluxes, interactions, detector response, and reconstruction.
+        </p>
+        <div class="research-card__tags">
+          <span>Deep-sea detection</span>
+          <span>Monte Carlo</span>
+          <span>Detector response</span>
+        </div>
+        <a class="research-card__link" href="/research/atmospheric-neutrino-simulation/">Read more</a>
+      </article>
 
+      <article class="research-card research-card--gold">
+        <div class="research-card__visual">
+          <img src="/images/research-imaging.svg" alt="Schematic of correlation function imaging">
+        </div>
+        <h3>Correlation Function Imaging</h3>
+        <p>
+          Reconstructing emission-source information from two-particle correlation functions in femtoscopic analyses.
+        </p>
+        <div class="research-card__tags">
+          <span>Femtoscopy</span>
+          <span>Inverse problem</span>
+          <span>Source imaging</span>
+        </div>
+        <a class="research-card__link" href="/research/correlation-function-imaging/">Read more</a>
+      </article>
+    </div>
+  </section>
 
-<!-- ## Education -->
-<!-- <div id="education"></div> -->
+  <section id="education" class="home-section">
+    <div class="section-heading">
+      <p class="section-kicker">Education</p>
+      <h2>Academic Training</h2>
+    </div>
 
-<div id="education" style="margin-bottom: 35px;">
-    <h2 style="border-bottom: 2px solid #660874; padding-bottom: 8px; color: #333; font-size: 1.3em; margin-bottom: 15px;">🎓 Education</h2>
-    <div style="font-size: 0.9em; line-height: 1.5;">
-      <div style="margin-bottom: 10px; padding: 10px 15px; border-left: 4px solid #660874; background-color: #fbf5fc; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-        <span><strong>Ph.D. Student in Physics</strong>, Tsinghua University (THU)</span>
-        <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2022 - Present</span>
+    <div class="home-timeline">
+      <div class="home-timeline__item">
+        <div>
+          <h3>Ph.D. Student in Physics</h3>
+          <p>Tsinghua University, Department of Physics</p>
+          <p>Advisor: Prof. <a href="https://inspirehep.net/authors/1062622" target="_blank" rel="noopener">Zhigang Xiao</a></p>
+        </div>
+        <span>2022 - Present</span>
       </div>
-      <div style="margin-bottom: 10px; padding: 10px 15px; border-left: 4px solid #4a90e2; background-color: #f0f7ff; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-        <span><strong>Bachelor of Science</strong>, South China Normal University (SCNU)</span>
-        <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2018 - 2022</span>
+      <div class="home-timeline__item">
+        <div>
+          <h3>Bachelor of Science</h3>
+          <p>South China Normal University</p>
+        </div>
+        <span>2018 - 2022</span>
       </div>
     </div>
-  </div>
+  </section>
 
-
-
-<!-- ## Recent News -->
-
-
-<div id="publications" style="margin-bottom: 35px;">
-    <h2 style="border-bottom: 2px solid #660874; padding-bottom: 8px; color: #333; font-size: 1.3em; margin-bottom: 15px;">📚 Publications</h2>
-    <div style="padding: 12px 15px; background: #fff; border: 1px solid #eaeaea; border-radius: 6px; display: inline-block;">
-      <span style="font-size: 0.9em; color: #555;">For a full list of my research, please visit my </span>
-      <a href="https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl" style="text-decoration: none; color: #4285F4; font-weight: bold; font-size: 0.9em;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" style="width: 16px; vertical-align: middle; margin-right: 4px; margin-top: -2px;">Google Scholar
-      </a>
+  <section id="publications" class="home-section">
+    <div class="section-heading">
+      <p class="section-kicker">Publications</p>
+      <h2>Research Outputs</h2>
     </div>
-  </div>
 
-
-
-<!-- ## Awards -->
-
-<div id="awards" style="margin-bottom: 35px;">
-    <h2 style="border-bottom: 2px solid #660874; padding-bottom: 8px; color: #333; font-size: 1.3em; margin-bottom: 15px;">🏆 Awards</h2>
-    <div style="font-size: 0.9em; line-height: 1.5;">  
-      <div style="margin-bottom: 8px; padding: 10px 15px; border-left: 4px solid #660874; background-color: #fbf5fc; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-        <span><strong>First-class Comprehensive Scholarship</strong>, Tsinghua University</span>
-        <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2025</span>
-      </div>
-      <div style="margin-bottom: 8px; padding: 10px 15px; border-left: 4px solid #660874; background-color: #fbf5fc; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-        <span><strong>Second-class Comprehensive Scholarship</strong>, Tsinghua University</span>
-        <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2024</span>
-      </div>
-      <div style="margin-bottom: 8px; padding: 10px 15px; border-left: 4px solid #ffc107; background-color: #fffdf5; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-        <span><strong>Outstanding Teaching Assistant</strong>, Tsinghua University</span>
-        <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2024</span>
-      </div>
-      <div style="margin-bottom: 8px; padding: 10px 15px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-        <span><strong>Third Prize</strong>, 11th National Undergraduate Math Competition, Final Round (Non-Math Major)</span>
-        <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2021</span>
-      </div>
-      <div style="margin-bottom: 8px; padding: 10px 15px; border-left: 4px solid #28a745; background-color: #f4faf6; border-radius: 0 4px 4px 0; display: flex; justify-content: space-between; align-items: center;">
-        <span><strong>First Prize</strong>, China Undergraduate Mathematical Contest in Modeling (CUMCM)</span>
-        <span style="color: #777; font-size: 0.85em; font-weight: 600; margin-left: 10px; white-space: nowrap;">2020</span>
+    <div class="home-panel">
+      <p>
+        A complete and up-to-date publication record is available on Google Scholar. Selected papers, public notes,
+        and conference materials can be linked here as they are released.
+      </p>
+      <div class="home-actions">
+        <a class="home-button home-button--primary" href="https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="home-button" href="/publications/">Publication Page</a>
       </div>
     </div>
-  </div>
+  </section>
 
-</div>
+  <section id="awards" class="home-section">
+    <div class="section-heading">
+      <p class="section-kicker">Awards</p>
+      <h2>Honors and Scholarships</h2>
+    </div>
 
-<div style="margin-top: 15px; display: flex; justify-content: center; gap: 10px;">
-  <a href="assets/CV_JunhuaiXu.pdf" target="_blank" style="text-decoration: none; color: #660874; border: 1px solid #660874; padding: 6px 15px; border-radius: 20px; font-size: 0.85em; font-family: sans-serif; display: flex; align-items: center; transition: all 0.3s ease; background-color: #fff;">
-    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" style="margin-right: 6px;">
-      <path d="M20 2M4 22V2h12l4 4v16H4zm2-2h12V7h-5V2H6v18zm7-14h3.17L13 3.17V6zM8 12v2h8v-2H8zm0 4v2h5v-2H8z"/>
-    </svg>
-    Download Curriculum Vitae (PDF)
-  </a>
-</div>
+    <div class="award-list">
+      <div class="award-list__item">
+        <strong>First-class Comprehensive Scholarship</strong>
+        <span>Tsinghua University &middot; 2025</span>
+      </div>
+      <div class="award-list__item">
+        <strong>Second-class Comprehensive Scholarship</strong>
+        <span>Tsinghua University &middot; 2024</span>
+      </div>
+      <div class="award-list__item">
+        <strong>Outstanding Teaching Assistant</strong>
+        <span>Tsinghua University &middot; 2024</span>
+      </div>
+      <div class="award-list__item">
+        <strong>Third Prize, National Undergraduate Math Competition Final Round</strong>
+        <span>Non-Math Major &middot; 2021</span>
+      </div>
+      <div class="award-list__item">
+        <strong>First Prize, China Undergraduate Mathematical Contest in Modeling</strong>
+        <span>2020</span>
+      </div>
+    </div>
+  </section>
 
-<!-- ## Biography
-
-
-I obtained my Master's degree from the University of Science and Technology of China (USTC) in 2025, where I was advised by Prof. [Yongdong Zhang](https://scholar.google.com/citations?user=hxGs4ukAAAAJ&hl) and Prof. [Tianzhu Zhang](http://staff.ustc.edu.cn/~tzzhang/). Prior to that, I received my B.Eng. degree in Computer Science and Technology from Northwestern Polytechnical University (NWPU) in 2022, under the guidance of Prof. [Yuchao Dai](https://scholar.google.com/citations?user=fddAbqsAAAAJ&hl).
-
-My research interests lie in 3D Computer Vision, with a particular focus on:
-*   3D Gaussian Splatting & Neural Rendering
-*   Monocular Depth Estimation
-
-## Recent News
-
-<div style="border: 1px solid #ddd; padding: 10px; height: 220px; overflow-y: scroll; border-radius: 5px; background-color: #f9f9f9;">
-  <ul style="padding-left: 20px;">
-    <li>Nov. 2025: <a href="https://hanzhichang.github.io/meshsplat_web/">MeshSplat</a> was accepted by AAAI 2026.</li>
-    <li>Jun. 2025: <a href="https://ruijiezhu94.github.io/ObjectGS_page/">ObjectGS</a> was accepted by ICCV 2025.</li>
-    <li>Jun. 2025: Graduated from USTC! 🎓</li>
-    <li>Jan. 2025: <a href="https://indu1ge.github.io/DepthMaster_page/">DepthMaster</a> was released on arXiv.</li>
-    <li>Oct. 2024: <a href="https://ruijiezhu94.github.io/plane2depth_page/">Plane2Depth</a> was accepted by IEEE TCSVT.</li>  
-    <li>Sep. 2024: Two papers, <a href="https://ruijiezhu94.github.io/MotionGS_page">MotionGS</a> and <a href="https://arxiv.org/abs/2410.13607">DN-4DGS</a>, were accepted by NeurIPS 2024.</li>
-    <li>Jul. 2024: <a href="https://ruijiezhu94.github.io/ScaleDepth">ScaleDepth</a> was released on arXiv.</li>
-    <li>Dec. 2023: <a href="https://arxiv.org/abs/2312.09527">TI-Face</a> was released on arXiv.</li>
-    <li>Nov. 2023: <a href="https://ruijiezhu94.github.io/HABins_TCSVT2023">HA-Bins</a> was accepted by IEEE TCSVT.</li>
-    <li>Oct. 2023: <a href="https://ruijiezhu94.github.io/ERDepth_page">EC-Depth</a> was released on arXiv.</li>
-    <li>Oct. 2023: Won the 1st Place in ICCV 2023 workshop: <a href="https://sites.google.com/view/vschh/home">To NeRF or not to NeRF</a>. <a href="https://openaccess.thecvf.com/content/ICCV2023W/RHWC/papers/Jang_VSCHH_2023_A_Benchmark_for_the_View_Synthesis_Challenge_of_ICCVW_2023_paper.pdf">[paper]</a> <a href="https://youtu.be/QRuVvtpoeVM">[video]</a></li>
-    <li>June 2023: Won the 1st Place on RoboDepth (Track 1) and 2nd Place (Track 2) at ICRA 2023. <a href="https://arxiv.org/pdf/2307.15061">[paper]</a> <a href="https://youtu.be/C97J5SDXmZc?list=PLxxrIfcH-qBGZ6x_e1AT2_YnAxiHIKtkB&t=2767">[video]</a></li>
-    <li>Oct. 2022: Won the 2nd Place on Monocular Depth Estimation leaderboard in ECCV 2022 workshop: <a href="http://www.robustvision.net/leaderboard.php?benchmark=depth">Robust Vision Challenge 2022</a>. <a href="https://youtu.be/8ZwiSUYNJiI">[video]</a></li>
-  </ul>
-</div>
-
-## Experiences
-
-*   May 2025 - Present: Research Intern, Tencent ARC Lab
-*   Aug. 2024 - Mar. 2025: Research Intern, Shanghai AI Lab
-*   Sept. 2022 - Jun. 2025: M.S. Student, USTC
-*   Sept. 2018 - July 2022: Undergraduate Student, Honors College, NWPU
-
-<div class="logo" style="display: flex; justify-content: space-around; align-items: center; margin-top: 20px;">
-  <a href="https://en.nwpu.edu.cn/"><img src="images/logo_NWPU.png" alt="NWPU" style="height: 80px; width: auto;"></a>
-  <a href="https://en.ustc.edu.cn/"><img src="images/logo_USTC.png" alt="USTC" style="height: 80px; width: auto;"></a>
-  <a href="https://www.shlab.org.cn/"><img src="images/logo_AILab.jpeg" alt="Shanghai AILab" style="height: 100px; width: auto;"></a>
-  <a href="https://arc.tencent.com/en/index"><img src="images/logo_ARCLab.png" alt="Tencent ARCLab" style="height: 40px; width: auto;"></a>
-</div>
-
-## Publications
-
-<small>
-\* denotes equal contribution. Full list available on <a href="https://scholar.google.com/citations?user=6uuAEdkAAAAJ&hl=en">Google Scholar</a>.
-</small>
-
-### 3D Gaussian Splatting & Neural Rendering
-
-<table style="border-collapse: collapse; border: none;">
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2025-arxiv-meshsplat.png" style="vertical-align:middle; width: 100%; object-fit: cover;"/>
-    </td>
-    <td style="align-items:center; border: none; padding-left: 20px;">
-      <a href="https://hanzhichang.github.io/meshsplat_web/"><b>MeshSplat: Generalizable Sparse-View Surface Reconstruction via Gaussian Splatting</b></a>
-      <br>Hanzhi Chang*, <b>Ruijie Zhu*</b>, Wenjie Chang, Mulin Yu, Yanzhe Liang, Jiahao Lu, Zhuoyuan Li, Tianzhu Zhang
-      <br> AAAI 2026
-      <br> 
-      <a href="http://arxiv.org/abs/2508.17811">[Paper]</a>
-      <a href="https://hanzhichang.github.io/meshsplat_web/">[Project Page]</a>
-      <a href="https://github.com/HanzhiChang/MeshSplat">[Code]</a>
-    </td>
-  </tr>
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2025-iccv-objectgs.jpg" style="vertical-align:middle; width: 100%; object-fit: cover;"/>
-    </td>
-    <td style="align-items:center; border: none; padding-left: 20px;">
-      <a href="https://ruijiezhu94.github.io/ObjectGS_page/"><b>ObjectGS: Object-aware Scene Reconstruction and Scene Understanding via Gaussian Splatting</b></a>
-      <br><b>Ruijie Zhu</b>, Mulin Yu, Linning Xu, Lihan Jiang, Yixuan Li, Tianzhu Zhang, Jiangmiao Pang, Bo Dai
-      <br> ICCV 2025
-      <br> 
-      <a href="http://arxiv.org/abs/2507.15454">[Paper]</a>
-      <a href="https://ruijiezhu94.github.io/ObjectGS_page/">[Project Page]</a>
-      <a href="https://github.com/RuijieZhu94/ObjectGS">[Code]</a>
-    </td>
-  </tr>
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2024-nips-motiongs.png" style="vertical-align:middle; width: 100%; object-fit: cover;"/>
-    </td>
-    <td style="align-items:center; border: none; padding-left: 20px;">
-      <a href="https://ruijiezhu94.github.io/MotionGS_page"><b>MotionGS: Exploring Explicit Motion Guidance for Deformable 3D Gaussian Splatting</b></a>
-      <br><b>Ruijie Zhu*</b>, Yanzhe Liang*, Hanzhi Chang, Jiacheng Deng, Jiahao Lu, Wenfei Yang, Tianzhu Zhang, Yongdong Zhang
-      <br> NeurIPS 2024
-      <br> 
-      <a href="https://arxiv.org/abs/2410.07707">[Paper]</a>
-      <a href="https://ruijiezhu94.github.io/MotionGS_page">[Project Page]</a>
-      <a href="https://github.com/RuijieZhu94/MotionGS">[Code]</a>
-      <a href="https://www.youtube.com/watch?v=25DgViuuKFI">[Video]</a>
-    </td>
-  </tr>
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2024-nips-dn4dgs.png" style="vertical-align:middle; width: 100%; object-fit: cover;"/>
-    </td>
-    <td style="align-items:center; border: none; padding-left: 20px;">
-      <a href="https://arxiv.org/abs/2410.13607"><b>DN-4DGS: Denoised Deformable Network with Temporal-Spatial Aggregation for Dynamic Scene Rendering</b></a>
-      <br>Jiahao Lu, Jiacheng Deng, <b>Ruijie Zhu</b>, Yanzhe Liang, Wenfei Yang, Tianzhu Zhang, Xu Zhou
-      <br> NeurIPS 2024
-      <br> 
-      <a href="https://arxiv.org/abs/2410.13607">[Paper]</a>
-      <a href="https://github.com/peoplelu/DN-4DGS">[Code]</a>
-    </td>
-  </tr>
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2023-iccvw-TI-Face.png" style="vertical-align:middle; width: 100%; object-fit: cover;"/>
-    </td>
-    <td style="align-items:center; border: none; padding-left: 20px;">
-      <a href="https://github.com/RuijieZhu94/TI-Face"><b>TIFace: Improving Facial Reconstruction through Tensorial Radiance Fields and Implicit Surfaces</b></a>
-      <br><b>Ruijie Zhu</b>, Jiahao Chang, Ziyang Song, Jiahuan Yu, Tianzhu Zhang
-      <br> ICCVW 2023 (1st Place in VSCHH Challenge)
-      <br> 
-      <a href="https://arxiv.org/abs/2312.09527">[Paper]</a>
-      <a href="https://youtu.be/QRuVvtpoeVM">[Video]</a>
-      <a href="https://github.com/RuijieZhu94/TI-Face">[Code]</a>
-    </td>
-  </tr>
-
-</table>
-
-### Monocular Depth Estimation
-
-<table style="border-collapse: collapse; border: none;">
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2025-arxiv-depthmaster.png" style="vertical-align:middle; width: 100%; object-fit: cover;"/>
-    </td>
-    <td style="align-items:center; border: none; padding-left: 20px;">
-      <a href="https://indu1ge.github.io/DepthMaster_page/"><b>DepthMaster: Taming Diffusion Models for Monocular Depth Estimation</b></a>
-      <br>Ziyang Song*, Zerong Wang*, Bo Li, Hao Zhang, <b>Ruijie Zhu</b>, Li Liu, Peng-Tao Jiang, Tianzhu Zhang
-      <br> <em>arXiv preprint</em>, 2024
-      <br> 
-      <a href="https://arxiv.org/abs/2501.02576">[Paper]</a>
-      <a href="https://indu1ge.github.io/DepthMaster_page/">[Project Page]</a>
-      <a href="https://github.com/indu1ge/DepthMaster">[Code]</a>
-      <a href="https://huggingface.co/zysong212/DepthMaster">[Model]</a>
-    </td>
-  </tr>
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2024-arxiv-plane2depth.png" style="vertical-align:middle; width: 100%; object-fit: cover;"/>
-    </td>
-    <td style="align-items:center; border: none; padding-left: 20px;">
-      <a href="https://ruijiezhu94.github.io/Plane2Depth"><b>Plane2Depth: Hierarchical Adaptive Plane Guidance for Monocular Depth Estimation</b></a>
-      <br>Li Liu*, <b>Ruijie Zhu*</b>, Jiacheng Deng, Ziyang Song, Wenfei Yang, Tianzhu Zhang
-      <br> IEEE TCSVT 2024
-      <br> 
-      <a href="https://ieeexplore.ieee.org/document/10711868/">[Paper]</a>
-      <a href="https://ruijiezhu94.github.io/plane2depth_page">[Project Page]</a>
-      <a href="https://github.com/RuijieZhu94/mmdepth/tree/main/projects/Plane2Depth">[Code]</a>
-    </td>
-  </tr>
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2024-arxiv-ScaleDepth.jpg" style="vertical-align:middle; width: 100%; object-fit: cover;"/>
-    </td>
-    <td style="align-items:center; border: none; padding-left: 20px;">
-      <a href="https://ruijiezhu94.github.io/ScaleDepth"><b>ScaleDepth: Decomposing Metric Depth Estimation into Scale Prediction and Relative Depth Estimation</b></a>
-      <br><b>Ruijie Zhu</b>, Chuxin Wang, Ziyang Song, Li Liu, Tianzhu Zhang, Yongdong Zhang
-      <br> <em>arXiv preprint</em>, 2024
-      <br> 
-      <a href="https://arxiv.org/abs/2407.08187">[Paper]</a>
-      <a href="https://ruijiezhu94.github.io/ScaleDepth">[Project Page]</a>
-      <a href="https://github.com/RuijieZhu94/mmdepth/tree/main/projects/ScaleDepth">[Code]</a>
-    </td>
-  </tr>
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2023-arxiv-ECDepth.jpg" style="vertical-align:middle; width: 100%; object-fit: cover;"/>
-    </td>
-    <td style="align-items:center; border: none; padding-left: 20px;">
-      <a href="https://ruijiezhu94.github.io/ERDepth_page/"><b>ER-Depth: Enhancing the Robustness of Self-Supervised Monocular Depth Estimation in Challenging Scenes</b></a>
-      <br>Ziyang Song*, <b>Ruijie Zhu*</b>, Chuxin Wang, Jiacheng Deng, Jianfeng He, Tianzhu Zhang
-      <br> ACM TOMM 2025
-      <br> 
-      <a href="http://arxiv.org/abs/2310.08044">[Paper]</a>
-      <a href="https://ruijiezhu94.github.io/ERDepth_page/">[Project]</a>
-      <a href="https://github.com/RuijieZhu94/EC-Depth">[Code]</a>
-    </td>
-  </tr>
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2023-tcsvt-HABins.jpg" style="vertical-align:middle; width: 100%; object-fit: cover;"/>
-    </td>
-    <td style="align-items:center; border: none; padding-left: 20px;">
-      <a href="https://ruijiezhu94.github.io/HABins_TCSVT2023/"><b>HA-Bins: Hierarchical Adaptive Bins for Robust Monocular Depth Estimation across Multiple Datasets</b></a>
-      <br><b>Ruijie Zhu</b>, Ziyang Song, Li Liu, Jianfeng He, Tianzhu Zhang, Yongdong Zhang
-      <br> IEEE TCSVT 2023
-      <br> 
-      <a href="https://ieeexplore.ieee.org/document/10325550">[Paper]</a>
-      <a href="https://ruijiezhu94.github.io/HABins_TCSVT2023/">[Project Page]</a>
-      <a href="https://github.com/RuijieZhu94/HABins">[Code]</a>
-    </td>
-  </tr>
-
-</table>
-
-## Talks
-
-<table style="border-collapse: collapse; border: none;">
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2024-nips-motiongs-video.png" style="vertical-align:middle; width: 100%; object-fit: cover;"/>
-    </td>
-    <td style="align-items:center; border: none; padding-left: 20px;">
-      <a href="https://www.youtube.com/watch?v=25DgViuuKFI"><b>MotionGS: Exploring Explicit Motion Guidance for Deformable 3D Gaussian Splatting</b></a>
-      <br>Poster session: East Exhibit Hall A-C #1203
-      <br>NeurIPS 2024, Vancouver
-    </td>
-  </tr>
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2023-iccvw-TI-Face.png" style="vertical-align:middle; width: 100%; object-fit: cover;"/>
-    </td>
-    <td style="align-items:center; border: none; padding-left: 20px;">
-      <a href="https://youtu.be/QRuVvtpoeVM"><b>TIFace: Improving Facial Reconstruction through Tensorial Radiance Fields and Implicit Surfaces</b></a>
-      <br>"To NeRF or not to NeRF" Workshop
-      <br>ICCV 2023, Paris
-    </td>
-  </tr>
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2023-icraw-IRUDepth.png" style="vertical-align:middle; width: 100%; object-fit: cover;"/>
-    </td>
-    <td style="align-items:center; border: none; padding-left: 20px;">
-      <a href="https://youtu.be/C97J5SDXmZc?list=PLxxrIfcH-qBGZ6x_e1AT2_YnAxiHIKtkB&t=2767"><b>IRUDepth: Improve Robustness and Uncertainty of Self-Supervised Monocular Depth Estimation</b></a>
-      <br>"RoboDepth" Workshop
-      <br>ICRA 2023, London
-    </td>
-  </tr>
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2022-eccvw-MixBins.png" style="vertical-align:middle; width: 100%; object-fit: cover;"/>
-    </td>
-    <td style="align-items:center; border: none; padding-left: 20px;">
-      <a href="https://youtu.be/8ZwiSUYNJiI"><b>MixBins: Group-wise Bins for Robust Monocular Depth Estimation via Mixing Datasets</b></a>
-      <br>"Robust Vision Challenge" Workshop
-      <br>ECCV 2022, Tel Aviv
-    </td>
-  </tr>
-</table>
-
-## Awards
-
-*   Outstanding Graduate of USTC, 2025
-*   National Scholarship of China, 2024
-*   Deep Space Exploration Scholarship, 2024
-*   USTC-Suzhou Industrial Park Scholarship & First Class Scholarship of USTC, 2023
-*   Outstanding Graduate of NWPU, 2022
-*   CATIC Scholarship (Top 1% scholarship for graduates) & First Class Scholarship of NWPU, 2021
-*   Wuyajun Scholarship & First Class Scholarship of NWPU, 2019, 2020
-
-## Academic Services
-
-*   Conference Reviewer: CVPR, ICCV, ECCV, NeurIPS, ICLR, ICRA, 3DV
-*   Journal Reviewer: IJCV, IEEE TCSVT, IEEE TMM
-
-## Posts
-
-*   VALSE•2021 meeting record. [[Yuque]](https://www.yuque.com/docs/share/99290803-dfd7-4343-9ee6-0887f10bcec0?#) [[Zhihu]](https://zhuanlan.zhihu.com/p/422911676)
-*   Course Notes of Statistical Learning course in USTC. [[Git repo]](https://github.com/RuijieZhu94/StatisticalLearning_USTC) [[Zhihu]](https://www.zhihu.com/question/49386395/answer/3121492954) [[PDF]](https://github.com/RuijieZhu94/StatisticalLearning_USTC/releases/download/v1.0/outline.pdf) [[Abstract]](https://github.com/RuijieZhu94/StatisticalLearning_USTC/releases/download/v1.0/cheatsheet.pdf) -->
-
-<div style="text-align: center;">
-  <br>
-  <div id="clustr_globe_container" style="display: inline-block; width: 150px; height: 150px;">
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=0y7sxcbqs8DpRDKtY8hidLM1WXMbALHYbCdxnPx6ZkY"></script>
+  <div class="visitor-map">
+    <div id="clustr_globe_container">
+      <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=0y7sxcbqs8DpRDKtY8hidLM1WXMbALHYbCdxnPx6ZkY"></script>
+    </div>
   </div>
 </div>

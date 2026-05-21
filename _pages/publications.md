@@ -5,73 +5,34 @@ permalink: /publications/
 author_profile: true
 ---
 
-<!-- {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+<div class="research-detail">
+  <p class="research-lead">
+    My complete publication record is maintained on Google Scholar. This page is kept intentionally concise so it can
+    later host selected papers grouped by research theme, together with project pages, talks, and public materials.
+  </p>
 
-{% include base_path %}
+  <div class="home-actions">
+    <a class="home-button home-button--primary" href="https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+    <a class="home-button" href="/#research">Research Areas</a>
+  </div>
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
+  <h2>Research Themes</h2>
 
-Selected Publications
-------
-
-\* denotes equal contribution. More publications can be found in <a href="https://scholar.google.com/citations?user=6uuAEdkAAAAJ&hl=en">Google Scholar</a>.
-
-
-<table style="border-collapse: collapse; border: none;">
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2023-iccvw-TI-Face.png" style=" vertical-align:middle"/>
-    </td>
-    <td style="align-items:center; border: none;">
-      <a href="https://github.com/RuijieZhu94/TI-Face">TIFace: Improving Facial Reconstruction through Tensorial Radiance Fields and Implicit Surfaces</a>
-      <br><b>Ruijie Zhu</b>, Jiahao Chang, Ziyang Song, Jiahuan Yu, Tianzhu Zhang
-      <br> 1st place solution in the View Synthesis Challenge for Human Heads (VSCHH) @ ICCV, 2023
-      <br> 
-      <a href="https://arxiv.org/abs/2312.09527">[Paper]</a>
-      <a href="https://youtu.be/QRuVvtpoeVM">[Video]</a>
-      <a href="https://github.com/RuijieZhu94/TI-Face">[Code]</a>
-    </td>
-  </tr>
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2023-arxiv-ECDepth.jpg" style=" vertical-align:middle"/>
-    </td>
-    <td style="align-items:center; border: none;">
-      <a href="https://ruijiezhu94.github.io/ECDepth_page/">EC-Depth: Exploring the consistency of self-supervised monocular depth estimation under challenging scenes</a>
-      <br>Ziyang Song*, <b>Ruijie Zhu*</b>, Chuxin Wang, Jiacheng Deng, Jianfeng He, Tianzhu Zhang
-      <br> ArXiv, 2023
-      <br> 
-      <a href="http://arxiv.org/abs/2310.08044">[Paper]</a>
-      <a href="https://ruijiezhu94.github.io/ECDepth_page/">[Webpage]</a>
-      <a href="https://github.com/RuijieZhu94/EC-Depth">[Code]</a>
-    </td>
-  </tr>
-
-  <tr style="border: none;">
-    <td style="align-items:center; width: 25%; border: none;">
-      <img src="images/2023-tcsvt-HABins.jpg" style=" vertical-align:middle"/>
-    </td>
-    <td style="align-items:center; border: none;">
-      <a href="https://ruijiezhu94.github.io/HABins_TCSVT2023/">HA-Bins: Hierarchical Adaptive Bins for Robust Monocular Depth Estimation across Multiple Datasets</a>
-      <br><b>Ruijie Zhu</b>, Ziyang Song, Li Liu, Jianfeng He, Tianzhu Zhang, Yongdong Zhang
-      <br> IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2023
-      <br> 
-      <a href="https://ieeexplore.ieee.org/document/10325550">[Paper]</a>
-      <a href="https://ruijiezhu94.github.io/HABins_TCSVT2023/">[Webpage]</a>
-      <a href="https://github.com/RuijieZhu94/HABins">[Code]</a>
-    </td>
-  </tr>
-
-
-</table>
-
-
-<!-- Patents
-------
-1. 戴玉超, 朱睿杰, 项末初,等. 基于深度学习的Android手机端侧AR交互系统[p]. 中国, CN115309301A, 2022. -->
+  <div class="research-two-column">
+    <div class="research-callout">
+      <h3>Short-Range Correlations in Nuclei</h3>
+      <p>Heavy-ion observables, event reconstruction, detector response, and nuclear correlation signatures.</p>
+      <a href="/research/short-range-correlations/">View research page</a>
+    </div>
+    <div class="research-callout">
+      <h3>Atmospheric Neutrino Simulation</h3>
+      <p>Simulation chains for atmospheric neutrinos, detector response, and reconstruction studies.</p>
+      <a href="/research/atmospheric-neutrino-simulation/">View research page</a>
+    </div>
+    <div class="research-callout">
+      <h3>Correlation Function Imaging</h3>
+      <p>Femtoscopic two-particle correlations and source imaging methods for nuclear reaction studies.</p>
+      <a href="/research/correlation-function-imaging/">View research page</a>
+    </div>
+  </div>
+</div>
