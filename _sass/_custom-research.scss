@@ -492,12 +492,14 @@
   border-bottom: 1px solid var(--jh-line);
 }
 
-.paper-doi {
-  display: block;
-  margin-top: 0.28rem;
+.publication-list a {
   color: var(--jh-blue);
-  font-size: 0.88em;
   font-weight: 700;
+  text-decoration: none;
+}
+
+.publication-list a:hover {
+  text-decoration: underline;
 }
 
 .detail-actions {

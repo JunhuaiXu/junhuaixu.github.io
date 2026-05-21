@@ -105,14 +105,31 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
       <p>
         <strong>J. Xu et al.</strong>, "Precise measurement of short-range correlations in nuclei from
         bremsstrahlung gamma-ray emission in low-energy heavy-ion collisions,"
-        <em>Physical Review Research</em> <strong>7</strong>, 043174 (2025).
-        <span class="paper-doi">DOI: 10.1103/jw1p-36pb</span>
+        <a href="https://doi.org/10.1103/jw1p-36pb" target="_blank" rel="noopener">
+          <em>Physical Review Research</em> <strong>7</strong>, 043174 (2025)
+        </a>.
       </p>
       <p>
         <strong>J. Xu et al.</strong>, "Experimental study of bremsstrahlung gamma-ray emission and
         short-range correlations in <sup>124</sup>Sn+<sup>124</sup>Sn collisions at 25 MeV/nucleon,"
-        <em>Physical Review C</em> <strong>113</strong>, 044613 (2026).
-        <span class="paper-doi">DOI: 10.1103/dhz2-nl56</span>
+        <a href="https://doi.org/10.1103/dhz2-nl56" target="_blank" rel="noopener">
+          <em>Physical Review C</em> <strong>113</strong>, 044613 (2026)
+        </a>.
+      </p>
+      <p>
+        <strong>J. Xu, Y. Qin, Z. Qin, D. Si, B. Zhang, Y. Wang, Q. Niu, C. Xu, and Z. Xiao</strong>,
+        "Reconstruction of bremsstrahlung gamma-ray spectrum in heavy ion reactions with Richardson-Lucy
+        algorithm,"
+        <a href="https://doi.org/10.1016/j.physletb.2024.139009" target="_blank" rel="noopener">
+          <em>Physics Letters B</em> <strong>857</strong>, 139009 (2024)
+        </a>.
+      </p>
+      <p>
+        <strong>J. Xu, D. Si, Y. Qin, M. Xu, K. Chen, Z. Hao, G. Fan, H. Wang, Y. Wang, and Z. Xiao</strong>,
+        "Linear response of CsI(Tl) crystal to energetic photons below 20 MeV,"
+        <a href="https://doi.org/10.1016/j.nima.2025.170787" target="_blank" rel="noopener">
+          <em>Nuclear Instruments and Methods in Physics Research Section A</em> <strong>1080</strong>, 170787 (2025)
+        </a>.
       </p>
     </div>
   </section>
