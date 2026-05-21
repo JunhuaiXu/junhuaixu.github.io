@@ -102,30 +102,30 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
         <strong>J. Xu et al.</strong>, "Precise measurement of short-range correlations in nuclei from
         bremsstrahlung gamma-ray emission in low-energy heavy-ion collisions,"
         <a href="https://doi.org/10.1103/jw1p-36pb" target="_blank" rel="noopener">
-          <em>Physical Review Research</em> <strong>7</strong>, 043174 (2025)
-        </a>.
+          <em>Physical Review Research</em> <strong>7</strong>, 043174 (2025).
+        </a>
       </li>
       <li>
         <strong>J. Xu et al.</strong>, "Experimental study of bremsstrahlung gamma-ray emission and
         short-range correlations in <sup>124</sup>Sn+<sup>124</sup>Sn collisions at 25 MeV/nucleon,"
         <a href="https://doi.org/10.1103/dhz2-nl56" target="_blank" rel="noopener">
-          <em>Physical Review C</em> <strong>113</strong>, 044613 (2026)
-        </a>.
+          <em>Physical Review C</em> <strong>113</strong>, 044613 (2026).
+        </a>
       </li>
       <li>
         <strong>J. Xu et al.</strong>,
         "Reconstruction of bremsstrahlung gamma-ray spectrum in heavy ion reactions with Richardson-Lucy
         algorithm,"
         <a href="https://doi.org/10.1016/j.physletb.2024.139009" target="_blank" rel="noopener">
-          <em>Physics Letters B</em> <strong>857</strong>, 139009 (2024)
-        </a>.
+          <em>Physics Letters B</em> <strong>857</strong>, 139009 (2024).
+        </a>
       </li>
       <li>
         <strong>J. Xu et al.</strong>,
         "Linear response of CsI(Tl) crystal to energetic photons below 20 MeV,"
         <a href="https://doi.org/10.1016/j.nima.2025.170787" target="_blank" rel="noopener">
-          <em>Nuclear Instruments and Methods in Physics Research Section A</em> <strong>1080</strong>, 170787 (2025)
-        </a>.
+          <em>Nuclear Instruments and Methods in Physics Research Section A</em> <strong>1080</strong>, 170787 (2025).
+        </a>
       </li>
     </ol>
   </section>
