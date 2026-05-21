@@ -117,7 +117,6 @@
   position: relative;
   padding: 1.5rem 0 1.7rem;
   border-top: 1px solid var(--jh-line);
-  border-bottom: 1px solid var(--jh-line);
 }
 
 .home-hero::before {
@@ -192,6 +191,19 @@
 
 .home-section--compact {
   margin: 2rem 0 2.25rem;
+}
+
+.home-hero + .home-section {
+  margin-top: 1.85rem;
+}
+
+.home-hero + .home-section .section-heading {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.home-hero + .home-section .section-heading::before {
+  display: none;
 }
 
 .section-heading {
