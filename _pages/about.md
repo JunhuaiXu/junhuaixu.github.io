@@ -47,6 +47,32 @@ redirect_from:
     </div>
   </section>
 
+  <section id="ai-methods" class="home-section">
+    <div class="section-heading">
+      <p class="section-kicker">AI &amp; Computational Methods</p>
+    </div>
+
+    <div class="research-grid">
+      <a class="research-card research-card--purple" href="/ai/richardson-lucy-nuclear-physics/">
+        <span class="research-card__index">01</span>
+        <h3>Richardson-Lucy Methods in Nuclear Physics</h3>
+        <span class="status-pill">Details</span>
+      </a>
+
+      <a class="research-card research-card--teal" href="/ai/gnn-neutrino-reconstruction/">
+        <span class="research-card__index">02</span>
+        <h3>Graph Neural Networks for Neutrino Event Reconstruction</h3>
+        <span class="status-pill">Details</span>
+      </a>
+
+      <a class="research-card research-card--gold" href="/ai/bayesian-filtering-engineering/">
+        <span class="research-card__index">03</span>
+        <h3>Bayesian Filtering Methods for Engineering Applications</h3>
+        <span class="status-pill">Details</span>
+      </a>
+    </div>
+  </section>
+
   <section id="education" class="home-section">
     <div class="section-heading">
       <p class="section-kicker">Education</p>
