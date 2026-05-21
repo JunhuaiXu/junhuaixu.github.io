@@ -483,13 +483,28 @@
 }
 
 .publication-list {
-  border-top: 1px solid var(--jh-line);
+  margin: 0;
+  padding: 0;
+  counter-reset: publication;
+  list-style: none;
 }
 
-.publication-list p {
-  margin: 0;
-  padding: 0.82rem 0;
-  border-bottom: 1px solid var(--jh-line);
+.publication-list li {
+  position: relative;
+  margin: 0 0 0.95rem;
+  padding-left: 2.25rem;
+  color: var(--jh-muted);
+  line-height: 1.58;
+  counter-increment: publication;
+}
+
+.publication-list li::before {
+  content: "[" counter(publication) "]";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--jh-purple);
+  font-weight: 750;
 }
 
 .publication-list a {
