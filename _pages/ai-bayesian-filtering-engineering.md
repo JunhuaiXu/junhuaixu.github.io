@@ -8,12 +8,12 @@ excerpt: "Computational methods page under construction."
 
 <div class="research-detail">
   <div class="placeholder-panel">
-    <p class="section-kicker">AI &amp; Computational Methods</p>
+    <p class="section-kicker">AI &amp; Machine Learning</p>
     <h2>Bayesian Filtering Methods for Engineering Applications</h2>
     <p>
       This page will document applications of Bayesian filtering ideas, such as Kalman filtering and related
       sequential estimation methods, in engineering systems and data-driven decision workflows.
     </p>
-    <a class="home-button" href="/#ai-methods">Back to AI Methods</a>
+    <a class="home-button" href="/#ai-methods">Back to AI &amp; ML</a>
   </div>
 </div>

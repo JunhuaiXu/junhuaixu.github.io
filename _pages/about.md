@@ -11,14 +11,25 @@ redirect_from:
 <div class="home-page">
   <section id="about" class="home-hero">
     <p class="home-kicker">About Me</p>
+    <p class="home-position">Physics research at the interface of data-intensive experiments, AI methods, and reconstruction.</p>
     <p class="home-lead">
       Hi, I am a Ph.D. candidate at the Department of Physics, Tsinghua University, advised by Prof.
       <a href="https://inspirehep.net/authors/1062622" target="_blank" rel="noopener">Zhigang Xiao</a>.
       My research spans short-range correlations in nuclei, atmospheric neutrino simulation, and
-      correlation-function imaging. My work centers on detector response characterization, event reconstruction,
-      and the extraction of physical observables from complex experimental data, with a growing interest in
-      applying AI and machine learning methods to physics and engineering problems.
+      correlation-function imaging. Across these topics, I focus on detector response characterization, event
+      reconstruction, and extracting physical observables from complex experimental data, while extending AI and
+      machine learning methods to physics and engineering problems.
     </p>
+    <div class="home-focus" aria-label="Research profile">
+      <div>
+        <span>Physics Focus</span>
+        <strong>Short-range correlations / atmospheric neutrinos / correlation imaging</strong>
+      </div>
+      <div>
+        <span>AI and Methods</span>
+        <strong>Reconstruction / inverse problems / Bayesian filtering</strong>
+      </div>
+    </div>
     <!-- <a class="home-button" href="/assets/CV_JunhuaiXu.pdf" target="_blank" rel="noopener">Curriculum Vitae</a> -->
   </section>
 
@@ -50,13 +61,13 @@ redirect_from:
 
   <section id="ai-methods" class="home-section">
     <div class="section-heading">
-      <p class="section-kicker">AI &amp; Computational Methods</p>
+      <p class="section-kicker">AI &amp; Machine Learning</p>
     </div>
 
     <div class="research-grid">
       <a class="research-card research-card--purple" href="/ai/richardson-lucy-nuclear-physics/">
         <span class="research-card__index">01</span>
-        <h3>Richardson-Lucy Methods in Nuclear Physics</h3>
+        <h3>Richardson-Lucy Reconstruction in Nuclear Physics</h3>
         <span class="status-pill">Details</span>
       </a>
 
