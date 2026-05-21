@@ -10,7 +10,6 @@ redirect_from:
 
 <div class="home-page">
   <section id="about" class="home-hero">
-    <p class="home-kicker">Ph.D. Candidate in Physics &middot; Tsinghua University</p>
     <p class="home-lead">
       Hi, I am a Ph.D. candidate at the Department of Physics, Tsinghua University, advised by Prof.
       <a href="https://inspirehep.net/authors/1062622" target="_blank" rel="noopener">Zhigang Xiao</a>.
