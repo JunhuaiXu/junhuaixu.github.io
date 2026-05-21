@@ -38,9 +38,8 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
       My work asks how these high-momentum nucleons can be accessed in low-energy heavy-ion collisions.
       In the early stage of a <sup>124</sup>Sn+<sup>124</sup>Sn collision at 25 MeV/u, neutron-proton scattering
       can emit bremsstrahlung gamma rays through
+      <span class="reaction-equation">n + p &rarr; n + p + &gamma;</span>.
     </p>
-
-    <div class="equation-strip">n + p &rarr; n + p + &gamma;</div>
 
     <p>
       If the initial nuclei contain SRC-induced high-momentum nucleons, the participating np pairs carry larger
