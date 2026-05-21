@@ -69,15 +69,15 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
 
   <section class="detail-section detail-section--result">
     <h2>Key Result</h2>
-    <p class="result-equation">
-      R<sub>HMT</sub>(<sup>124</sup>Sn) = (20 &plusmn; 3)%
-    </p>
     <p>
-      This result shows that approximately one fifth of the nucleons in <sup>124</sup>Sn occupy the
-      SRC-induced high-momentum region within the adopted HMT description. The PRR paper reports the primary
-      physics result from the observed spectral hardening, while the PRC paper establishes the detailed
-      experimental and analysis framework, including background validation, detector-response treatment,
-      systematic uncertainties, and Richardson-Lucy reconstruction of the original gamma spectrum.
+      The extracted high-momentum-tail fraction in <sup>124</sup>Sn is
+      <span class="inline-math">R<sub>HMT</sub> = (20 &plusmn; 3)%</span>, corresponding to about 16% of neutrons
+      and 24% of protons being associated with short-range correlated pairs. This result shows that
+      approximately one fifth of the nucleons in <sup>124</sup>Sn occupy the SRC-induced high-momentum region
+      within the adopted HMT description. The PRR paper reports the primary physics result from the observed
+      spectral hardening, while the PRC paper establishes the detailed experimental and analysis framework,
+      including background validation, detector-response treatment, systematic uncertainties, and
+      Richardson-Lucy reconstruction of the original gamma spectrum.
     </p>
     <p>
       The work provides quantitative evidence for SRCs in low-energy heavy-ion collisions and establishes hard
