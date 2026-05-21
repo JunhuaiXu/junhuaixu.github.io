@@ -11,7 +11,6 @@ redirect_from:
 <div class="home-page">
   <section id="about" class="home-hero">
     <p class="home-kicker">About Me</p>
-    <p class="home-position">Physics research at the interface of data-intensive experiments, AI methods, and reconstruction.</p>
     <p class="home-lead">
       Hi, I am a Ph.D. candidate at the Department of Physics, Tsinghua University, advised by Prof.
       <a href="https://inspirehep.net/authors/1062622" target="_blank" rel="noopener">Zhigang Xiao</a>.
@@ -20,16 +19,6 @@ redirect_from:
       reconstruction, and extracting physical observables from complex experimental data, while extending AI and
       machine learning methods to physics and engineering problems.
     </p>
-    <div class="home-focus" aria-label="Research profile">
-      <div>
-        <span>Physics Focus</span>
-        <strong>Short-range correlations / atmospheric neutrinos / correlation imaging</strong>
-      </div>
-      <div>
-        <span>AI and Methods</span>
-        <strong>Reconstruction / inverse problems / Bayesian filtering</strong>
-      </div>
-    </div>
     <!-- <a class="home-button" href="/assets/CV_JunhuaiXu.pdf" target="_blank" rel="noopener">Curriculum Vitae</a> -->
   </section>
 
