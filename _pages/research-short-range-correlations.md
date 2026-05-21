@@ -11,9 +11,6 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
     <p class="section-kicker">Physics Research</p>
     <h1>Short-Range Correlations in Nuclei</h1>
     <p class="detail-subtitle">Probing high-momentum nucleons with bremsstrahlung gamma rays</p>
-    <p class="detail-lead">
-      I use hard photons emitted in heavy-ion collisions to reveal high-momentum nucleons hidden inside nuclei.
-    </p>
   </section>
 
   <section class="detail-section">
