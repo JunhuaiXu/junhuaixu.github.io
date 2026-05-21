@@ -89,11 +89,12 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
   <section class="detail-section">
     <h2>My Contributions</h2>
     <ul class="clean-list">
-      <li>Precision measurement of bremsstrahlung gamma rays in <sup>124</sup>Sn+<sup>124</sup>Sn at 25 MeV/u with CSHINE.</li>
-      <li>Gamma-event reconstruction with the CsI(Tl) hodoscope, including cosmic-ray suppression and background control.</li>
-      <li>Detector-response correction and systematic validation of the extracted gamma spectrum.</li>
-      <li>Comparison with IBUU-MDI calculations to constrain the SRC-induced high-momentum-tail fraction.</li>
-      <li>Independent reconstruction of the original gamma spectrum using the Richardson-Lucy unfolding method.</li>
+      <li>Developed hard bremsstrahlung &gamma; rays as a probe of short-range correlations (SRCs) in low-energy heavy-ion collisions, linking SRC-induced high-momentum nucleons to the spectral hardening of <span class="inline-math">np &rarr; np&gamma;</span> emission.</li>
+      <li>Performed precision measurements of high-energy &gamma; rays in symmetric <sup>124</sup>Sn+<sup>124</sup>Sn collisions at 25 MeV/u with the CSHINE detector system.</li>
+      <li>Contributed to the instrumentation and calibration of the CSHINE-Gamma CsI(Tl) hodoscope, including high-energy &gamma;-ray response validation and detector-performance studies at SLEGS.</li>
+      <li>Developed the experimental analysis framework for rare bremsstrahlung &gamma;-ray signals, including event reconstruction, background suppression, detector-response correction, and systematic validation.</li>
+      <li>Combined experimental data with IBUU-MDI transport-model calculations to extract the SRC-induced high-momentum-tail fraction in <sup>124</sup>Sn: <span class="inline-math">R<sub>HMT</sub> = (20 &plusmn; 3)%</span>.</li>
+      <li>Developed Richardson-Lucy detector-response unfolding methods to reconstruct the original bremsstrahlung &gamma;-ray spectrum for direct comparison with theoretical calculations.</li>
     </ul>
   </section>
 
