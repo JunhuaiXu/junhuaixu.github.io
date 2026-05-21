@@ -3,6 +3,9 @@ main:
   - title: "About"
     url: /#about
 
+  - title: "News"
+    url: /#news
+
   - title: "Physics Research"
     url: /#physics-research
 

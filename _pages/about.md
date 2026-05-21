@@ -22,6 +22,23 @@ redirect_from:
     <!-- <a class="home-button" href="/assets/CV_JunhuaiXu.pdf" target="_blank" rel="noopener">Curriculum Vitae</a> -->
   </section>
 
+  {% if site.data.news %}
+  <section id="news" class="home-section home-section--compact">
+    <div class="section-heading">
+      <p class="section-kicker">Recent News</p>
+    </div>
+
+    <div class="news-list">
+      {% for item in site.data.news limit:5 %}
+        <div class="news-item">
+          <time>{{ item.date }}</time>
+          <p>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   <section id="physics-research" class="home-section">
     <div class="section-heading">
       <p class="section-kicker">Physics Research</p>
