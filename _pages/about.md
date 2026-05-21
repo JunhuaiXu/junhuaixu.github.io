@@ -13,20 +13,19 @@ redirect_from:
     <p class="home-kicker">Ph.D. Candidate in Physics &middot; Tsinghua University</p>
     <h2>Experimental Nuclear and Particle Physics</h2>
     <p class="home-lead">
-      This homepage is being redesigned. Research descriptions, figures, publications, and project details will be
-      updated gradually.
+      Hi, I am a Ph.D. candidate at the Department of Physics, Tsinghua University, advised by Prof.
+      <a href="https://inspirehep.net/authors/1062622" target="_blank" rel="noopener">Zhigang Xiao</a>.
+      I have been involved in the Compact Spectrometer for Heavy IoN Experiment (CSHINE), femtoscopic
+      two-particle correlation studies, and deep-sea neutrino detection projects. My work centers on detector
+      response characterization, event reconstruction, and the extraction of physical observables from complex
+      experimental data.
     </p>
-    <div class="home-actions">
-      <a class="home-button home-button--primary" href="#research">Research Areas</a>
-      <a class="home-button" href="https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-      <!-- <a class="home-button" href="/assets/CV_JunhuaiXu.pdf" target="_blank" rel="noopener">Curriculum Vitae</a> -->
-    </div>
+    <!-- <a class="home-button" href="/assets/CV_JunhuaiXu.pdf" target="_blank" rel="noopener">Curriculum Vitae</a> -->
   </section>
 
   <section id="research" class="home-section">
     <div class="section-heading">
       <p class="section-kicker">Research</p>
-      <h2>Research Areas</h2>
       <p>Detailed project pages are under construction.</p>
     </div>
 
@@ -57,7 +56,6 @@ redirect_from:
   <section id="education" class="home-section">
     <div class="section-heading">
       <p class="section-kicker">Education</p>
-      <h2>Education</h2>
     </div>
 
     <div class="clean-list">
@@ -81,7 +79,6 @@ redirect_from:
   <section id="publications" class="home-section">
     <div class="section-heading">
       <p class="section-kicker">Publications</p>
-      <h2>Publications</h2>
       <p>Selected publication list is updating.</p>
     </div>
 
@@ -94,12 +91,45 @@ redirect_from:
   <section id="awards" class="home-section">
     <div class="section-heading">
       <p class="section-kicker">Awards</p>
-      <h2>Awards</h2>
-      <p>Selected honors and scholarships will be added later.</p>
+      <p>Selected honors and scholarships.</p>
     </div>
 
-    <div class="quiet-panel">
-      <span>Awards section under construction.</span>
+    <div class="clean-list">
+      <div class="clean-list__item">
+        <div>
+          <strong>First-class Comprehensive Scholarship</strong>
+          <span>Tsinghua University</span>
+        </div>
+        <time>2025</time>
+      </div>
+      <div class="clean-list__item">
+        <div>
+          <strong>Second-class Comprehensive Scholarship</strong>
+          <span>Tsinghua University</span>
+        </div>
+        <time>2024</time>
+      </div>
+      <div class="clean-list__item">
+        <div>
+          <strong>Outstanding Teaching Assistant</strong>
+          <span>Tsinghua University</span>
+        </div>
+        <time>2024</time>
+      </div>
+      <div class="clean-list__item">
+        <div>
+          <strong>Third Prize, National Undergraduate Math Competition Final Round</strong>
+          <span>Non-Math Major</span>
+        </div>
+        <time>2021</time>
+      </div>
+      <div class="clean-list__item">
+        <div>
+          <strong>First Prize, China Undergraduate Mathematical Contest in Modeling</strong>
+          <span>CUMCM</span>
+        </div>
+        <time>2020</time>
+      </div>
     </div>
   </section>
 </div>
