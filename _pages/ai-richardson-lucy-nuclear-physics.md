@@ -283,7 +283,6 @@ excerpt: "Bayesian deblurring, inverse problems, and physics-informed reconstruc
     <h2>Related Publications</h2>
     <ol class="publication-list">
       <li>
-        <span class="publication-label">Source imaging</span>
         <strong>J. Xu et al.</strong>, "Imaging Freeze-Out Sources and Extracting Strong Interaction Parameters
         in Relativistic Heavy-Ion Collisions,"
         <a href="https://doi.org/10.1088/0256-307X/42/3/031401" target="_blank" rel="noopener">
@@ -291,7 +290,6 @@ excerpt: "Bayesian deblurring, inverse problems, and physics-informed reconstruc
         </a>
       </li>
       <li>
-        <span class="publication-label">Source imaging extension</span>
         <strong>H. Zhang, J. Xu et al.</strong>, "Probing the three-dimensional emission source and neutron skin
         via \(\pi\)-\(\pi\) correlations in heavy-ion collisions,"
         <a href="https://doi.org/10.1103/jdsn-p3v4" target="_blank" rel="noopener">
@@ -299,7 +297,6 @@ excerpt: "Bayesian deblurring, inverse problems, and physics-informed reconstruc
         </a>
       </li>
       <li>
-        <span class="publication-label">Gamma-ray spectrum reconstruction</span>
         <strong>J. Xu et al.</strong>, "Reconstruction of bremsstrahlung \(\gamma\)-rays spectrum in heavy ion
         reactions with Richardson-Lucy algorithm,"
         <a href="https://doi.org/10.1016/j.physletb.2024.139009" target="_blank" rel="noopener">
@@ -307,7 +304,6 @@ excerpt: "Bayesian deblurring, inverse problems, and physics-informed reconstruc
         </a>
       </li>
       <li>
-        <span class="publication-label">Gamma-ray SRC application</span>
         <strong>J. Xu et al.</strong>, "Experimental study of bremsstrahlung \(\gamma\)-ray emission and
         short-range correlations in \(^{124}\mathrm{Sn}+^{124}\mathrm{Sn}\) collisions at 25 MeV/nucleon,"
         <a href="https://doi.org/10.1103/dhz2-nl56" target="_blank" rel="noopener">
