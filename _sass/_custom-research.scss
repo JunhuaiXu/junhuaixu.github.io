@@ -438,6 +438,13 @@
   font-weight: 700;
 }
 
+.detail-equation {
+  color: var(--jh-ink) !important;
+  font-family: $monospace;
+  font-size: 0.96em !important;
+  font-weight: 700;
+}
+
 .clean-list {
   margin: 0;
   padding: 0;
@@ -496,6 +503,14 @@
 
 .publication-list a:hover {
   text-decoration: underline;
+}
+
+.publication-label {
+  display: block;
+  margin-bottom: 0.16rem;
+  color: var(--jh-purple);
+  font-size: 0.84em;
+  font-weight: 700;
 }
 
 .detail-actions {

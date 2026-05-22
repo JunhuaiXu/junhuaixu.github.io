@@ -75,8 +75,21 @@ redirect_from:
 
       <a class="research-card research-card--gold" href="/research/correlation-function-imaging/">
         <span class="research-card__index">03</span>
-        <h3>Correlation Function Imaging</h3>
-        <span class="status-pill">Details</span>
+        <div class="research-card__content">
+          <h3>Correlation Function Imaging</h3>
+          <p>
+            I develop femtoscopic imaging methods to reconstruct freeze-out source distributions from
+            two-particle correlation functions in heavy-ion collisions. By combining Hanbury Brown-Twiss
+            interferometry with the Richardson-Lucy deblurring algorithm, this approach extracts real-space
+            source information without assuming a Gaussian shape.
+          </p>
+          <p>
+            Applied to proton and antiproton correlations in Au+Au collisions at
+            &radic;s<sub>NN</sub> = 200 GeV, the method reveals identical non-Gaussian freeze-out sources
+            for matter and antimatter.
+          </p>
+          <span class="status-pill">Details</span>
+        </div>
       </a>
     </div>
   </section>
