@@ -980,8 +980,15 @@
 }
 
 /* =========================
-   AI section separation
+   Research section panels
    ========================= */
+
+.home-section--physics .research-grid {
+  padding: 1.2rem 1.15rem 1.25rem;
+  border-left: 3px solid var(--jh-purple);
+  border-radius: 8px;
+  background: #f9f7fc;
+}
 
 .home-section--ai {
   margin-top: 4.1rem;
@@ -1014,6 +1021,7 @@
     margin-top: 3.2rem;
   }
 
+  .home-section--physics .research-grid,
   .home-section--ai .research-grid {
     padding: 0.95rem 0.85rem 1rem;
   }
