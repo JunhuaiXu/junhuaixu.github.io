@@ -960,6 +960,17 @@
   font-size: 0.83em;
 }
 
+.visitor-map {
+  display: flex;
+  justify-content: center;
+  margin: 2.7rem 0 0.4rem;
+}
+
+.visitor-map #clustr_globe_container {
+  width: 150px;
+  min-height: 150px;
+}
+
 /* =========================
    AI section separation
    ========================= */

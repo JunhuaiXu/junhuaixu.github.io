@@ -95,14 +95,24 @@ redirect_from:
 
   <section id="ai-methods" class="home-section home-section--ai">
     <div class="section-heading">
-      <p class="section-kicker">AI &amp; Machine Learning</p>
+      <p class="section-kicker">AI &amp; Machine Learning / Scientific Computing / Inverse Problems</p>
     </div>
 
     <div class="research-grid research-grid--equal">
       <a class="research-card research-card--purple" href="/ai/richardson-lucy-nuclear-physics/">
         <span class="research-card__index">01</span>
-        <h3>Richardson-Lucy Reconstruction in Nuclear Physics</h3>
-        <span class="research-card__cta">Read More &rarr;</span>
+        <div class="research-card__content">
+          <h3>Richardson-Lucy Reconstruction in Nuclear Physics</h3>
+          <p>
+            I apply Bayesian Richardson-Lucy deblurring to nuclear-physics inverse problems, reconstructing
+            hidden source functions and original \(\gamma\)-ray spectra from experimentally blurred measurements.
+          </p>
+          <p>
+            This work highlights my experience in physics-informed reconstruction, large matrix computation,
+            iterative inference, and uncertainty quantification.
+          </p>
+          <span class="research-card__cta">Read More &rarr;</span>
+        </div>
       </a>
 
       <a class="research-card research-card--teal" href="/ai/gnn-neutrino-reconstruction/">
@@ -185,4 +195,10 @@ redirect_from:
       </div>
     </div>
   </section>
+
+  <div class="visitor-map" aria-label="Visitor map">
+    <div id="clustr_globe_container">
+      <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d=0y7sxcbqs8DpRDKtY8hidLM1WXMbALHYbCdxnPx6ZkY"></script>
+    </div>
+  </div>
 </div>
