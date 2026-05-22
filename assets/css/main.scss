@@ -14,6 +14,11 @@
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/regular";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/font-awesome/v4-shims";
 
 @import "reset";
 @import "base";
@@ -35,8 +40,5 @@
 @import "sidebar";
 @import "custom-research";
 
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
