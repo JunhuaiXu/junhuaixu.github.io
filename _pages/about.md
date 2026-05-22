@@ -41,13 +41,13 @@ redirect_from:
   {% endif %}
   {% endcomment %}
 
-  <section id="physics-research" class="home-section">
+  <section id="physics-research" class="home-section home-section--physics">
     <div class="section-heading">
       <p class="section-kicker">Physics Research</p>
     </div>
 
-    <div class="research-grid">
-      <a class="research-card research-card--featured research-card--purple" href="/research/short-range-correlations/">
+    <div class="research-grid research-grid--equal">
+      <a class="research-card research-card--purple" href="/research/short-range-correlations/">
         <span class="research-card__index">01</span>
         <div class="research-card__content">
           <h3>Short-Range Correlations in Nuclei</h3>
@@ -81,12 +81,12 @@ redirect_from:
     </div>
   </section>
 
-  <section id="ai-methods" class="home-section">
+  <section id="ai-methods" class="home-section home-section--ai">
     <div class="section-heading">
       <p class="section-kicker">AI &amp; Machine Learning</p>
     </div>
 
-    <div class="research-grid">
+    <div class="research-grid research-grid--equal">
       <a class="research-card research-card--purple" href="/ai/richardson-lucy-nuclear-physics/">
         <span class="research-card__index">01</span>
         <h3>Richardson-Lucy Reconstruction in Nuclear Physics</h3>
