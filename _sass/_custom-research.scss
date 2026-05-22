@@ -439,10 +439,20 @@
 }
 
 .detail-equation {
+  margin: 0.85rem 0 1rem;
   color: var(--jh-ink) !important;
-  font-family: $monospace;
-  font-size: 0.96em !important;
+  font-size: 0.98em !important;
   font-weight: 700;
+  line-height: 1.35;
+  overflow-x: auto;
+  text-align: center;
+}
+
+.detail-equation .MathJax_Display,
+.detail-equation .MJXc-display,
+.detail-equation mjx-container {
+  margin: 0 !important;
+  text-align: center !important;
 }
 
 .clean-list {

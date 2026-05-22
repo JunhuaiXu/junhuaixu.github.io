@@ -57,16 +57,16 @@ excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations.
   <section class="detail-section">
     <h2>Method: From Correlation Functions to Source Images</h2>
     <p>
-      The connection between the correlation function <span class="inline-math">C(q)</span> and the source
-      function <span class="inline-math">S(r)</span> is described by the Koonin-Pratt equation:
+      The connection between the correlation function <span class="inline-math">\(C(q)\)</span> and the source
+      function <span class="inline-math">\(S(r)\)</span> is described by the Koonin-Pratt equation:
     </p>
-    <p class="detail-equation">
-      C(q) = &int; d<sup>3</sup>r |&Psi;<sub>q</sub>(r)|<sup>2</sup> S(r)
-    </p>
+    <div class="detail-equation">\[
+      C(q) = \int d^{3}r\, |\Psi_q(r)|^{2} S(r)
+    \]</div>
     <p>
-      Here, <span class="inline-math">q</span> is the relative momentum of the particle pair,
-      <span class="inline-math">S(r)</span> describes the relative spatial distribution of the emitted particles,
-      and <span class="inline-math">&Psi;<sub>q</sub>(r)</span> is the two-particle wave function including
+      Here, <span class="inline-math">\(q\)</span> is the relative momentum of the particle pair,
+      <span class="inline-math">\(S(r)\)</span> describes the relative spatial distribution of the emitted particles,
+      and <span class="inline-math">\(\Psi_q(r)\)</span> is the two-particle wave function including
       final-state interactions. In this sense, the measured correlation function is a convolution of the source
       function with an interaction kernel.
     </p>
@@ -76,14 +76,14 @@ excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations.
     </p>
     <ul class="clean-list">
       <li>the Richardson-Lucy deblurring algorithm, originally developed for image restoration;</li>
-      <li>the Koonin-Pratt formalism, which relates <span class="inline-math">C(q)</span> and <span class="inline-math">S(r)</span>;</li>
+      <li>the Koonin-Pratt formalism, which relates <span class="inline-math">\(C(q)\)</span> and <span class="inline-math">\(S(r)\)</span>;</li>
       <li>the Lednicky-Lyuboshitz model, which describes the final-state interaction between particle pairs.</li>
     </ul>
     <p>
       This framework allows the source distribution and the interaction parameters to be extracted
       simultaneously. In the proton-proton and antiproton-antiproton systems, the interaction is characterized by
-      the scattering length <span class="inline-math">f<sub>0</sub></span> and the effective range
-      <span class="inline-math">d<sub>0</sub></span>. By scanning the interaction parameters and minimizing the
+      the scattering length <span class="inline-math">\(f_0\)</span> and the effective range
+      <span class="inline-math">\(d_0\)</span>. By scanning the interaction parameters and minimizing the
       difference between reconstructed and measured correlation functions, the method determines both the source
       image and the interaction strength.
     </p>
@@ -109,16 +109,26 @@ excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations.
     <h2>Application to Proton and Antiproton Correlations</h2>
     <p>
       I applied the method to proton-proton and antiproton-antiproton correlation functions measured in Au+Au
-      collisions at <span class="inline-math">&radic;s<sub>NN</sub> = 200 GeV</span> by the STAR Collaboration
+      collisions at <span class="inline-math">\(\sqrt{s_{NN}} = 200~\mathrm{GeV}\)</span> by the STAR Collaboration
       at RHIC. The analysis reconstructs the freeze-out source functions for protons and antiprotons directly
       from the experimental correlation functions, without assuming a Gaussian source shape.
     </p>
     <p>
-      In the analysis, the effective range was fixed at <span class="inline-math">d<sub>0</sub> = 2.8 fm</span>,
-      and the extracted scattering lengths were
-      <span class="inline-math">f<sub>0</sub>(pp) = (7.7 &plusmn; 0.2) fm</span> and
-      <span class="inline-math">f<sub>0</sub>(&bar;p&bar;p) = (7.9 &plusmn; 0.3) fm</span>. These values are
-      consistent between protons and antiprotons, supporting the symmetry of their final-state interactions.
+      In the analysis, the effective range was fixed at
+    </p>
+    <div class="detail-equation">\[
+      d_0 = 2.8~\mathrm{fm}.
+    \]</div>
+    <p>
+      The extracted scattering lengths were
+    </p>
+    <div class="detail-equation">\[
+      f_0(pp) = (7.7 \pm 0.2)~\mathrm{fm}, \qquad
+      f_0(\bar{p}\bar{p}) = (7.9 \pm 0.3)~\mathrm{fm}.
+    \]</div>
+    <p>
+      These values are consistent between protons and antiprotons, supporting the symmetry of their final-state
+      interactions.
     </p>
   </section>
 
@@ -135,7 +145,7 @@ excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations.
     <p>
       Second, both proton and antiproton source functions deviate from the conventional Gaussian assumption.
       The reconstructed source is more concentrated at small relative distances, especially for
-      <span class="inline-math">r &lt; 5 fm</span>, and shows reduced density compared with the Gaussian expectation
+      <span class="inline-math">\(r \lt 5~\mathrm{fm}\)</span>, and shows reduced density compared with the Gaussian expectation
       at larger distances. This non-Gaussian structure suggests that the collision evolves so rapidly that the
       system is not fully randomized in coordinate space before freeze-out.
     </p>
@@ -169,7 +179,7 @@ excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations.
       <li>Developed a Richardson-Lucy-based imaging framework for reconstructing femtoscopic source functions from two-particle correlation functions.</li>
       <li>Combined source imaging with the Lednicky-Lyuboshitz final-state-interaction model to extract both source distributions and interaction parameters.</li>
       <li>Validated the inverse-imaging method using controlled model tests with known source functions and interaction parameters.</li>
-      <li>Applied the method to STAR proton-proton and antiproton-antiproton correlation functions in Au+Au collisions at <span class="inline-math">&radic;s<sub>NN</sub> = 200 GeV</span>.</li>
+      <li>Applied the method to STAR proton-proton and antiproton-antiproton correlation functions in Au+Au collisions at <span class="inline-math">\(\sqrt{s_{NN}} = 200~\mathrm{GeV}\)</span>.</li>
       <li>Demonstrated identical non-Gaussian freeze-out source functions for protons and antiprotons, providing coordinate-space evidence for matter-antimatter symmetry.</li>
     </ul>
   </section>
@@ -183,7 +193,7 @@ excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations.
     </p>
     <p>
       In that work, the Richardson-Lucy algorithm was generalized to reconstruct three-dimensional pion source
-      functions from <span class="inline-math">&pi;<sup>-</sup>&pi;<sup>-</sup></span> correlation functions. The
+      functions from <span class="inline-math">\(\pi^-\pi^-\)</span> correlation functions. The
       method was first tested with simulated Gaussian sources and then applied to HADES Au+Au data at 1.23A GeV,
       where it revealed non-Gaussian features in the extracted source function, particularly at large relative
       distances.
