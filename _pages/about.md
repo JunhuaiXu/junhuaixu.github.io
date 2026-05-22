@@ -57,12 +57,12 @@ redirect_from:
             the traditional mean-field picture.
           </p>
           <p>
-            My research develops hard bremsstrahlung &gamma; rays in low-energy heavy-ion collisions as a clean
-            probe of these short-range correlations. By combining precision &gamma;-ray measurements with
+            My research develops hard bremsstrahlung \(\gamma\) rays in low-energy heavy-ion collisions as a clean
+            probe of these short-range correlations. By combining precision \(\gamma\)-ray measurements with
             transport-model calculations, I extracted the SRC-induced high-momentum fraction in
-            <sup>124</sup>Sn:
+            \(^{124}\mathrm{Sn}\):
           </p>
-          <p class="research-card__formula">R<sub>HMT</sub> = (20 &plusmn; 3)%</p>
+          <p class="research-card__formula">\(R_{\mathrm{HMT}} = (20 \pm 3)\%\)</p>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
@@ -85,7 +85,7 @@ redirect_from:
           </p>
           <p>
             Applied to proton and antiproton correlations in Au+Au collisions at
-            &radic;s<sub>NN</sub> = 200 GeV, the method reveals identical non-Gaussian freeze-out sources
+            \(\sqrt{s_{NN}} = 200~\mathrm{GeV}\), the method reveals identical non-Gaussian freeze-out sources
             for matter and antimatter.
           </p>
           <span class="status-pill">Details</span>

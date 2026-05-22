@@ -25,7 +25,7 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
       These pairs are dominated by neutron-proton correlations and generate a high-momentum tail in the
       single-nucleon momentum distribution. The observable signature of SRCs is therefore not a static picture
       of two nucleons sitting together, but the emergence of non-mean-field components at
-      <span class="inline-math">k &gt; k<sub>F</sub></span>.
+      <span class="inline-math">\(k > k_F\)</span>.
     </p>
   </section>
 
@@ -33,9 +33,9 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
     <h2>Turning Hidden Momentum Into Photons</h2>
     <p>
       My work asks how these high-momentum nucleons can be accessed in low-energy heavy-ion collisions.
-      In the early stage of a <sup>124</sup>Sn+<sup>124</sup>Sn collision at 25 MeV/u, neutron-proton scattering
+      In the early stage of a \(^{124}\mathrm{Sn}+^{124}\mathrm{Sn}\) collision at 25 MeV/u, neutron-proton scattering
       can emit bremsstrahlung gamma rays through
-      <span class="inline-math">np &rarr; np&gamma;</span>.
+      <span class="inline-math">\(np \rightarrow np\gamma\)</span>.
     </p>
 
     <p>
@@ -51,26 +51,26 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
     <h2>Experiment and Analysis</h2>
     <p>
       The measurement was performed with CSHINE using a CsI(Tl)-based gamma-ray hodoscope to detect energetic
-      bremsstrahlung photons from symmetric <sup>124</sup>Sn+<sup>124</sup>Sn reactions. The analysis combined
+      bremsstrahlung photons from symmetric \(^{124}\mathrm{Sn}+^{124}\mathrm{Sn}\) reactions. The analysis combined
       event-by-event gamma reconstruction, cosmic-ray and residual-background subtraction, Geant4 detector-response
       simulations, calibration uncertainty control, and cross-checks with independent coincidence selections.
     </p>
     <p>
       The measured spectrum was compared with IBUU-MDI transport-model calculations incorporating the
-      <span class="inline-math">np &rarr; np&gamma;</span> channel. By varying the high-momentum-tail fraction
-      <span class="inline-math">R<sub>HMT</sub></span> in the initial nucleon momentum distribution and comparing
+      <span class="inline-math">\(np \rightarrow np\gamma\)</span> channel. By varying the high-momentum-tail fraction
+      <span class="inline-math">\(R_{\mathrm{HMT}}\)</span> in the initial nucleon momentum distribution and comparing
       the detector-filtered theoretical spectra with data, the SRC-induced high-momentum component in
-      <sup>124</sup>Sn can be quantitatively constrained.
+      \(^{124}\mathrm{Sn}\) can be quantitatively constrained.
     </p>
   </section>
 
   <section class="detail-section detail-section--result">
     <h2>Key Result</h2>
     <p>
-      The extracted high-momentum-tail fraction in <sup>124</sup>Sn is
-      <span class="inline-math">R<sub>HMT</sub> = (20 &plusmn; 3)%</span>, corresponding to about 16% of neutrons
+      The extracted high-momentum-tail fraction in \(^{124}\mathrm{Sn}\) is
+      <span class="inline-math">\(R_{\mathrm{HMT}} = (20 \pm 3)\%\)</span>, corresponding to about 16% of neutrons
       and 24% of protons being associated with short-range correlated pairs. This result shows that
-      approximately one fifth of the nucleons in <sup>124</sup>Sn occupy the SRC-induced high-momentum region
+      approximately one fifth of the nucleons in \(^{124}\mathrm{Sn}\) occupy the SRC-induced high-momentum region
       within the adopted HMT description. The PRR paper reports the primary physics result from the observed
       spectral hardening, while the PRC paper establishes the detailed experimental and analysis framework,
       including background validation, detector-response treatment, systematic uncertainties, and
@@ -86,12 +86,12 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
   <section class="detail-section">
     <h2>My Contributions</h2>
     <ul class="clean-list">
-      <li>Developed hard bremsstrahlung &gamma; rays as a probe of short-range correlations (SRCs) in low-energy heavy-ion collisions, linking SRC-induced high-momentum nucleons to the spectral hardening of <span class="inline-math">np &rarr; np&gamma;</span> emission.</li>
-      <li>Performed precision measurements of high-energy &gamma; rays in symmetric <sup>124</sup>Sn+<sup>124</sup>Sn collisions at 25 MeV/u with the CSHINE detector system.</li>
-      <li>Contributed to the instrumentation and calibration of the CSHINE-Gamma CsI(Tl) hodoscope, including high-energy &gamma;-ray response validation and detector-performance studies at SLEGS.</li>
-      <li>Developed the experimental analysis framework for rare bremsstrahlung &gamma;-ray signals, including event reconstruction, background suppression, detector-response correction, and systematic validation.</li>
-      <li>Combined experimental data with IBUU-MDI transport-model calculations to extract the SRC-induced high-momentum-tail fraction in <sup>124</sup>Sn: <span class="inline-math">R<sub>HMT</sub> = (20 &plusmn; 3)%</span>.</li>
-      <li>Developed Richardson-Lucy detector-response unfolding methods to reconstruct the original bremsstrahlung &gamma;-ray spectrum for direct comparison with theoretical calculations.</li>
+      <li>Developed hard bremsstrahlung \(\gamma\) rays as a probe of short-range correlations (SRCs) in low-energy heavy-ion collisions, linking SRC-induced high-momentum nucleons to the spectral hardening of <span class="inline-math">\(np \rightarrow np\gamma\)</span> emission.</li>
+      <li>Performed precision measurements of high-energy \(\gamma\) rays in symmetric \(^{124}\mathrm{Sn}+^{124}\mathrm{Sn}\) collisions at 25 MeV/u with the CSHINE detector system.</li>
+      <li>Contributed to the instrumentation and calibration of the CSHINE-Gamma CsI(Tl) hodoscope, including high-energy \(\gamma\)-ray response validation and detector-performance studies at SLEGS.</li>
+      <li>Developed the experimental analysis framework for rare bremsstrahlung \(\gamma\)-ray signals, including event reconstruction, background suppression, detector-response correction, and systematic validation.</li>
+      <li>Combined experimental data with IBUU-MDI transport-model calculations to extract the SRC-induced high-momentum-tail fraction in \(^{124}\mathrm{Sn}\): <span class="inline-math">\(R_{\mathrm{HMT}} = (20 \pm 3)\%\)</span>.</li>
+      <li>Developed Richardson-Lucy detector-response unfolding methods to reconstruct the original bremsstrahlung \(\gamma\)-ray spectrum for direct comparison with theoretical calculations.</li>
     </ul>
   </section>
 
@@ -107,7 +107,7 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
       </li>
       <li>
         <strong>J. Xu et al.</strong>, "Experimental study of bremsstrahlung gamma-ray emission and
-        short-range correlations in <sup>124</sup>Sn+<sup>124</sup>Sn collisions at 25 MeV/nucleon,"
+        short-range correlations in \(^{124}\mathrm{Sn}+^{124}\mathrm{Sn}\) collisions at 25 MeV/nucleon,"
         <a href="https://doi.org/10.1103/dhz2-nl56" target="_blank" rel="noopener">
           <em>Physical Review C</em> <strong>113</strong>, 044613 (2026).
         </a>
