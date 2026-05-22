@@ -77,10 +77,10 @@ redirect_from:
         <div class="research-card__content">
           <h3>Correlation Function Imaging</h3>
           <p>
-            I develop femtoscopic imaging methods to reconstruct freeze-out source distributions from
-            two-particle correlation functions in heavy-ion collisions. By combining Hanbury Brown-Twiss
-            interferometry with the Richardson-Lucy deblurring algorithm, this approach extracts real-space
-            source information without assuming a Gaussian shape.
+            Femtoscopic imaging reconstructs freeze-out source distributions from two-particle correlation
+            functions in heavy-ion collisions. In this work, I combine Hanbury Brown-Twiss interferometry with
+            the Richardson-Lucy deblurring algorithm to extract real-space source information without assuming
+            a Gaussian shape.
           </p>
           <p>
             Applied to proton and antiproton correlations in Au+Au collisions at
@@ -108,8 +108,9 @@ redirect_from:
             hidden source functions and original \(\gamma\)-ray spectra from experimentally blurred measurements.
           </p>
           <p>
-            This work highlights my experience in physics-informed reconstruction, large matrix computation,
-            iterative inference, and uncertainty quantification.
+            This work combines physics-informed reconstruction, large matrix computation, iterative inference,
+            and uncertainty quantification for extracting hidden physical distributions from experimentally
+            blurred observables.
           </p>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
