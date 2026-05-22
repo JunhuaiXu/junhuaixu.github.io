@@ -218,14 +218,18 @@ excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations.
       <li>
         <span class="publication-label">Primary work</span>
         <strong>J. Xu et al.</strong>, "Imaging Freeze-Out Sources and Extracting Strong Interaction Parameters
-        in Relativistic Heavy-Ion Collisions," <em>Chinese Physics Letters</em> <strong>42</strong>, 031401
-        (2025).
+        in Relativistic Heavy-Ion Collisions,"
+        <a href="https://doi.org/10.1088/0256-307X/42/3/031401" target="_blank" rel="noopener">
+          <em>Chinese Physics Letters</em> <strong>42</strong>, 031401 (2025).
+        </a>
       </li>
       <li>
         <span class="publication-label">Further extension</span>
         <strong>H. Zhang, J. Xu et al.</strong>, "Probing the three-dimensional emission source and neutron skin
-        via pion-pion correlations in heavy-ion collisions," <em>Physical Review C</em> <strong>113</strong>,
-        034904 (2026).
+        via \(\pi\)-\(\pi\) correlations in heavy-ion collisions,"
+        <a href="https://doi.org/10.1103/jdsn-p3v4" target="_blank" rel="noopener">
+          <em>Physical Review C</em> <strong>113</strong>, 034904 (2026).
+        </a>
       </li>
     </ol>
   </section>
