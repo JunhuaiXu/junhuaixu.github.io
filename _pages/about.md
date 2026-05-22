@@ -70,7 +70,7 @@ redirect_from:
       <a class="research-card research-card--teal" href="/research/atmospheric-neutrino-simulation/">
         <span class="research-card__index">02</span>
         <h3>Atmospheric Neutrino Simulation</h3>
-        <span class="status-pill">Details</span>
+        <span class="research-card__cta">Read More &rarr;</span>
       </a>
 
       <a class="research-card research-card--gold" href="/research/correlation-function-imaging/">
@@ -88,7 +88,7 @@ redirect_from:
             \(\sqrt{s_{NN}} = 200~\mathrm{GeV}\), the method reveals identical non-Gaussian freeze-out sources
             for matter and antimatter.
           </p>
-          <span class="status-pill">Details</span>
+          <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
     </div>
@@ -103,19 +103,19 @@ redirect_from:
       <a class="research-card research-card--purple" href="/ai/richardson-lucy-nuclear-physics/">
         <span class="research-card__index">01</span>
         <h3>Richardson-Lucy Reconstruction in Nuclear Physics</h3>
-        <span class="status-pill">Details</span>
+        <span class="research-card__cta">Read More &rarr;</span>
       </a>
 
       <a class="research-card research-card--teal" href="/ai/gnn-neutrino-reconstruction/">
         <span class="research-card__index">02</span>
         <h3>Graph Neural Networks for Neutrino Event Reconstruction</h3>
-        <span class="status-pill">Details</span>
+        <span class="research-card__cta">Read More &rarr;</span>
       </a>
 
       <a class="research-card research-card--gold" href="/ai/bayesian-filtering-engineering/">
         <span class="research-card__index">03</span>
         <h3>Bayesian Filtering Methods for Engineering Applications</h3>
-        <span class="status-pill">Details</span>
+        <span class="research-card__cta">Read More &rarr;</span>
       </a>
     </div>
   </section>
