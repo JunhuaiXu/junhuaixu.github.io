@@ -265,11 +265,6 @@ excerpt: "Bayesian deblurring, inverse problems, and physics-informed reconstruc
       <li>physics-informed reconstruction;</li>
       <li>comparison between unfolded data and theoretical models.</li>
     </ul>
-    <p>
-      This work demonstrates my ability to translate algorithms across domains: from optical deblurring to
-      femtoscopic source imaging and <span class="inline-math">\(\gamma\)</span>-ray spectrum unfolding in nuclear
-      physics.
-    </p>
   </section>
 
   <section class="detail-section">
