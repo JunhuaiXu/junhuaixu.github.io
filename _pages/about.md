@@ -60,9 +60,8 @@ redirect_from:
             My research develops hard bremsstrahlung \(\gamma\) rays in low-energy heavy-ion collisions as a clean
             probe of these short-range correlations. By combining precision \(\gamma\)-ray measurements with
             transport-model calculations, I extracted the SRC-induced high-momentum fraction in
-            \(^{124}\mathrm{Sn}\):
+            \(^{124}\mathrm{Sn}\) to be \(R_{\mathrm{HMT}} = (20 \pm 3)\%\).
           </p>
-          <p class="research-card__formula">\(R_{\mathrm{HMT}} = (20 \pm 3)\%\)</p>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
