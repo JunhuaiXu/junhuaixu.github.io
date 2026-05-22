@@ -802,3 +802,83 @@
     padding: 1rem 0.95rem;
   }
 }
+
+/* =========================
+   Final homepage balance fixes
+   ========================= */
+
+.home-section--physics .research-card__content p:not(.research-card__formula) {
+  display: block;
+  -webkit-line-clamp: unset;
+  -webkit-box-orient: initial;
+  overflow: visible;
+}
+
+.research-grid--equal {
+  align-items: start;
+}
+
+.home-section--physics .research-card {
+  min-height: 0;
+}
+
+.home-section--ai .research-card {
+  min-height: 185px;
+}
+
+.cv-list {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--jh-line);
+}
+
+.cv-list__item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: baseline;
+  padding: 0.72rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--jh-line);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.cv-list__item strong,
+.cv-list__item span {
+  display: block;
+}
+
+.cv-list__item strong {
+  color: var(--jh-ink);
+  font-size: 0.98em;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.cv-list__item span {
+  margin-top: 0.12rem;
+  color: var(--jh-muted);
+  font-size: 0.84em;
+}
+
+.cv-list__item time {
+  color: var(--jh-muted);
+  font-size: 0.84em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .cv-list__item {
+    display: block;
+    padding: 0.68rem 0;
+  }
+
+  .cv-list__item time {
+    display: block;
+    margin-top: 0.32rem;
+    white-space: normal;
+  }
+}
