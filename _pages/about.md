@@ -47,10 +47,24 @@ redirect_from:
     </div>
 
     <div class="research-grid">
-      <a class="research-card research-card--purple" href="/research/short-range-correlations/">
+      <a class="research-card research-card--featured research-card--purple" href="/research/short-range-correlations/">
         <span class="research-card__index">01</span>
-        <h3>Short-Range Correlations in Nuclei</h3>
-        <span class="status-pill">Details</span>
+        <div class="research-card__content">
+          <h3>Short-Range Correlations in Nuclei</h3>
+          <p>
+            Atomic nuclei are not simple collections of independent nucleons. At very short distances,
+            protons and neutrons can form strongly correlated pairs, generating high-momentum nucleons beyond
+            the traditional mean-field picture.
+          </p>
+          <p>
+            My research develops hard bremsstrahlung &gamma; rays in low-energy heavy-ion collisions as a clean
+            probe of these short-range correlations. By combining precision &gamma;-ray measurements with
+            transport-model calculations, I extracted the SRC-induced high-momentum fraction in
+            <sup>124</sup>Sn:
+          </p>
+          <p class="research-card__formula">R<sub>HMT</sub> = (20 &plusmn; 3)%</p>
+          <span class="research-card__cta">Read More &rarr;</span>
+        </div>
       </a>
 
       <a class="research-card research-card--teal" href="/research/atmospheric-neutrino-simulation/">

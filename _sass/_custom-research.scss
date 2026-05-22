@@ -290,6 +290,33 @@
   color: var(--jh-blue);
 }
 
+.research-card--featured {
+  align-items: start;
+  grid-template-columns: 3.5rem minmax(0, 1fr);
+  padding: 0.6rem 0 0.8rem;
+}
+
+.research-card__content p {
+  max-width: 760px;
+  margin: 0.42rem 0 0;
+  color: var(--jh-muted);
+  font-size: 0.94em !important;
+  line-height: 1.58;
+}
+
+.research-card__formula {
+  color: var(--jh-ink) !important;
+  font-size: 0.96em !important;
+}
+
+.research-card__cta {
+  display: inline-block;
+  margin-top: 0.55rem;
+  color: var(--jh-blue);
+  font-size: 0.88em;
+  font-weight: 400;
+}
+
 .research-card__index {
   color: #8d98aa;
   font-size: 0.8em;
