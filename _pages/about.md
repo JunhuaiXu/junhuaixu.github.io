@@ -168,6 +168,20 @@ redirect_from:
 
       <div class="experience-item">
         <div class="experience-item__content">
+          <h3>TRIDENT Collaboration</h3>
+          <p>
+            Contributed to simulation studies for the TRIDENT deep-sea neutrino telescope array, evaluating its
+            potential for atmospheric-neutrino oscillation parameter measurements.
+          </p>
+        </div>
+        <div class="experience-item__meta">
+          <span>Shanghai, China</span>
+          <time>2024-present</time>
+        </div>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-item__content">
           <h3>S&pi;RIT Experiment</h3>
           <p>
             Supported detector operation and electronics control during SAMURAI beam time at RIKEN,
