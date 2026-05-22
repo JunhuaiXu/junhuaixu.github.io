@@ -959,3 +959,43 @@
 .cv-list__item time {
   font-size: 0.83em;
 }
+
+/* =========================
+   AI section separation
+   ========================= */
+
+.home-section--ai {
+  margin-top: 4.1rem;
+  padding: 0;
+  border-left: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.home-section--ai .section-heading {
+  margin-bottom: 1rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--jh-line);
+}
+
+.home-section--ai .section-heading::before {
+  display: block;
+  background: var(--jh-blue);
+}
+
+.home-section--ai .research-grid {
+  padding: 1.2rem 1.15rem 1.25rem;
+  border-left: 3px solid var(--jh-blue);
+  border-radius: 8px;
+  background: #f7f9fc;
+}
+
+@media (max-width: 640px) {
+  .home-section--ai {
+    margin-top: 3.2rem;
+  }
+
+  .home-section--ai .research-grid {
+    padding: 0.95rem 0.85rem 1rem;
+  }
+}
