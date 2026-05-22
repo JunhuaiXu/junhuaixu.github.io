@@ -130,6 +130,53 @@ redirect_from:
     </div>
   </section>
 
+  <section id="experiments" class="home-section home-section--experiments">
+    <div class="section-heading">
+      <p class="section-kicker">Experiments &amp; Collaborations</p>
+    </div>
+
+    <div class="experience-list">
+      <div class="experience-item">
+        <div class="experience-item__content">
+          <h3>CSHINE Experiment</h3>
+          <p>
+            Heavy-ion collision experiment for high-energy \(\gamma\)-ray measurement, detector response,
+            and short-range-correlation studies.
+          </p>
+        </div>
+        <div class="experience-item__meta">
+          <span>Lanzhou, China</span>
+          <time>2024</time>
+        </div>
+      </div>
+
+      <a class="experience-item experience-item--link" href="/experiments/slegs-beam-test-ssrf/">
+        <div class="experience-item__content">
+          <h3>SLEGS Beam Test at SSRF</h3>
+          <p>
+            CsI(Tl) \(\gamma\)-ray response calibration and detector-performance validation using laser-Compton
+            \(\gamma\) beams.
+          </p>
+          <span class="research-card__cta">Read More &rarr;</span>
+        </div>
+        <div class="experience-item__meta">
+          <span>Shanghai, China</span>
+          <time>Jan. 2025</time>
+        </div>
+      </a>
+
+      <div class="experience-item">
+        <div class="experience-item__content">
+          <h3>S&pi;RIT Experiment</h3>
+        </div>
+        <div class="experience-item__meta">
+          <span>RIKEN, Japan</span>
+          <time>2024</time>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="education" class="home-section">
     <div class="section-heading">
       <p class="section-kicker">Education</p>
