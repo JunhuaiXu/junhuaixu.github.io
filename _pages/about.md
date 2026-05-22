@@ -169,6 +169,10 @@ redirect_from:
       <div class="experience-item">
         <div class="experience-item__content">
           <h3>S&pi;RIT Experiment</h3>
+          <p>
+            Supported detector operation and electronics control during SAMURAI beam time at RIKEN,
+            contributing to stable data taking and run coordination in the S&pi;RIT collaboration.
+          </p>
         </div>
         <div class="experience-item__meta">
           <span>RIKEN, Japan</span>
