@@ -8,7 +8,7 @@ excerpt: "Bayesian deblurring, inverse problems, and physics-informed reconstruc
 
 <div class="research-detail research-story">
   <section class="detail-hero">
-    <p class="section-kicker">AI &amp; Machine Learning / Scientific Computing / Inverse Problems</p>
+    <p class="section-kicker">AI &amp; Computational Methods</p>
     <h1>Richardson-Lucy Reconstruction in Nuclear Physics</h1>
     <p class="detail-subtitle">Bayesian deblurring, inverse problems, and physics-informed reconstruction</p>
   </section>
@@ -314,6 +314,6 @@ excerpt: "Bayesian deblurring, inverse problems, and physics-informed reconstruc
   </section>
 
   <div class="detail-actions">
-    <a class="home-button" href="/#ai-methods">Back to AI &amp; ML</a>
+    <a class="home-button" href="/#ai-methods">Back to AI &amp; Computational Methods</a>
   </div>
 </div>

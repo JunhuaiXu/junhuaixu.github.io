@@ -95,7 +95,7 @@ redirect_from:
 
   <section id="ai-methods" class="home-section home-section--ai">
     <div class="section-heading">
-      <p class="section-kicker">AI &amp; Machine Learning / Scientific Computing / Inverse Problems</p>
+      <p class="section-kicker">AI &amp; Computational Methods</p>
     </div>
 
     <div class="research-grid research-grid--equal">
