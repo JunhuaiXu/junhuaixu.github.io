@@ -20,8 +20,8 @@ excerpt: "High-energy gamma-ray response calibration of CsI(Tl) crystals for CSH
   <figure class="detail-figure">
     <img src="/assets/images/slegs-beam-test/slegs-team-photo.jpg" alt="SLEGS beam test team photo">
     <figcaption>
-      SLEGS beam test at the Shanghai Synchrotron Radiation Facility. This experiment provided a direct
-      high-energy \(\gamma\)-ray calibration benchmark for the CsI(Tl)-based CSHINE-Gamma hodoscope.
+      Figure 1. SLEGS beam test at the Shanghai Synchrotron Radiation Facility. This experiment provided a
+      direct high-energy \(\gamma\)-ray calibration benchmark for the CsI(Tl)-based CSHINE-Gamma hodoscope.
     </figcaption>
   </figure>
 
@@ -63,11 +63,12 @@ excerpt: "High-energy gamma-ray response calibration of CsI(Tl) crystals for CSH
     </p>
   </section>
 
-  <figure class="detail-figure detail-figure--placeholder">
-    <div class="detail-figure__placeholder">SLEGS beamline setup schematic</div>
+  <figure class="detail-figure">
+    <img src="/assets/images/slegs-beam-test/SLEGShardware.jpg" alt="Experimental setup at the SLEGS beamline">
     <figcaption>
-      Schematic of the SLEGS beamline setup. The quasi-monochromatic \(\gamma\) beam is measured with a reference
-      BGO detector, while the CsI(Tl) detector is placed along the beamline for response calibration.
+      Figure 2. Experimental setup at the SLEGS beamline. The CsI(Tl) detector was placed along the
+      quasi-monochromatic \(\gamma\)-ray beamline, with the BGO detector used as a reference for beam-energy
+      characterization.
     </figcaption>
   </figure>
 
@@ -90,27 +91,28 @@ excerpt: "High-energy gamma-ray response calibration of CsI(Tl) crystals for CSH
   <section class="detail-section">
     <h2>Analysis Strategy</h2>
     <p>
-      The analysis combined experimental spectra with Geant4 detector-response simulations. For each beam
-      energy, the original \(\gamma\)-ray energy profile was first obtained using the calibrated BGO detector.
-      This beam profile was then used as the input to Geant4 simulations of the CsI(Tl) crystal.
+      The analysis connected beam characterization, detector readout, and Geant4 detector-response modeling.
+      For each beam setting, the original \(\gamma\)-ray energy profile was first obtained using the calibrated
+      BGO detector. This beam profile was then used as the input to Geant4 simulations of the CsI(Tl) crystal.
     </p>
     <p>
-      The simulated CsI(Tl) response spectra account for energy leakage, finite energy resolution, and the
-      detector geometry. By comparing the simulated response with the measured CsI(Tl) spectra, the peak
-      positions of the detector response were extracted and used to construct the high-energy calibration curve.
+      The detector-response model accounts for energy leakage, finite energy resolution, and the actual detector
+      geometry. By comparing the simulated response spectra with the measured CsI(Tl) spectra, the peak positions
+      of the detector response were extracted and used to construct the high-energy calibration curve.
     </p>
     <p>
-      Both linear and quadratic fits were applied to the calibration points. The difference between these fits was
-      used to evaluate the possible non-linearity of the CsI(Tl) response and its contribution to the systematic
-      uncertainty of high-energy \(\gamma\)-ray measurements.
+      This data-simulation comparison was the central validation step: it showed that the calibration did not
+      rely only on hardware readout, but also on a detector-response model that can be propagated into the
+      CSHINE-Gamma analysis. Linear and nonlinear calibration descriptions were then compared to evaluate the
+      possible non-linearity of the CsI(Tl) response.
     </p>
   </section>
 
-  <figure class="detail-figure detail-figure--placeholder">
-    <div class="detail-figure__placeholder">CsI(Tl) response spectra and Geant4 simulations</div>
+  <figure class="detail-figure">
+    <img src="/assets/images/slegs-beam-test/Geant4simvsm.jpg" alt="Comparison between measured CsI response spectra and Geant4 simulations">
     <figcaption>
-      Comparison between measured CsI(Tl) response spectra and Geant4 simulations. The agreement validates the
-      detector-response model used for high-energy \(\gamma\)-ray calibration.
+      Figure 3. Comparison between measured CsI(Tl) response spectra and Geant4 simulations, validating the
+      detector-response model used for calibration.
     </figcaption>
   </figure>
 
@@ -118,14 +120,13 @@ excerpt: "High-energy gamma-ray response calibration of CsI(Tl) crystals for CSH
     <h2>Main Result</h2>
     <p>
       The beam-test results show that the CsI(Tl) crystals exhibit a good linear response to \(\gamma\) rays
-      below 20 MeV. The quadratic contribution to the calibration curve is statistically insignificant for the
-      tested detector units, and the relative contribution of the quadratic term is at the level of approximately
-      2.6%-4.5%.
+      below 20 MeV. The calibration points extracted from the data-simulation comparison are well described by a
+      linear response, while the nonlinear contribution remains statistically small for the tested detector units.
     </p>
     <p>
-      The comparison between linear and quadratic calibration schemes indicates that the possible non-linearity
-      of the CsI(Tl) response introduces a systematic uncertainty at the level of about 4%. This uncertainty was
-      then propagated to the reconstructed \(\gamma\)-ray spectra in CSHINE heavy-ion experiments.
+      The difference between linear and nonlinear calibration descriptions remains at the few-percent level,
+      corresponding to a systematic uncertainty of about 4% for the high-energy \(\gamma\)-ray calibration. This
+      uncertainty was then propagated to the reconstructed \(\gamma\)-ray spectra in CSHINE heavy-ion experiments.
     </p>
     <div class="result-box">
       <span class="result-box__label">Key Result</span>
@@ -137,12 +138,11 @@ excerpt: "High-energy gamma-ray response calibration of CsI(Tl) crystals for CSH
     </div>
   </section>
 
-  <figure class="detail-figure detail-figure--placeholder">
-    <div class="detail-figure__placeholder">CsI(Tl) linearity test below 20 MeV</div>
+  <figure class="detail-figure">
+    <img src="/assets/images/slegs-beam-test/caliresult.jpg" alt="Linearity test of CsI(Tl) detectors below 20 MeV">
     <figcaption>
-      Linearity test of CsI(Tl) detectors. Linear and quadratic fits to the high-energy \(\gamma\)-ray response
-      are consistent within a few percent, supporting the use of a linear calibration scheme with quantified
-      systematic uncertainty.
+      Figure 4. Linearity test of CsI(Tl) detectors below 20 MeV. The difference between linear and nonlinear
+      calibration descriptions remains at the few-percent level.
     </figcaption>
   </figure>
 
