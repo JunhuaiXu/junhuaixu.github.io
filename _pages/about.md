@@ -154,8 +154,9 @@ redirect_from:
         <div class="experience-item__content">
           <h3>SLEGS Beam Test at SSRF</h3>
           <p>
-            CsI(Tl) \(\gamma\)-ray response calibration and detector-performance validation using laser-Compton
-            \(\gamma\) beams.
+            High-energy \(\gamma\)-ray response calibration of CsI(Tl) crystals at SLEGS/SSRF, combining
+            quasi-monochromatic photon beams, detector readout, and Geant4 simulations to validate
+            CSHINE-Gamma performance.
           </p>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
