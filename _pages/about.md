@@ -14,18 +14,19 @@ redirect_from:
     <p class="home-lead">
       Hi, I am a Ph.D. candidate at the Department of Physics, Tsinghua University, advised by Prof.
       <a href="https://inspirehep.net/authors/1062622" target="_blank" rel="noopener">Zhigang Xiao</a>.
-      My research spans short-range correlations in nuclei, atmospheric neutrino simulation, and
-      correlation-function imaging. Across these topics, I focus on detector response characterization, event
-      reconstruction, and extracting physical observables from complex experimental data, while extending AI and
-      machine learning methods to physics and engineering problems.
+      My research spans short-range correlations in nuclei, atmospheric-neutrino simulation for deep-sea neutrino
+      telescopes, and correlation-function imaging in heavy-ion collisions. My work combines experimental
+      nuclear and particle physics with detector calibration, response simulation, event reconstruction, and
+      computational analysis, with growing applications of machine learning to neutrino reconstruction and
+      scientific computing.
     </p>
     <div class="research-vision">
       <p class="research-vision__title">Research Vision</p>
       <p>
-        I am interested in using computational reconstruction methods to reveal physical information hidden in
-        complex experimental data. My work connects detector response modeling, inverse problems, statistical
-        inference, and machine learning, with the goal of building physics-informed analysis frameworks for
-        modern data-intensive experiments.
+        My long-term goal is to develop interpretable, physics-constrained AI-for-science frameworks for
+        extracting hidden physical information from complex experimental data. These frameworks combine
+        inverse-problem formulations, statistical inference, and machine-learning reconstruction while remaining
+        grounded in detector physics and experimental validation.
       </p>
     </div>
     <!-- <a class="home-button" href="/assets/CV_JunhuaiXu.pdf" target="_blank" rel="noopener">Curriculum Vitae</a> -->
