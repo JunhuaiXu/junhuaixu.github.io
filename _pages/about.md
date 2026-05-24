@@ -19,6 +19,15 @@ redirect_from:
       reconstruction, and extracting physical observables from complex experimental data, while extending AI and
       machine learning methods to physics and engineering problems.
     </p>
+    <div class="research-vision">
+      <p class="research-vision__title">Research Vision</p>
+      <p>
+        I am interested in using computational reconstruction methods to reveal physical information hidden in
+        complex experimental data. My work connects detector response modeling, inverse problems, statistical
+        inference, and machine learning, with the goal of building physics-informed analysis frameworks for
+        modern data-intensive experiments.
+      </p>
+    </div>
     <!-- <a class="home-button" href="/assets/CV_JunhuaiXu.pdf" target="_blank" rel="noopener">Curriculum Vitae</a> -->
   </section>
 

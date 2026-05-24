@@ -1233,3 +1233,36 @@
     white-space: normal;
   }
 }
+
+/* =========================
+   Research vision
+   ========================= */
+
+.research-vision {
+  max-width: 820px;
+  margin-top: 1.05rem;
+  padding-left: 0.95rem;
+  border-left: 2px solid rgba(91, 63, 140, 0.22);
+}
+
+.research-vision__title {
+  margin: 0 0 0.28rem;
+  color: var(--jh-purple);
+  font-size: 0.86em !important;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.research-vision p:not(.research-vision__title) {
+  margin: 0;
+  color: var(--jh-muted);
+  font-size: 0.94em !important;
+  line-height: 1.58;
+}
+
+@media (max-width: 640px) {
+  .research-vision {
+    margin-top: 0.9rem;
+    padding-left: 0.78rem;
+  }
+}
