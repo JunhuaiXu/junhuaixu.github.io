@@ -12,21 +12,25 @@ redirect_from:
   <section id="about" class="home-hero">
     <p class="home-kicker">About Me</p>
     <p class="home-lead">
-      Hi, I am a Ph.D. candidate at the Department of Physics, Tsinghua University, advised by Prof.
-      <a href="https://inspirehep.net/authors/1062622" target="_blank" rel="noopener">Zhigang Xiao</a>.
-      My research spans short-range correlations in nuclei, atmospheric-neutrino simulation for deep-sea neutrino
-      telescopes, and correlation-function imaging in heavy-ion collisions. My work combines experimental
-      nuclear and particle physics with detector calibration, response simulation, event reconstruction, and
-      computational analysis, with growing applications of machine learning to neutrino reconstruction and
-      scientific computing.
+      Hi, I am a Ph.D. candidate in the Department of Physics at <strong>Tsinghua University</strong>, advised by
+      Prof. <a href="https://inspirehep.net/authors/1062622" target="_blank" rel="noopener"><strong>Zhigang Xiao</strong></a>.
+      My research lies at the intersection of <strong>experimental nuclear and particle physics</strong>,
+      <strong>detector instrumentation</strong>, and <strong>scientific computing</strong>.
+    </p>
+    <p class="home-lead">
+      My work spans short-range correlations in nuclei, atmospheric-neutrino simulations for deep-sea neutrino
+      telescopes, and correlation-function imaging in heavy-ion collisions. Across these projects, I integrate
+      detector calibration, response simulation, event reconstruction, and computational analysis, while extending
+      machine-learning methods to neutrino reconstruction and <strong>inverse problems in physics</strong>.
     </p>
     <div class="research-vision">
       <p class="research-vision__title">Research Vision</p>
       <p>
-        My long-term goal is to develop interpretable, physics-constrained AI-for-science frameworks for
-        extracting hidden physical information from complex experimental data. These frameworks combine
-        inverse-problem formulations, statistical inference, and machine-learning reconstruction while remaining
-        grounded in detector physics and experimental validation.
+        My long-term goal is to develop <strong>interpretable, physics-informed AI-for-science frameworks</strong>
+        for extracting hidden physical information from complex experimental data. By bridging
+        <strong>inverse-problem formulations</strong>, statistical inference, and machine-learning reconstruction
+        with rigorous detector physics, I aim to build data-driven discovery tools grounded in
+        <strong>experimental validation</strong>.
       </p>
     </div>
     <!-- <a class="home-button" href="/assets/CV_JunhuaiXu.pdf" target="_blank" rel="noopener">Curriculum Vitae</a> -->
