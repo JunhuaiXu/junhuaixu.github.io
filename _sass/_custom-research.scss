@@ -1158,3 +1158,78 @@
     white-space: normal;
   }
 }
+
+/* =========================
+   Compact CV list
+   ========================= */
+
+.cv-list {
+  display: grid;
+  gap: 0.34rem;
+  margin: 0;
+  padding: 0;
+  border-top: 0;
+  list-style: none;
+}
+
+.cv-list__item {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.85rem;
+  align-items: baseline;
+  padding: 0.08rem 0 0.08rem 0.92rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: var(--jh-muted);
+  font-size: 0.94em;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.cv-list__item::before {
+  content: "";
+  position: absolute;
+  top: 0.72em;
+  left: 0.18rem;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--jh-purple);
+  opacity: 0.55;
+}
+
+.cv-list__text,
+.cv-list__item strong,
+.cv-list__item span {
+  display: inline;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.cv-list__item time {
+  color: var(--jh-muted);
+  font-size: 0.92em;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .cv-list {
+    gap: 0.42rem;
+  }
+
+  .cv-list__item {
+    display: block;
+    padding: 0.08rem 0 0.08rem 0.9rem;
+  }
+
+  .cv-list__item time {
+    display: inline;
+    margin-left: 0.35rem;
+    white-space: normal;
+  }
+}

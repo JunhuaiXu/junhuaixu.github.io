@@ -201,22 +201,16 @@ redirect_from:
       <p class="section-kicker">Education</p>
     </div>
 
-    <div class="cv-list">
-      <div class="cv-list__item">
-        <div>
-          <strong>Ph.D. Student in Physics</strong>
-          <span>Tsinghua University</span>
-        </div>
+    <ul class="cv-list">
+      <li class="cv-list__item">
+        <span class="cv-list__text">Ph.D. Student in Physics, Tsinghua University</span>
         <time>2022 - Present</time>
-      </div>
-      <div class="cv-list__item">
-        <div>
-          <strong>Bachelor of Science</strong>
-          <span>South China Normal University</span>
-        </div>
+      </li>
+      <li class="cv-list__item">
+        <span class="cv-list__text">Bachelor of Science, South China Normal University</span>
         <time>2018 - 2022</time>
-      </div>
-    </div>
+      </li>
+    </ul>
   </section>
 
   <section id="awards" class="home-section">
@@ -224,43 +218,28 @@ redirect_from:
       <p class="section-kicker">Selected Awards</p>
     </div>
 
-    <div class="cv-list">
-      <div class="cv-list__item">
-        <div>
-          <strong>First-class Comprehensive Scholarship</strong>
-          <span>Tsinghua University</span>
-        </div>
+    <ul class="cv-list">
+      <li class="cv-list__item">
+        <span class="cv-list__text">First-class Comprehensive Scholarship, Tsinghua University</span>
         <time>2025</time>
-      </div>
-      <div class="cv-list__item">
-        <div>
-          <strong>Second-class Comprehensive Scholarship</strong>
-          <span>Tsinghua University</span>
-        </div>
+      </li>
+      <li class="cv-list__item">
+        <span class="cv-list__text">Second-class Comprehensive Scholarship, Tsinghua University</span>
         <time>2024</time>
-      </div>
-      <div class="cv-list__item">
-        <div>
-          <strong>Outstanding Teaching Assistant</strong>
-          <span>Tsinghua University</span>
-        </div>
+      </li>
+      <li class="cv-list__item">
+        <span class="cv-list__text">Outstanding Teaching Assistant, Tsinghua University</span>
         <time>2024</time>
-      </div>
-      <div class="cv-list__item">
-        <div>
-          <strong>Third Prize, National Undergraduate Math Competition Final Round</strong>
-          <span>Non-Math Major</span>
-        </div>
+      </li>
+      <li class="cv-list__item">
+        <span class="cv-list__text">Third Prize, National Undergraduate Math Competition Final Round, Non-Math Major</span>
         <time>2021</time>
-      </div>
-      <div class="cv-list__item">
-        <div>
-          <strong>First Prize, China Undergraduate Mathematical Contest in Modeling</strong>
-          <span>CUMCM</span>
-        </div>
+      </li>
+      <li class="cv-list__item">
+        <span class="cv-list__text">First Prize, China Undergraduate Mathematical Contest in Modeling, CUMCM</span>
         <time>2020</time>
-      </div>
-    </div>
+      </li>
+    </ul>
   </section>
 
   <div class="visitor-map" aria-label="Visitor map">
