@@ -36,7 +36,6 @@ redirect_from:
     <!-- <a class="home-button" href="/assets/CV_JunhuaiXu.pdf" target="_blank" rel="noopener">Curriculum Vitae</a> -->
   </section>
 
-  {% comment %}
   {% if site.data.news %}
   <section id="news" class="home-section home-section--compact">
     <div class="section-heading">
@@ -53,7 +52,6 @@ redirect_from:
     </div>
   </section>
   {% endif %}
-  {% endcomment %}
 
   <section id="physics-research" class="home-section home-section--physics">
     <div class="section-heading">
