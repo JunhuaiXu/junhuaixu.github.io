@@ -248,6 +248,11 @@
   padding: 0.3rem 0;
 }
 
+.news-item__meta {
+  display: grid;
+  gap: 0.12rem;
+}
+
 .news-item time {
   color: var(--jh-purple);
   font-size: 0.88em;
@@ -255,8 +260,10 @@
   white-space: nowrap;
 }
 
-.news-item time::after {
-  content: ":";
+.news-item__meta span {
+  color: var(--jh-muted);
+  font-size: 0.78em;
+  line-height: 1.25;
 }
 
 .news-item p {

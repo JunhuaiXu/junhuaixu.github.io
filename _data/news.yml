@@ -1,3 +1,4 @@
 # Add the newest item first. The text field supports simple Markdown links.
 - date: "May 29-31, 2026"
-  text: "Upcoming talk at the 7th TRIDENT Collaboration Meeting in Sanya, Hainan: **Simulation of Atmospheric Neutrinos with a Compact Underwater Neutrino Telescope**."
+  location: "Sanya, Hainan"
+  text: "Upcoming talk at the 7th TRIDENT Collaboration Meeting: **Simulation of Atmospheric Neutrinos with a Compact Underwater Neutrino Telescope**."

@@ -45,7 +45,12 @@ redirect_from:
     <div class="news-list">
       {% for item in site.data.news limit:5 %}
         <div class="news-item">
-          <time>{{ item.date }}</time>
+          <div class="news-item__meta">
+            <time>{{ item.date }}</time>
+            {% if item.location %}
+              <span>{{ item.location }}</span>
+            {% endif %}
+          </div>
           <p>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</p>
         </div>
       {% endfor %}
