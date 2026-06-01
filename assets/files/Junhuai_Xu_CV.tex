@@ -58,38 +58,37 @@
 {\color{accent}\hrule height 1.0pt}
 
 \cvsection{Profile}
-Experimental nuclear and particle physicist working at the intersection of detector instrumentation,
-scientific computing, and physics-informed reconstruction. My research spans short-range correlations in
-nuclei, atmospheric-neutrino simulations for deep-sea neutrino telescopes, and correlation-function imaging
-in heavy-ion collisions. I develop analysis workflows that connect detector calibration, response simulation,
-event reconstruction, inverse problems, statistical inference, and machine-learning methods.
+Ph.D. candidate in experimental nuclear and particle physics, working across detector instrumentation,
+scientific computing, and physics-informed reconstruction. I develop analysis workflows that connect detector
+calibration, response simulation, event reconstruction, inverse problems, statistical inference, and
+machine-learning methods for nuclear and neutrino experiments.
 
 \cvsection{Research Experience}
 \entry{Nucleon Short-Range Correlations}{Oct. 2023 -- Present}{CSHINE Experiment, RIBLL-1 (HIRFL), Lanzhou, China}
 \begin{itemize}[leftmargin=1.25em,itemsep=1pt,topsep=2pt]
-  \item Developed calibration and detector-response models for the CsI(Tl) $\gamma$-ray hodoscope used in hard-$\gamma$ measurements from low-energy heavy-ion collisions.
-  \item Implemented Richardson--Lucy deconvolution of bremsstrahlung spectra and quantified reconstruction and systematic uncertainties through pseudo-experiments and closure tests.
-  \item Constrained IBUU-MDI transport calculations using high-statistics $\gamma$ spectra of ${}^{124}$Sn+${}^{124}$Sn at 25 MeV/u, extracting an SRC-induced high-momentum-tail fraction of $(20 \pm 3)\%$ in ${}^{124}$Sn nuclei.
+  \item Extracted the SRC-induced high-momentum-tail fraction in ${}^{124}$Sn, \(R_{\mathrm{HMT}}=(20\pm3)\%\), by comparing precision hard-$\gamma$ spectra with detector-filtered IBUU-MDI transport calculations.
+  \item Developed calibration and detector-response models for the CsI(Tl) $\gamma$-ray hodoscope used in bremsstrahlung measurements from low-energy heavy-ion collisions.
+  \item Implemented Richardson--Lucy spectrum unfolding and quantified reconstruction/systematic uncertainties through pseudo-experiments, closure tests, and consistency checks.
 \end{itemize}
 
 \entry{Correlation Function Imaging}{Feb. 2024 -- Present}{Tsinghua University, Department of Physics}
 \begin{itemize}[leftmargin=1.25em,itemsep=1pt,topsep=2pt]
-  \item Developed a Richardson--Lucy imaging framework for femtoscopic two-particle correlations to reconstruct freeze-out source distributions beyond Gaussian parameterizations.
-  \item Applied $pp$ and $\bar{p}\bar{p}$ correlations in Au+Au collisions at $\sqrt{s_{NN}}=200$ GeV to infer non-Gaussian source functions and constrain strong-interaction parameters.
-  \item Extended the approach toward three-dimensional source imaging with reproducible fit, resampling, and validation workflows for collaboration analyses.
+  \item Developed a Richardson--Lucy imaging framework for femtoscopic two-particle correlations, reconstructing freeze-out source distributions without assuming a Gaussian source shape.
+  \item Reconstructed identical non-Gaussian source functions for $pp$ and $\bar{p}\bar{p}$ correlations in Au+Au collisions at $\sqrt{s_{NN}}=200$ GeV, providing coordinate-space evidence for matter--antimatter symmetry at freeze-out.
+  \item Extended the imaging strategy toward three-dimensional source reconstruction with reproducible fit, resampling, and validation workflows for collaboration analyses.
 \end{itemize}
 
 \entry{Deep-Sea Neutrino Detection}{Jun. 2024 -- Present}{TRIDENT Collaboration}
 \begin{itemize}[leftmargin=1.25em,itemsep=1pt,topsep=2pt]
-  \item Built an atmospheric-neutrino simulation chain combining HONDA fluxes, FLUKA interactions, and Geant4 detector transport to generate labeled detector-response datasets for a compact TRIDENT array.
-  \item Developed graph-neural-network reconstruction of event class, direction, and energy from simulated detector responses, and benchmarked performance for oscillation analyses.
-  \item Performed oscillation-parameter sensitivity studies using Poisson-sampled pseudo-experiments and spectral comparisons across parameter hypotheses.
+  \item Built an atmospheric-neutrino simulation-to-reconstruction chain combining HONDA fluxes, FLUKA interactions, and Geant4 detector transport for a compact TRIDENT array.
+  \item Developed graph-neural-network reconstruction of event class, direction, and energy from simulated detector responses, benchmarking performance for oscillation analyses.
+  \item Evaluated atmospheric-neutrino oscillation-parameter sensitivity using Poisson-sampled pseudo-experiments and spectral comparisons across parameter hypotheses.
 \end{itemize}
 
 \cvsection{Experimental Experience}
 \begin{itemize}[leftmargin=1.25em,itemsep=2pt,topsep=2pt]
-  \item \textbf{CSHINE Experiment} (Lanzhou, China, 2024): high-energy $\gamma$-ray measurements, detector response, and SRC studies in low-energy heavy-ion collisions.
-  \item \textbf{SLEGS Beam Test at SSRF} (Shanghai, China, Jan. 2025): high-energy $\gamma$-ray response calibration of CsI(Tl) crystals using quasi-monochromatic photon beams and Geant4 simulations.
+  \item \textbf{CSHINE Experiment} (Lanzhou, China, 2024): participated in beam-time data taking and high-energy $\gamma$-ray measurements with the CSHINE detector system.
+  \item \textbf{SLEGS Beam Test at SSRF} (Shanghai, China, Jan. 2025): performed high-energy $\gamma$-ray response calibration of CsI(Tl) crystals using quasi-monochromatic photon beams and Geant4 simulations.
   \item \textbf{S$\pi$RIT Experiment} (RIKEN, Japan, 2024): supported detector operation and electronics control during SAMURAI beam time, contributing to stable data taking and run coordination.
 \end{itemize}
 
@@ -110,11 +109,11 @@ GPA: 4.06/5.00; Rank: 1/137. Thesis: \textit{A Study of the Nuclear Medium Effec
 \cvsection{Selected Publications}
 {\small A complete publication list is available separately on my personal website.}
 \begin{itemize}[leftmargin=1.25em,itemsep=2pt,topsep=3pt]
-  \item \textbf{Xu, J.} \textit{et al.}, ``Precise measurement of short-range correlations in nuclei from bremsstrahlung gamma-ray emission in low-energy heavy-ion collisions,'' \textbf{\textit{Phys. Rev. Res.}} \textbf{7}, 043174 (2025).
-  \item \textbf{Xu, J.} \textit{et al.}, ``Experimental study of bremsstrahlung $\gamma$-ray emission and short-range correlations in ${}^{124}$Sn+${}^{124}$Sn collisions at 25 MeV/nucleon,'' \textbf{\textit{Phys. Rev. C}} \textbf{113}, 044613 (2026).
-  \item \textbf{Xu, J.} \textit{et al.}, ``Reconstruction of Bremsstrahlung $\gamma$-rays spectrum in heavy ion reactions with Richardson-Lucy algorithm,'' \textbf{\textit{Phys. Lett. B}} \textbf{857}, 139009 (2024).
-  \item \textbf{Xu, J.} \textit{et al.}, ``Imaging Freeze-Out Sources and Extracting Strong Interaction Parameters in Relativistic Heavy-Ion Collisions,'' \textbf{\textit{Chin. Phys. Lett.}} \textbf{42}, 031401 (2025).
-  \item \textbf{Xu, J.} \textit{et al.}, ``Linear response of CsI(Tl) crystal to energetic photons below 20 MeV,'' \textbf{\textit{Nucl. Instrum. Meth. A}} \textbf{1080}, 170787 (2025).
+  \item \textbf{Xu, J.} \textit{et al.}, ``Precise measurement of short-range correlations in nuclei from bremsstrahlung gamma-ray emission in low-energy heavy-ion collisions,'' \href{https://doi.org/10.1103/jw1p-36pb}{\textbf{\textit{Phys. Rev. Res.}} \textbf{7}, 043174 (2025)}.
+  \item \textbf{Xu, J.} \textit{et al.}, ``Experimental study of bremsstrahlung $\gamma$-ray emission and short-range correlations in ${}^{124}$Sn+${}^{124}$Sn collisions at 25 MeV/nucleon,'' \href{https://doi.org/10.1103/dhz2-nl56}{\textbf{\textit{Phys. Rev. C}} \textbf{113}, 044613 (2026)}.
+  \item \textbf{Xu, J.} \textit{et al.}, ``Reconstruction of Bremsstrahlung $\gamma$-rays spectrum in heavy ion reactions with Richardson-Lucy algorithm,'' \href{https://doi.org/10.1016/j.physletb.2024.139009}{\textbf{\textit{Phys. Lett. B}} \textbf{857}, 139009 (2024)}.
+  \item \textbf{Xu, J.} \textit{et al.}, ``Imaging Freeze-Out Sources and Extracting Strong Interaction Parameters in Relativistic Heavy-Ion Collisions,'' \href{https://doi.org/10.1088/0256-307X/42/3/031401}{\textbf{\textit{Chin. Phys. Lett.}} \textbf{42}, 031401 (2025)}.
+  \item \textbf{Xu, J.} \textit{et al.}, ``Linear response of CsI(Tl) crystal to energetic photons below 20 MeV,'' \href{https://doi.org/10.1016/j.nima.2025.170787}{\textbf{\textit{Nucl. Instrum. Meth. A}} \textbf{1080}, 170787 (2025)}.
 \end{itemize}
 
 \cvsection{Awards}
@@ -122,7 +121,8 @@ GPA: 4.06/5.00; Rank: 1/137. Thesis: \textit{A Study of the Nuclear Medium Effec
   \item First-class Comprehensive Scholarship, Tsinghua University (2025).
   \item Second-class Comprehensive Scholarship, Tsinghua University (2024).
   \item Outstanding Teaching Assistant, Tsinghua University (2024).
-  \item First Prize, China Undergraduate Mathematical Contest in Modeling (CUMCM, 2020); Third Prize, National Undergraduate Mathematics Competition Final Round, Non-Math Major (2021).
+  \item Third Prize, National Undergraduate Mathematics Competition Final Round, Non-Math Major (2021).
+  \item First Prize, China Undergraduate Mathematical Contest in Modeling (CUMCM, 2020).
 \end{itemize}
 
 \end{document}
