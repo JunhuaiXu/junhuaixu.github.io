@@ -1034,13 +1034,36 @@
 
 .visitor-map {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  margin: 2.7rem 0 0.4rem;
+  gap: 0.5rem;
+  margin: 2.1rem 0 0.4rem;
+  padding-top: 1.35rem;
+  border-top: 1px solid var(--jh-line);
+}
+
+.visitor-map__label {
+  margin: 0;
+  color: var(--jh-muted);
+  font-size: 0.78em !important;
+  font-weight: 650;
+  line-height: 1.2;
 }
 
 .visitor-map #clustr_globe_container {
-  width: 150px;
-  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  min-height: 190px;
+  overflow: visible;
+}
+
+.visitor-map #clustr_globe_container iframe,
+.visitor-map #clustr_globe_container img,
+.visitor-map #clustr_globe_container canvas {
+  max-width: 100%;
 }
 
 .experience-list {
@@ -1267,9 +1290,84 @@
   line-height: 1.58;
 }
 
+/* =========================
+   Homepage downloads
+   ========================= */
+
+.home-section--downloads {
+  margin-bottom: 0;
+}
+
+.download-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  padding: 1rem 1.05rem;
+  border-left: 3px solid var(--jh-purple);
+  border-radius: 8px;
+  background: #faf9fc;
+}
+
+.download-button {
+  display: flex;
+  align-items: center;
+  gap: 0.72rem;
+  min-height: 4rem;
+  padding: 0.78rem 0.9rem;
+  border: 1px solid var(--jh-line);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--jh-ink) !important;
+  text-decoration: none !important;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.download-button:hover {
+  transform: translateY(-2px);
+  border-color: var(--jh-line-strong);
+  box-shadow: 0 10px 24px rgba(32, 39, 51, 0.07);
+}
+
+.download-button i {
+  color: var(--jh-purple);
+  font-size: 1.25em;
+}
+
+.download-button span {
+  display: grid;
+  gap: 0.12rem;
+}
+
+.download-button strong {
+  color: var(--jh-ink);
+  font-size: 0.95em;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.download-button small {
+  color: var(--jh-muted);
+  font-size: 0.78em;
+  line-height: 1.32;
+}
+
+.download-button--primary {
+  border-color: rgba(91, 63, 140, 0.28);
+}
+
 @media (max-width: 640px) {
   .research-vision {
     margin-top: 0.9rem;
     padding-left: 0.78rem;
+  }
+
+  .download-actions {
+    grid-template-columns: 1fr;
+    padding: 0.9rem;
+  }
+
+  .visitor-map #clustr_globe_container {
+    width: 170px;
+    min-height: 170px;
   }
 }

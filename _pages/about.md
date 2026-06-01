@@ -259,7 +259,32 @@ redirect_from:
     </ul>
   </section>
 
+  <section id="downloads" class="home-section home-section--downloads">
+    <div class="section-heading">
+      <p class="section-kicker">Downloads</p>
+    </div>
+
+    <div class="download-actions">
+      <a class="download-button download-button--primary" href="{{ site.author.cv | relative_url }}" target="_blank" rel="noopener">
+        <i class="fas fa-file-pdf" aria-hidden="true"></i>
+        <span>
+          <strong>Curriculum Vitae</strong>
+          <small>General academic CV</small>
+        </span>
+      </a>
+
+      <a class="download-button" href="{{ site.author.publication_list | relative_url }}" target="_blank" rel="noopener">
+        <i class="fas fa-file-pdf" aria-hidden="true"></i>
+        <span>
+          <strong>Publication List</strong>
+          <small>Complete publication record</small>
+        </span>
+      </a>
+    </div>
+  </section>
+
   <div class="visitor-map" aria-label="Visitor map">
+    <p class="visitor-map__label">Visitor Map</p>
     <div id="clustr_globe_container">
       <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d=0y7sxcbqs8DpRDKtY8hidLM1WXMbALHYbCdxnPx6ZkY"></script>
     </div>
