@@ -13,6 +13,37 @@ excerpt: "Bayesian deblurring, inverse problems, and physics-informed reconstruc
     <p class="detail-subtitle">Bayesian deblurring, inverse problems, and physics-informed reconstruction</p>
   </section>
 
+  <section class="visual-abstract visual-abstract--ai" aria-label="Visual abstract for Richardson-Lucy reconstruction">
+    <p class="visual-abstract__title">Visual Abstract</p>
+    <div class="visual-flow">
+      <div class="visual-step">
+        <span class="visual-step__label">Hidden</span>
+        <strong>Physical distribution</strong>
+        <small>Source functions and original spectra are not directly observed.</small>
+      </div>
+      <div class="visual-step">
+        <span class="visual-step__label">Kernel</span>
+        <strong>Detector / FSI response</strong>
+        <small>Response matrices and wave-function kernels blur the physical signal.</small>
+      </div>
+      <div class="visual-step">
+        <span class="visual-step__label">Measured</span>
+        <strong>Experimental observable</strong>
+        <small>Correlation functions or detector-level spectra encode the target quantity.</small>
+      </div>
+      <div class="visual-step">
+        <span class="visual-step__label">Inference</span>
+        <strong>Richardson-Lucy iteration</strong>
+        <small>Bayesian multiplicative updates reconstruct non-negative distributions.</small>
+      </div>
+      <div class="visual-step">
+        <span class="visual-step__label">Output</span>
+        <strong>Reconstructed image</strong>
+        <small>Unfolded \(\gamma\)-ray spectra and femtoscopic source images become comparable to theory.</small>
+      </div>
+    </div>
+  </section>
+
   <section class="detail-section">
     <p>
       Many measurements in nuclear physics are indirect. Experiments do not always observe the physical quantity

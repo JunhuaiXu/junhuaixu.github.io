@@ -13,6 +13,37 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
     <p class="detail-subtitle">Probing high-momentum nucleons with bremsstrahlung \(\gamma\) rays</p>
   </section>
 
+  <section class="visual-abstract visual-abstract--physics" aria-label="Visual abstract for short-range correlations">
+    <p class="visual-abstract__title">Visual Abstract</p>
+    <div class="visual-flow">
+      <div class="visual-step">
+        <span class="visual-step__label">SRC</span>
+        <strong>High-momentum nucleons</strong>
+        <small>Short-range correlated pairs generate hidden high-momentum components.</small>
+      </div>
+      <div class="visual-step">
+        <span class="visual-step__label">np collision</span>
+        <strong>Bremsstrahlung \(\gamma\)</strong>
+        <small>Early-stage \(np \rightarrow np\gamma\) emission carries SRC sensitivity.</small>
+      </div>
+      <div class="visual-step">
+        <span class="visual-step__label">Detector</span>
+        <strong>CSHINE-Gamma response</strong>
+        <small>CsI(Tl) response and background control turn rare photons into spectra.</small>
+      </div>
+      <div class="visual-step">
+        <span class="visual-step__label">Analysis</span>
+        <strong>Unfolding + transport</strong>
+        <small>Detector-filtered IBUU-MDI and RL unfolding provide cross-checks.</small>
+      </div>
+      <div class="visual-step">
+        <span class="visual-step__label">Result</span>
+        <strong>\(R_{\mathrm{HMT}}\) extraction</strong>
+        <small>\(^{124}\mathrm{Sn}\) constrains the SRC-induced high-momentum fraction.</small>
+      </div>
+    </div>
+  </section>
+
   <section class="detail-section">
     <h2>Why Mean Field Is Not Enough</h2>
     <p>
