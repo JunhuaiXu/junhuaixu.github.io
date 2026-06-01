@@ -267,26 +267,36 @@ redirect_from:
     <div class="download-actions">
       <a class="download-button download-button--primary" href="{{ site.author.cv | relative_url }}" target="_blank" rel="noopener">
         <i class="fas fa-file-pdf" aria-hidden="true"></i>
-        <span>
-          <strong>Curriculum Vitae</strong>
-          <small>General academic CV</small>
-        </span>
+        <span>Curriculum Vitae</span>
       </a>
 
       <a class="download-button" href="{{ site.author.publication_list | relative_url }}" target="_blank" rel="noopener">
         <i class="fas fa-file-pdf" aria-hidden="true"></i>
-        <span>
-          <strong>Publication List</strong>
-          <small>Complete publication record</small>
-        </span>
+        <span>Publication List</span>
       </a>
     </div>
   </section>
 
   <div class="visitor-map" aria-label="Visitor map">
-    <p class="visitor-map__label">Visitor Map</p>
     <div id="clustr_globe_container">
-      <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d=0y7sxcbqs8DpRDKtY8hidLM1WXMbALHYbCdxnPx6ZkY"></script>
+      <script>
+        (function () {
+          var container = document.getElementById("clustr_globe_container");
+          var globe = document.createElement("script");
+          globe.type = "text/javascript";
+          globe.id = "clstr_globe";
+          globe.src = "https://cdn.clustrmaps.com/globe.js?d=0y7sxcbqs8DpRDKtY8hidLM1WXMbALHYbCdxnPx6ZkY";
+          globe.onerror = function () {
+            globe.remove();
+            var fallback = document.createElement("script");
+            fallback.type = "text/javascript";
+            fallback.id = "clstr_globe";
+            fallback.src = "https://clustrmaps.com/globe.js?d=0y7sxcbqs8DpRDKtY8hidLM1WXMbALHYbCdxnPx6ZkY";
+            container.appendChild(fallback);
+          };
+          container.appendChild(globe);
+        })();
+      </script>
     </div>
   </div>
 </div>
