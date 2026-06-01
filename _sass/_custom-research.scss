@@ -1726,19 +1726,19 @@
 }
 
 .home-section--physics .research-card__visual {
-  height: 8.25rem;
+  height: auto;
   aspect-ratio: auto;
   margin-bottom: 0.82rem;
   border-radius: 7px;
-  background: #f6f8fb;
+  background: #ffffff;
 }
 
 .home-section--physics .research-card__visual img,
 .home-section--physics .research-card__visual--contain img {
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 0;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 
@@ -1770,16 +1770,4 @@
 .research-card__cta {
   padding-top: 0.75rem;
   font-size: 0.78em;
-}
-
-@media (max-width: 980px) {
-  .home-section--physics .research-card__visual {
-    height: 11rem;
-  }
-}
-
-@media (max-width: 640px) {
-  .home-section--physics .research-card__visual {
-    height: 9.5rem;
-  }
 }
