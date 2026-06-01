@@ -85,8 +85,19 @@ redirect_from:
 
       <a class="research-card research-card--teal" href="/research/atmospheric-neutrino-simulation/">
         <span class="research-card__index">02</span>
-        <h3>Atmospheric Neutrino Simulation</h3>
-        <span class="research-card__cta">Read More &rarr;</span>
+        <div class="research-card__content">
+          <h3>Atmospheric Neutrino Simulation</h3>
+          <p>
+            Atmospheric neutrinos provide a natural beam for studying neutrino oscillations over a wide range of
+            energies and baselines. I build simulation workflows for compact deep-sea detector arrays, connecting
+            flux models, neutrino interactions, and detector response.
+          </p>
+          <p>
+            These studies evaluate reconstruction performance and oscillation-parameter sensitivity for
+            TRIDENT-related underwater neutrino detection concepts.
+          </p>
+          <span class="research-card__cta">Read More &rarr;</span>
+        </div>
       </a>
 
       <a class="research-card research-card--gold" href="/research/correlation-function-imaging/">
@@ -135,14 +146,34 @@ redirect_from:
 
       <a class="research-card research-card--teal" href="/ai/gnn-neutrino-reconstruction/">
         <span class="research-card__index">02</span>
-        <h3>Graph Neural Networks for Neutrino Event Reconstruction</h3>
-        <span class="research-card__cta">Read More &rarr;</span>
+        <div class="research-card__content">
+          <h3>Graph Neural Networks for Neutrino Event Reconstruction</h3>
+          <p>
+            I develop graph-based reconstruction methods for sparse detector-hit patterns in deep-sea neutrino
+            telescopes, where detector geometry and timing information are naturally represented as graph data.
+          </p>
+          <p>
+            The workflow targets event classification, direction reconstruction, and energy estimation from
+            simulated optical-module responses.
+          </p>
+          <span class="research-card__cta">Read More &rarr;</span>
+        </div>
       </a>
 
       <a class="research-card research-card--gold" href="/ai/bayesian-filtering-engineering/">
         <span class="research-card__index">03</span>
-        <h3>Bayesian Filtering Methods for Engineering Applications</h3>
-        <span class="research-card__cta">Read More &rarr;</span>
+        <div class="research-card__content">
+          <h3>Bayesian Filtering Methods for Engineering Applications</h3>
+          <p>
+            I explore Bayesian filtering and recursive state-estimation methods for engineering systems with
+            noisy measurements, evolving dynamics, and incomplete observations.
+          </p>
+          <p>
+            The focus is on uncertainty-aware data fusion, robust estimation, and physics-constrained inference
+            for practical sensing and control problems.
+          </p>
+          <span class="research-card__cta">Read More &rarr;</span>
+        </div>
       </a>
     </div>
   </section>
