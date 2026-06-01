@@ -84,12 +84,24 @@ author:
   avatar           : "profile.png"
   bio              : "Ph.D. Candidate, Tsinghua University"
   methods:
-    - "Detector calibration and response simulation"
-    - "Event reconstruction and spectrum unfolding"
-    - "Statistical inference and inverse problems"
-    - "Graph neural networks and machine learning"
-    - "HPC and GPU-accelerated computing"
-    - "Python / C++ / ROOT / Geant4 / PyTorch"
+    - group: "Physics"
+      skills:
+        - "Detector calibration"
+        - "Response simulation"
+        - "Event reconstruction"
+    - group: "Inference"
+      skills:
+        - "Spectrum unfolding"
+        - "Inverse problems"
+        - "Bayesian methods"
+        - "Graph neural networks"
+    - group: "Computing"
+      skills:
+        - "ROOT"
+        - "Geant4"
+        - "PyTorch"
+        - "HPC/GPU"
+        - "Python/C++"
   location         : "Beijing, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

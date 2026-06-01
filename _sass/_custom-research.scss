@@ -46,24 +46,45 @@
 }
 
 .author__methods-title {
-  margin: 0 0 0.55rem;
+  margin: 0 0 0.72rem;
   color: #5b3f8c;
   font-size: 0.86em;
   font-weight: 750;
   line-height: 1.25;
 }
 
-.author__methods-list {
-  margin: 0;
-  padding: 0;
-  color: #667286;
-  font-size: 0.84em;
-  line-height: 1.45;
-  list-style: none;
+.author__method-groups {
+  display: grid;
+  gap: 0.72rem;
 }
 
-.author__methods-list li {
-  padding: 0.22rem 0;
+.author__method-group h4 {
+  margin: 0 0 0.36rem;
+  color: #202733;
+  font-size: 0.72em;
+  font-weight: 750;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+.author__skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.28rem;
+}
+
+.author__skill-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.35rem;
+  padding: 0.18rem 0.42rem;
+  border: 1px solid #e2e7ef;
+  border-radius: 999px;
+  background: #f8fafc;
+  color: #667286;
+  font-size: 0.72em;
+  font-weight: 600;
+  line-height: 1.15;
 }
 
 @include breakpoint($large) {

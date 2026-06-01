@@ -130,11 +130,18 @@
   {% if author.methods %}
     <div class="author__methods">
       <h3 class="author__methods-title">Methods &amp; Skills</h3>
-      <ul class="author__methods-list">
-        {% for method in author.methods %}
-          <li>{{ method }}</li>
+      <div class="author__method-groups">
+        {% for method_group in author.methods %}
+          <section class="author__method-group">
+            <h4>{{ method_group.group }}</h4>
+            <div class="author__skill-tags">
+              {% for skill in method_group.skills %}
+                <span>{{ skill }}</span>
+              {% endfor %}
+            </div>
+          </section>
         {% endfor %}
-      </ul>
+      </div>
     </div>
   {% endif %}
 </div>
