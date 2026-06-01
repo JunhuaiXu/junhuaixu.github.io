@@ -73,48 +73,45 @@ redirect_from:
     <div class="research-grid research-grid--equal">
       <a class="research-card research-card--purple" href="/research/short-range-correlations/">
         <span class="research-card__index">01</span>
+        <h3>Short-Range Correlations in Nuclei</h3>
         <figure class="research-card__visual research-card__visual--contain">
           <img src="/assets/images/home/physics-short-range-correlations.png" alt="Short-range correlated nucleon pair">
         </figure>
         <div class="research-card__content">
-          <h3>Short-Range Correlations in Nuclei</h3>
           <p>
             Hard bremsstrahlung \(\gamma\) rays as a clean probe of SRC-induced high-momentum nucleons in
             low-energy heavy-ion collisions.
           </p>
-          <span class="research-card__badge">Key result: R<sub>HMT</sub> = (20 &plusmn; 3)%</span>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
 
       <a class="research-card research-card--teal" href="/research/atmospheric-neutrino-simulation/">
         <span class="research-card__index">02</span>
+        <h3>Atmospheric Neutrino Simulation</h3>
         <figure class="research-card__visual">
           <img src="/assets/images/home/physics-atmospheric-neutrino.png" alt="Atmospheric neutrino crossing an underwater detector array">
         </figure>
         <div class="research-card__content">
-          <h3>Atmospheric Neutrino Simulation</h3>
           <p>
             Simulation workflows for atmospheric neutrinos in compact deep-sea detector arrays, linking flux,
             interactions, detector response, and reconstruction.
           </p>
-          <span class="research-card__badge">TRIDENT · Oscillation sensitivity</span>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
 
       <a class="research-card research-card--gold" href="/research/correlation-function-imaging/">
         <span class="research-card__index">03</span>
+        <h3>Correlation Function Imaging</h3>
         <figure class="research-card__visual">
           <img src="/assets/images/home/physics-correlation-imaging.jpg" alt="Femtoscopic correlation function imaging concept">
         </figure>
         <div class="research-card__content">
-          <h3>Correlation Function Imaging</h3>
           <p>
             Femtoscopic imaging reconstructs freeze-out source distributions from two-particle correlations
             without assuming a Gaussian source shape.
           </p>
-          <span class="research-card__badge">Matter-antimatter source imaging</span>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
@@ -135,7 +132,6 @@ redirect_from:
             Bayesian Richardson-Lucy deblurring for nuclear-physics inverse problems, from detector-response
             unfolding to femtoscopic source imaging.
           </p>
-          <span class="research-card__badge">Inverse problems · Unfolding</span>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
@@ -148,7 +144,6 @@ redirect_from:
             Graph-based reconstruction of sparse detector-hit patterns for neutrino event classification,
             direction reconstruction, and energy estimation.
           </p>
-          <span class="research-card__badge">GNN · Neutrino reconstruction</span>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
@@ -161,7 +156,6 @@ redirect_from:
             Recursive Bayesian filtering for noisy engineering systems with evolving states, incomplete
             observations, and uncertainty-aware data fusion.
           </p>
-          <span class="research-card__badge">State estimation · Uncertainty</span>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
