@@ -1562,3 +1562,36 @@
     min-height: 170px;
   }
 }
+
+/* =========================
+   Homepage color system
+   ========================= */
+
+.home-section--physics .research-card::before {
+  background: var(--jh-purple);
+}
+
+.home-section--ai .research-card::before {
+  background: var(--jh-blue);
+}
+
+.home-section--physics .research-card__cta {
+  color: var(--jh-purple);
+}
+
+.home-section--ai .research-card__cta {
+  color: var(--jh-blue);
+}
+
+.home-section--physics .research-card:hover h3 {
+  color: var(--jh-purple);
+}
+
+.home-section--ai .research-card:hover h3 {
+  color: var(--jh-blue);
+}
+
+.research-card--teal .status-pill,
+.research-card--gold .status-pill {
+  color: var(--jh-muted);
+}
