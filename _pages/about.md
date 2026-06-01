@@ -82,7 +82,7 @@ redirect_from:
             Hard bremsstrahlung \(\gamma\) rays as a clean probe of SRC-induced high-momentum nucleons in
             low-energy heavy-ion collisions.
           </p>
-          <span class="research-card__badge">Key result: \(R_{\mathrm{HMT}} = (20 \pm 3)\%\)</span>
+          <span class="research-card__badge">Key result: R<sub>HMT</sub> = (20 &plusmn; 3)%</span>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
