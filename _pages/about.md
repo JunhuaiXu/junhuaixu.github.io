@@ -277,6 +277,7 @@ redirect_from:
     </div>
   </section>
 
+  {% comment %}
   <div class="visitor-map" aria-label="Visitor map">
     <div id="clustr_globe_container">
       <script>
@@ -299,4 +300,5 @@ redirect_from:
       </script>
     </div>
   </div>
+  {% endcomment %}
 </div>
