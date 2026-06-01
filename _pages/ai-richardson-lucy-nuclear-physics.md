@@ -14,32 +14,40 @@ excerpt: "Bayesian deblurring, inverse problems, and physics-informed reconstruc
   </section>
 
   <section class="visual-abstract visual-abstract--ai" aria-label="Visual abstract for Richardson-Lucy reconstruction">
-    <p class="visual-abstract__title">Visual Abstract</p>
+    <div class="visual-abstract__header">
+      <p class="visual-abstract__title">Visual Abstract</p>
+      <p>Richardson-Lucy reconstruction treats nuclear measurements as response-kernel deblurring problems.</p>
+    </div>
     <div class="visual-flow">
       <div class="visual-step">
+        <span class="visual-step__icon">\(S\)</span>
         <span class="visual-step__label">Hidden</span>
         <strong>Physical distribution</strong>
-        <small>Source functions and original spectra are not directly observed.</small>
+        <small>Source image or original spectrum</small>
       </div>
       <div class="visual-step">
+        <span class="visual-step__icon">\(K\)</span>
         <span class="visual-step__label">Kernel</span>
         <strong>Detector / FSI response</strong>
-        <small>Response matrices and wave-function kernels blur the physical signal.</small>
+        <small>Response matrix or wave-function kernel</small>
       </div>
       <div class="visual-step">
+        <span class="visual-step__icon">\(f\)</span>
         <span class="visual-step__label">Measured</span>
         <strong>Experimental observable</strong>
-        <small>Correlation functions or detector-level spectra encode the target quantity.</small>
+        <small>Correlation function or detector spectrum</small>
       </div>
       <div class="visual-step">
+        <span class="visual-step__icon">RL</span>
         <span class="visual-step__label">Inference</span>
         <strong>Richardson-Lucy iteration</strong>
-        <small>Bayesian multiplicative updates reconstruct non-negative distributions.</small>
+        <small>Bayesian non-negative updates</small>
       </div>
-      <div class="visual-step">
+      <div class="visual-step visual-step--result">
+        <span class="visual-step__icon">\(\hat{S}\)</span>
         <span class="visual-step__label">Output</span>
-        <strong>Reconstructed image</strong>
-        <small>Unfolded \(\gamma\)-ray spectra and femtoscopic source images become comparable to theory.</small>
+        <strong>Reconstructed distribution</strong>
+        <small>Unfolded spectrum or source image</small>
       </div>
     </div>
   </section>

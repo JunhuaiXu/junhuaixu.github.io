@@ -14,32 +14,40 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
   </section>
 
   <section class="visual-abstract visual-abstract--physics" aria-label="Visual abstract for short-range correlations">
-    <p class="visual-abstract__title">Visual Abstract</p>
+    <div class="visual-abstract__header">
+      <p class="visual-abstract__title">Visual Abstract</p>
+      <p>Hard photons translate hidden SRC momentum into a measurable gamma-ray spectrum.</p>
+    </div>
     <div class="visual-flow">
       <div class="visual-step">
+        <span class="visual-step__icon">SRC</span>
         <span class="visual-step__label">SRC</span>
         <strong>High-momentum nucleons</strong>
-        <small>Short-range correlated pairs generate hidden high-momentum components.</small>
+        <small>Hidden inside \(^{124}\mathrm{Sn}\)</small>
       </div>
       <div class="visual-step">
-        <span class="visual-step__label">np collision</span>
-        <strong>Bremsstrahlung \(\gamma\)</strong>
-        <small>Early-stage \(np \rightarrow np\gamma\) emission carries SRC sensitivity.</small>
+        <span class="visual-step__icon">\(np\gamma\)</span>
+        <span class="visual-step__label">Emission</span>
+        <strong>\(np \rightarrow np\gamma\)</strong>
+        <small>Early-stage bremsstrahlung</small>
       </div>
       <div class="visual-step">
+        <span class="visual-step__icon">CsI</span>
         <span class="visual-step__label">Detector</span>
         <strong>CSHINE-Gamma response</strong>
-        <small>CsI(Tl) response and background control turn rare photons into spectra.</small>
+        <small>Calibration and background control</small>
       </div>
       <div class="visual-step">
+        <span class="visual-step__icon">IBUU</span>
         <span class="visual-step__label">Analysis</span>
-        <strong>Unfolding + transport</strong>
-        <small>Detector-filtered IBUU-MDI and RL unfolding provide cross-checks.</small>
+        <strong>Transport + unfolding</strong>
+        <small>Detector folding and RL cross-check</small>
       </div>
-      <div class="visual-step">
+      <div class="visual-step visual-step--result">
+        <span class="visual-step__icon">20%</span>
         <span class="visual-step__label">Result</span>
-        <strong>\(R_{\mathrm{HMT}}\) extraction</strong>
-        <small>\(^{124}\mathrm{Sn}\) constrains the SRC-induced high-momentum fraction.</small>
+        <strong>\(R_{\mathrm{HMT}}\)</strong>
+        <small>\((20 \pm 3)\%\) in \(^{124}\mathrm{Sn}\)</small>
       </div>
     </div>
   </section>
