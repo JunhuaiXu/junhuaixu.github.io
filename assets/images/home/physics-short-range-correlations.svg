@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-labelledby="title desc">
+  <title id="title">Short-range correlated neutron-proton pair</title>
+  <desc id="desc">A clean schematic of a proton and neutron pair with opposite high-momentum arrows.</desc>
+  <defs>
+    <linearGradient id="proton" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff8a78"/>
+      <stop offset="0.62" stop-color="#d83b32"/>
+      <stop offset="1" stop-color="#8f1f2f"/>
+    </linearGradient>
+    <linearGradient id="neutron" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#89c6ff"/>
+      <stop offset="0.6" stop-color="#3479ce"/>
+      <stop offset="1" stop-color="#1f3f82"/>
+    </linearGradient>
+    <marker id="arrow" markerHeight="18" markerUnits="userSpaceOnUse" markerWidth="18" orient="auto-start-reverse" refX="16" refY="9">
+      <path d="M 0 0 L 18 9 L 0 18 z" fill="#253044"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="640" fill="#ffffff"/>
+
+  <path d="M260 400 C335 312 452 302 545 238" fill="none" stroke="#d8dde8" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 26"/>
+  <path d="M330 392 L188 558" fill="none" stroke="#253044" stroke-width="11" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M558 232 L724 84" fill="none" stroke="#253044" stroke-width="11" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <circle cx="330" cy="392" r="88" fill="url(#proton)"/>
+  <circle cx="330" cy="392" r="88" fill="none" stroke="#ffffff" stroke-opacity="0.75" stroke-width="5"/>
+  <circle cx="558" cy="232" r="88" fill="url(#neutron)"/>
+  <circle cx="558" cy="232" r="88" fill="none" stroke="#ffffff" stroke-opacity="0.75" stroke-width="5"/>
+
+  <text x="330" y="414" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700">p</text>
+  <text x="558" y="254" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700">n</text>
+
+  <text x="128" y="597" fill="#253044" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="650">k<tspan dy="12" font-size="28">1</tspan></text>
+  <text x="736" y="80" fill="#253044" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="650">k<tspan dy="12" font-size="28">2</tspan></text>
+
+  <circle cx="228" cy="210" r="7" fill="#b8c0cf"/>
+  <circle cx="704" cy="430" r="7" fill="#b8c0cf"/>
+  <circle cx="438" cy="128" r="5" fill="#d0d6e1"/>
+</svg>

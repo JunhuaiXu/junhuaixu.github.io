@@ -75,7 +75,7 @@ redirect_from:
         <span class="research-card__index">01</span>
         <h3>Short-Range Correlations in Nuclei</h3>
         <figure class="research-card__visual research-card__visual--contain">
-          <img src="/assets/images/home/physics-short-range-correlations.png" alt="Short-range correlated nucleon pair">
+          <img src="/assets/images/home/physics-short-range-correlations.svg" alt="Short-range correlated neutron-proton pair">
         </figure>
         <div class="research-card__content">
           <p>
