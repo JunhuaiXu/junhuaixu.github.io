@@ -73,55 +73,48 @@ redirect_from:
     <div class="research-grid research-grid--equal">
       <a class="research-card research-card--purple" href="/research/short-range-correlations/">
         <span class="research-card__index">01</span>
+        <figure class="research-card__visual research-card__visual--contain">
+          <img src="/assets/images/home/physics-short-range-correlations.png" alt="Short-range correlated nucleon pair">
+        </figure>
         <div class="research-card__content">
           <h3>Short-Range Correlations in Nuclei</h3>
           <p>
-            Atomic nuclei are not simple collections of independent nucleons. At very short distances,
-            protons and neutrons can form strongly correlated pairs, generating high-momentum nucleons beyond
-            the traditional mean-field picture.
+            Hard bremsstrahlung \(\gamma\) rays as a clean probe of SRC-induced high-momentum nucleons in
+            low-energy heavy-ion collisions.
           </p>
-          <p>
-            My research develops hard bremsstrahlung \(\gamma\) rays in low-energy heavy-ion collisions as a clean
-            probe of these short-range correlations. By combining precision \(\gamma\)-ray measurements with
-            transport-model calculations, I extracted the SRC-induced high-momentum fraction in
-            \(^{124}\mathrm{Sn}\) to be \(R_{\mathrm{HMT}} = (20 \pm 3)\%\).
-          </p>
+          <span class="research-card__badge">Key result: \(R_{\mathrm{HMT}} = (20 \pm 3)\%\)</span>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
 
       <a class="research-card research-card--teal" href="/research/atmospheric-neutrino-simulation/">
         <span class="research-card__index">02</span>
+        <figure class="research-card__visual">
+          <img src="/assets/images/home/physics-atmospheric-neutrino.png" alt="Atmospheric neutrino crossing an underwater detector array">
+        </figure>
         <div class="research-card__content">
           <h3>Atmospheric Neutrino Simulation</h3>
           <p>
-            Atmospheric neutrinos provide a natural beam for studying neutrino oscillations over a wide range of
-            energies and baselines. I build simulation workflows for compact deep-sea detector arrays, connecting
-            flux models, neutrino interactions, and detector response.
+            Simulation workflows for atmospheric neutrinos in compact deep-sea detector arrays, linking flux,
+            interactions, detector response, and reconstruction.
           </p>
-          <p>
-            These studies evaluate reconstruction performance and oscillation-parameter sensitivity for
-            TRIDENT-related underwater neutrino detection concepts.
-          </p>
+          <span class="research-card__badge">TRIDENT · Oscillation sensitivity</span>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
 
       <a class="research-card research-card--gold" href="/research/correlation-function-imaging/">
         <span class="research-card__index">03</span>
+        <figure class="research-card__visual">
+          <img src="/assets/images/home/physics-correlation-imaging.jpg" alt="Femtoscopic correlation function imaging concept">
+        </figure>
         <div class="research-card__content">
           <h3>Correlation Function Imaging</h3>
           <p>
-            Femtoscopic imaging reconstructs freeze-out source distributions from two-particle correlation
-            functions in heavy-ion collisions. In this work, I combine Hanbury Brown-Twiss interferometry with
-            the Richardson-Lucy deblurring algorithm to extract real-space source information without assuming
-            a Gaussian shape.
+            Femtoscopic imaging reconstructs freeze-out source distributions from two-particle correlations
+            without assuming a Gaussian source shape.
           </p>
-          <p>
-            Applied to proton and antiproton correlations in Au+Au collisions at
-            \(\sqrt{s_{NN}} = 200~\mathrm{GeV}\), the method reveals identical non-Gaussian freeze-out sources
-            for matter and antimatter.
-          </p>
+          <span class="research-card__badge">Matter-antimatter source imaging</span>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
@@ -139,14 +132,10 @@ redirect_from:
         <div class="research-card__content">
           <h3>Richardson-Lucy Reconstruction in Nuclear Physics</h3>
           <p>
-            I apply Bayesian Richardson-Lucy deblurring to nuclear-physics inverse problems, reconstructing
-            hidden source functions and original \(\gamma\)-ray spectra from experimentally blurred measurements.
+            Bayesian Richardson-Lucy deblurring for nuclear-physics inverse problems, from detector-response
+            unfolding to femtoscopic source imaging.
           </p>
-          <p>
-            This work combines physics-informed reconstruction, large matrix computation, iterative inference,
-            and uncertainty quantification for extracting hidden physical distributions from experimentally
-            blurred observables.
-          </p>
+          <span class="research-card__badge">Inverse problems · Unfolding</span>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
@@ -156,13 +145,10 @@ redirect_from:
         <div class="research-card__content">
           <h3>Graph Neural Networks for Neutrino Event Reconstruction</h3>
           <p>
-            I develop graph-based reconstruction methods for sparse detector-hit patterns in deep-sea neutrino
-            telescopes, where detector geometry and timing information are naturally represented as graph data.
+            Graph-based reconstruction of sparse detector-hit patterns for neutrino event classification,
+            direction reconstruction, and energy estimation.
           </p>
-          <p>
-            The workflow targets event classification, direction reconstruction, and energy estimation from
-            simulated optical-module responses.
-          </p>
+          <span class="research-card__badge">GNN · Neutrino reconstruction</span>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
@@ -172,13 +158,10 @@ redirect_from:
         <div class="research-card__content">
           <h3>Bayesian Filtering Methods for Engineering Applications</h3>
           <p>
-            I explore Bayesian filtering and recursive state-estimation methods for engineering systems with
-            noisy measurements, evolving dynamics, and incomplete observations.
+            Recursive Bayesian filtering for noisy engineering systems with evolving states, incomplete
+            observations, and uncertainty-aware data fusion.
           </p>
-          <p>
-            The focus is on uncertainty-aware data fusion, robust estimation, and physics-constrained inference
-            for practical sensing and control problems.
-          </p>
+          <span class="research-card__badge">State estimation · Uncertainty</span>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
       </a>
