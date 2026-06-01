@@ -44,14 +44,21 @@ redirect_from:
 
     <div class="news-list">
       {% for item in site.data.news limit:5 %}
-        <div class="news-item">
-          <div class="news-item__meta">
+        <div class="news-item{% if forloop.first %} news-item--latest{% endif %}">
+          <div class="news-item__date">
             <time>{{ item.date }}</time>
-            {% if item.location %}
-              <span>{{ item.location }}</span>
-            {% endif %}
           </div>
-          <p>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          <div class="news-item__body">
+            {% if item.title %}
+              <h3>{{ item.title }}</h3>
+            {% endif %}
+            {% if item.location %}
+              <p class="news-item__location">{{ item.location }}</p>
+            {% endif %}
+            <div class="news-item__text">
+              {{ item.text | markdownify }}
+            </div>
+          </div>
         </div>
       {% endfor %}
     </div>
