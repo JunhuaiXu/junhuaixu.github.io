@@ -175,6 +175,84 @@
   font-weight: 400;
 }
 
+.home-hero__intro {
+  max-width: 780px;
+  margin-bottom: 1.42rem;
+  padding-bottom: 1.28rem;
+  border-bottom: 1px solid rgba(226, 231, 239, 0.86);
+}
+
+.home-hero__name {
+  margin: 0;
+  color: var(--jh-ink);
+  font-size: 2.35em;
+  font-weight: 780;
+  letter-spacing: 0;
+  line-height: 1.04;
+}
+
+.home-hero__tagline {
+  max-width: 760px;
+  margin: 0.62rem 0 0;
+  color: var(--jh-ink);
+  font-size: 1.12em !important;
+  font-weight: 600;
+  line-height: 1.42 !important;
+}
+
+.home-hero__meta {
+  margin: 0.42rem 0 0;
+  color: var(--jh-muted);
+  font-size: 0.96em !important;
+  line-height: 1.5 !important;
+}
+
+.home-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1.05rem;
+}
+
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.42rem;
+  min-height: 2.12rem;
+  padding: 0.42rem 0.72rem;
+  border: 1px solid var(--jh-line);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--jh-ink) !important;
+  font-size: 0.82em;
+  font-weight: 720;
+  line-height: 1.2;
+  text-decoration: none !important;
+  box-shadow: 0 6px 18px rgba(32, 39, 51, 0.035);
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease, color 160ms ease;
+}
+
+.hero-button:hover {
+  transform: translateY(-1px);
+  border-color: rgba(91, 63, 140, 0.34);
+  color: var(--jh-purple) !important;
+  box-shadow: 0 10px 24px rgba(32, 39, 51, 0.065);
+}
+
+.hero-button--primary {
+  border-color: var(--jh-purple);
+  background: var(--jh-purple);
+  color: #ffffff !important;
+  box-shadow: 0 10px 24px rgba(91, 63, 140, 0.17);
+}
+
+.hero-button--primary:hover {
+  border-color: #4f367d;
+  background: #4f367d;
+  color: #ffffff !important;
+}
+
 .home-hero > :not(.home-hero__motif) {
   position: relative;
   z-index: 1;
@@ -185,10 +263,10 @@
   top: 0.5rem;
   right: -1.15rem;
   z-index: 0;
-  width: min(31vw, 18.5rem);
-  max-width: 34%;
+  width: min(38vw, 23rem);
+  max-width: 42%;
   height: auto;
-  opacity: 0.52;
+  opacity: 0.46;
   pointer-events: none;
   user-select: none;
 }
@@ -1688,6 +1766,19 @@
 
   .home-hero__motif {
     display: none;
+  }
+
+  .home-hero__intro {
+    margin-bottom: 1.18rem;
+    padding-bottom: 1.08rem;
+  }
+
+  .home-hero__name {
+    font-size: 2.05em;
+  }
+
+  .home-hero__tagline {
+    font-size: 1.02em !important;
   }
 
   .download-actions {

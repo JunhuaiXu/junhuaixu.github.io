@@ -11,6 +11,28 @@ redirect_from:
 <div class="home-page">
   <section id="about" class="home-hero">
     <img class="home-hero__motif" src="/assets/images/home/nuclear-computing-motif.svg" alt="" aria-hidden="true">
+    <div class="home-hero__intro">
+      <h1 class="home-hero__name">Junhuai Xu</h1>
+      <p class="home-hero__tagline">
+        Experimental Nuclear Physics · Short-Range Correlations · AI for Scientific Reconstruction
+      </p>
+      <p class="home-hero__meta">Ph.D. Candidate, Department of Physics, Tsinghua University</p>
+      <div class="home-hero__actions">
+        <a class="hero-button hero-button--primary" href="{{ site.author.cv | relative_url }}" target="_blank" rel="noopener">
+          <i class="fas fa-file-pdf" aria-hidden="true"></i>
+          <span>CV</span>
+        </a>
+        <a class="hero-button" href="{{ site.author.publication_list | relative_url }}" target="_blank" rel="noopener">
+          <i class="fas fa-list-ul" aria-hidden="true"></i>
+          <span>Publications</span>
+        </a>
+        <a class="hero-button" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar" aria-hidden="true"></i>
+          <span>Google Scholar</span>
+        </a>
+      </div>
+    </div>
+
     <p class="home-kicker">About Me</p>
     <p class="home-lead">
       Hi, I am a Ph.D. candidate in the Department of Physics at <strong>Tsinghua University</strong>, advised by
