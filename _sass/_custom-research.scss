@@ -2121,3 +2121,68 @@
     margin-left: 0;
   }
 }
+
+/* =========================
+   Downloads button polish
+   ========================= */
+
+.download-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+  margin-top: 0.6rem;
+  padding: 0;
+}
+
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.42rem;
+  min-height: 2.2rem;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--jh-line-strong);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--jh-ink) !important;
+  font-size: 0.86em;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none !important;
+  box-shadow: none;
+  transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+}
+
+.download-button i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background: transparent;
+  color: currentColor;
+  font-size: 0.95em;
+}
+
+.download-button:hover {
+  transform: none;
+  border-color: var(--jh-blue);
+  background: #f7f9fc;
+  color: var(--jh-blue) !important;
+  box-shadow: none;
+}
+
+.download-button--primary {
+  border-color: var(--jh-purple);
+  background: var(--jh-purple);
+  color: #ffffff !important;
+  box-shadow: none;
+}
+
+.download-button--primary:hover {
+  border-color: var(--jh-purple);
+  background: #4f367d;
+  color: #ffffff !important;
+}
