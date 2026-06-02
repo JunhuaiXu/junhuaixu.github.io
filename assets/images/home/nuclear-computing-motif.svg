@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="title desc">
+  <title id="title">Nuclear physics and scientific computing motif</title>
+  <desc id="desc">A lightweight decorative motif with detector arcs, graph nodes, a response matrix, and a spectrum curve.</desc>
+  <defs>
+    <linearGradient id="curve" x1="92" x2="604" y1="440" y2="172" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5b3f8c"/>
+      <stop offset="1" stop-color="#24568f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="560" fill="none"/>
+
+  <g fill="none" stroke="#5b3f8c" stroke-linecap="round">
+    <path d="M112 420 A210 210 0 0 1 492 228" stroke-width="3" opacity="0.16"/>
+    <path d="M82 448 A260 260 0 0 1 548 184" stroke-width="2.2" opacity="0.11"/>
+    <path d="M146 394 A160 160 0 0 1 440 260" stroke-width="2" opacity="0.12"/>
+  </g>
+
+  <g fill="#5b3f8c" opacity="0.2">
+    <circle cx="152" cy="388" r="5"/>
+    <circle cx="200" cy="326" r="4.5"/>
+    <circle cx="262" cy="282" r="4"/>
+    <circle cx="336" cy="254" r="5.5"/>
+    <circle cx="428" cy="248" r="4.5"/>
+    <circle cx="502" cy="210" r="5"/>
+  </g>
+
+  <g transform="translate(476 302)" opacity="0.56">
+    <rect x="0" y="0" width="152" height="152" rx="10" fill="#ffffff" stroke="#e2e7ef"/>
+    <g fill="#24568f">
+      <rect x="16" y="18" width="16" height="16" rx="3" opacity="0.15"/>
+      <rect x="40" y="18" width="16" height="16" rx="3" opacity="0.22"/>
+      <rect x="64" y="18" width="16" height="16" rx="3" opacity="0.1"/>
+      <rect x="88" y="18" width="16" height="16" rx="3" opacity="0.32"/>
+      <rect x="112" y="18" width="16" height="16" rx="3" opacity="0.14"/>
+
+      <rect x="16" y="42" width="16" height="16" rx="3" opacity="0.08"/>
+      <rect x="40" y="42" width="16" height="16" rx="3" opacity="0.34"/>
+      <rect x="64" y="42" width="16" height="16" rx="3" opacity="0.18"/>
+      <rect x="88" y="42" width="16" height="16" rx="3" opacity="0.11"/>
+      <rect x="112" y="42" width="16" height="16" rx="3" opacity="0.27"/>
+
+      <rect x="16" y="66" width="16" height="16" rx="3" opacity="0.2"/>
+      <rect x="40" y="66" width="16" height="16" rx="3" opacity="0.12"/>
+      <rect x="64" y="66" width="16" height="16" rx="3" opacity="0.42"/>
+      <rect x="88" y="66" width="16" height="16" rx="3" opacity="0.17"/>
+      <rect x="112" y="66" width="16" height="16" rx="3" opacity="0.08"/>
+
+      <rect x="16" y="90" width="16" height="16" rx="3" opacity="0.3"/>
+      <rect x="40" y="90" width="16" height="16" rx="3" opacity="0.1"/>
+      <rect x="64" y="90" width="16" height="16" rx="3" opacity="0.16"/>
+      <rect x="88" y="90" width="16" height="16" rx="3" opacity="0.36"/>
+      <rect x="112" y="90" width="16" height="16" rx="3" opacity="0.18"/>
+
+      <rect x="16" y="114" width="16" height="16" rx="3" opacity="0.09"/>
+      <rect x="40" y="114" width="16" height="16" rx="3" opacity="0.26"/>
+      <rect x="64" y="114" width="16" height="16" rx="3" opacity="0.13"/>
+      <rect x="88" y="114" width="16" height="16" rx="3" opacity="0.2"/>
+      <rect x="112" y="114" width="16" height="16" rx="3" opacity="0.4"/>
+    </g>
+  </g>
+
+  <path d="M82 450 C138 430 154 354 196 336 C238 318 254 370 298 336 C344 300 338 220 400 214 C462 208 490 272 548 226 C584 198 586 154 636 132" fill="none" stroke="url(#curve)" stroke-width="4" stroke-linecap="round" opacity="0.28"/>
+
+  <g fill="none" stroke="#24568f" stroke-width="2.4" opacity="0.25">
+    <path d="M184 148 L238 104 L318 132 L368 86 L450 122"/>
+    <path d="M238 104 L368 86"/>
+    <path d="M318 132 L450 122"/>
+    <path d="M184 148 L318 132"/>
+  </g>
+  <g fill="#24568f" opacity="0.34">
+    <circle cx="184" cy="148" r="8"/>
+    <circle cx="238" cy="104" r="7"/>
+    <circle cx="318" cy="132" r="9"/>
+    <circle cx="368" cy="86" r="7"/>
+    <circle cx="450" cy="122" r="8"/>
+  </g>
+
+  <g fill="none" stroke="#5b3f8c" stroke-linecap="round" opacity="0.18">
+    <path d="M548 72 L604 72"/>
+    <path d="M568 96 L650 96"/>
+    <path d="M534 120 L622 120"/>
+  </g>
+</svg>

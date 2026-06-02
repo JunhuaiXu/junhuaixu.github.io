@@ -10,6 +10,7 @@ redirect_from:
 
 <div class="home-page">
   <section id="about" class="home-hero">
+    <img class="home-hero__motif" src="/assets/images/home/nuclear-computing-motif.svg" alt="" aria-hidden="true">
     <p class="home-kicker">About Me</p>
     <p class="home-lead">
       Hi, I am a Ph.D. candidate in the Department of Physics at <strong>Tsinghua University</strong>, advised by
