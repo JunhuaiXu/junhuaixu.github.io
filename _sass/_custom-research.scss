@@ -1339,71 +1339,6 @@
   max-width: 100%;
 }
 
-.experience-list {
-  display: grid;
-  gap: 0;
-  border-top: 1px solid var(--jh-line);
-}
-
-.experience-item {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 1.4rem;
-  align-items: baseline;
-  padding: 0.85rem 0;
-  border-bottom: 1px solid var(--jh-line);
-  color: inherit !important;
-  text-decoration: none !important;
-}
-
-.experience-item h3 {
-  margin: 0;
-  color: var(--jh-ink);
-  font-size: 1em;
-  font-weight: 700;
-  line-height: 1.32;
-}
-
-.experience-item p {
-  max-width: 720px;
-  margin: 0.28rem 0 0;
-  color: var(--jh-muted);
-  font-size: 0.9em !important;
-  line-height: 1.5;
-}
-
-.experience-item__content .research-card__cta {
-  margin-top: 0.35rem;
-  padding-top: 0;
-}
-
-.experience-item__meta {
-  display: grid;
-  gap: 0.14rem;
-  justify-items: end;
-  color: var(--jh-muted);
-  font-size: 0.82em;
-  line-height: 1.35;
-  white-space: nowrap;
-}
-
-.experience-item__meta time {
-  color: var(--jh-purple);
-  font-weight: 650;
-}
-
-.experience-item--link {
-  transition: transform 160ms ease;
-}
-
-.experience-item--link:hover {
-  transform: translateX(2px);
-}
-
-.experience-item--link:hover h3 {
-  color: var(--jh-blue);
-}
-
 /* =========================
    Research section panels
    ========================= */
@@ -1451,15 +1386,6 @@
     padding: 0.95rem 0.85rem 1rem;
   }
 
-  .experience-item {
-    display: block;
-  }
-
-  .experience-item__meta {
-    justify-items: start;
-    margin-top: 0.38rem;
-    white-space: normal;
-  }
 }
 
 /* =========================
@@ -1939,6 +1865,11 @@
   color: var(--jh-muted);
   font-size: 0.92em !important;
   line-height: 1.55;
+}
+
+.experience-item__content .research-card__cta {
+  margin-top: 0.35rem;
+  padding-top: 0;
 }
 
 .experience-item__meta {
