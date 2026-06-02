@@ -1921,32 +1921,62 @@
 }
 
 .home-hero__actions {
-  gap: 0.34rem;
-  margin-top: 0.9rem;
+  gap: 0.48rem;
+  margin-top: 0.98rem;
 }
 
 .hero-button,
 .hero-button--primary {
-  min-height: 1.86rem;
-  padding: 0.24rem 0.46rem;
-  border: 1px solid transparent;
+  min-height: 2.08rem;
+  padding: 0.38rem 0.68rem;
+  border: 1px solid var(--jh-line);
   border-radius: 6px;
-  background: transparent;
-  color: var(--jh-blue) !important;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--jh-ink) !important;
   font-size: 0.82em;
-  font-weight: 650;
-  box-shadow: none;
+  font-weight: 700;
+  box-shadow: 0 5px 14px rgba(32, 39, 51, 0.035);
 }
 
 .hero-button--primary {
+  border-color: var(--jh-purple);
+  background: var(--jh-purple);
+  color: #ffffff !important;
+  box-shadow: 0 9px 20px rgba(91, 63, 140, 0.18);
+}
+
+.hero-button--secondary {
+  border-color: rgba(91, 63, 140, 0.24);
   color: var(--jh-purple) !important;
 }
 
-.hero-button:hover,
-.hero-button--primary:hover {
-  border-color: rgba(91, 63, 140, 0.16);
-  background: rgba(91, 63, 140, 0.045);
+.hero-button--link {
+  padding-right: 0.34rem;
+  padding-left: 0.34rem;
+  border-color: transparent;
+  background: transparent;
+  color: var(--jh-blue) !important;
+  box-shadow: none;
+}
+
+.hero-button:hover {
+  border-color: rgba(91, 63, 140, 0.32);
+  background: rgba(91, 63, 140, 0.055);
   color: var(--jh-purple) !important;
+  box-shadow: 0 8px 18px rgba(32, 39, 51, 0.055);
+}
+
+.hero-button--primary:hover {
+  border-color: #4f367d;
+  background: #4f367d;
+  color: #ffffff !important;
+  box-shadow: 0 11px 23px rgba(91, 63, 140, 0.22);
+}
+
+.hero-button--link:hover {
+  border-color: transparent;
+  background: rgba(36, 86, 143, 0.055);
+  color: var(--jh-blue) !important;
   box-shadow: none;
 }
 

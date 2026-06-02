@@ -23,11 +23,11 @@ redirect_from:
           <i class="fas fa-file-pdf" aria-hidden="true"></i>
           <span>CV</span>
         </a>
-        <a class="hero-button" href="{{ site.author.publication_list | relative_url }}" target="_blank" rel="noopener">
+        <a class="hero-button hero-button--secondary" href="{{ site.author.publication_list | relative_url }}" target="_blank" rel="noopener">
           <i class="fas fa-list-ul" aria-hidden="true"></i>
           <span>Publications</span>
         </a>
-        <a class="hero-button" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">
+        <a class="hero-button hero-button--link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">
           <i class="ai ai-google-scholar" aria-hidden="true"></i>
           <span>Google Scholar</span>
         </a>
