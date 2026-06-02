@@ -3,6 +3,7 @@ layout: single
 title: "Graph Neural Networks for Neutrino Event Reconstruction"
 permalink: /ai/gnn-neutrino-reconstruction/
 author_profile: true
+hide_title: true
 excerpt: "Computational methods page under construction."
 ---
 

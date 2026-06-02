@@ -3,6 +3,7 @@ layout: single
 title: "Richardson-Lucy Reconstruction in Nuclear Physics"
 permalink: /ai/richardson-lucy-nuclear-physics/
 author_profile: true
+hide_title: true
 excerpt: "Bayesian deblurring, inverse problems, and physics-informed reconstruction."
 ---
 

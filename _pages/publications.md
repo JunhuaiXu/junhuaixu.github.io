@@ -3,6 +3,7 @@ layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
+hide_title: true
 ---
 
 <div class="research-detail">

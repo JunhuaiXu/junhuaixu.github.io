@@ -5,6 +5,7 @@ permalink: /experiments/slegs-beam-test-ssrf/
 redirect_from:
   - /research/slegs-beam-test/
 author_profile: true
+hide_title: true
 excerpt: "High-energy gamma-ray response calibration of CsI(Tl) crystals for CSHINE-Gamma."
 ---
 

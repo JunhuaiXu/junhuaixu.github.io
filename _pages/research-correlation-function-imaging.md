@@ -3,6 +3,7 @@ layout: single
 title: "Correlation Function Imaging"
 permalink: /research/correlation-function-imaging/
 author_profile: true
+hide_title: true
 excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations."
 ---
 

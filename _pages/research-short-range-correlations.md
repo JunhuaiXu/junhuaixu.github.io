@@ -3,6 +3,7 @@ layout: single
 title: "Short-Range Correlations in Nuclei"
 permalink: /research/short-range-correlations/
 author_profile: true
+hide_title: true
 excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
 ---
 

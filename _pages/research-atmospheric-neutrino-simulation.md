@@ -3,6 +3,7 @@ layout: single
 title: "Atmospheric Neutrino Simulation"
 permalink: /research/atmospheric-neutrino-simulation/
 author_profile: true
+hide_title: true
 excerpt: "Physics research page under construction."
 ---
 

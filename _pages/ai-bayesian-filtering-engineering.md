@@ -3,6 +3,7 @@ layout: single
 title: "Bayesian Filtering Methods for Engineering Applications"
 permalink: /ai/bayesian-filtering-engineering/
 author_profile: true
+hide_title: true
 excerpt: "Computational methods page under construction."
 ---
 
