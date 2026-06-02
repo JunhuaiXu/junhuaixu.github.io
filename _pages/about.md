@@ -3,6 +3,7 @@ permalink: /
 title: "Junhuai Xu"
 excerpt: "About me"
 author_profile: true
+hide_title: true
 redirect_from:
   - /about/
   - /about.html
