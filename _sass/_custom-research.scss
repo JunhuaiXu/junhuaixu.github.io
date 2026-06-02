@@ -2186,3 +2186,49 @@
   background: #4f367d;
   color: #ffffff !important;
 }
+
+/* =========================
+   Mobile research card image safeguards
+   ========================= */
+
+@media (max-width: 640px) {
+  .research-card {
+    overflow: hidden;
+  }
+
+  .research-card__visual {
+    max-width: 100%;
+    margin: 0.68rem 0 0.76rem;
+  }
+
+  .research-card__visual img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .home-section--physics .research-card__visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 16rem;
+  }
+
+  .home-section--physics .research-card__visual img,
+  .home-section--physics .research-card__visual--contain img {
+    width: auto;
+    max-width: 100%;
+    max-height: 16rem;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 420px) {
+  .home-section--physics .research-card__visual {
+    max-height: 13.5rem;
+  }
+
+  .home-section--physics .research-card__visual img,
+  .home-section--physics .research-card__visual--contain img {
+    max-height: 13.5rem;
+  }
+}
