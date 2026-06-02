@@ -13,6 +13,45 @@ excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations.
     <p class="detail-subtitle">Imaging femtoscopic freeze-out sources from two-particle correlations</p>
   </section>
 
+  <section class="visual-abstract visual-abstract--physics" aria-label="Visual abstract for correlation function imaging">
+    <div class="visual-abstract__header">
+      <p class="visual-abstract__title">Visual Abstract</p>
+      <p>Two-particle correlations carry a blurred femtoscopic image of the freeze-out source.</p>
+    </div>
+    <div class="visual-flow">
+      <div class="visual-step">
+        <span class="visual-step__icon">HIC</span>
+        <span class="visual-step__label">Freeze-out</span>
+        <strong>Emission source</strong>
+        <small>Particles leave an expanding fireball</small>
+      </div>
+      <div class="visual-step">
+        <span class="visual-step__icon">\(C(q)\)</span>
+        <span class="visual-step__label">Observable</span>
+        <strong>Two-particle correlation</strong>
+        <small>Momentum-space femtoscopic signal</small>
+      </div>
+      <div class="visual-step">
+        <span class="visual-step__icon">\(|\Psi|^2\)</span>
+        <span class="visual-step__label">Kernel</span>
+        <strong>Koonin-Pratt + FSI</strong>
+        <small>Quantum statistics and interactions</small>
+      </div>
+      <div class="visual-step">
+        <span class="visual-step__icon">RL</span>
+        <span class="visual-step__label">Imaging</span>
+        <strong>Richardson-Lucy reconstruction</strong>
+        <small>Source imaging without a Gaussian ansatz</small>
+      </div>
+      <div class="visual-step visual-step--result">
+        <span class="visual-step__icon">\(S(r)\)</span>
+        <span class="visual-step__label">Source</span>
+        <strong>Real-space source image</strong>
+        <small>\(pp\) and \(\bar{p}\bar{p}\) share a non-Gaussian source</small>
+      </div>
+    </div>
+  </section>
+
   <section class="detail-section">
     <p>
       Heavy-ion collisions create tiny, rapidly evolving droplets of strongly interacting matter. After the
