@@ -437,74 +437,6 @@
   font-weight: 700;
 }
 
-.research-card {
-  display: grid;
-  grid-template-columns: 3.5rem minmax(0, 1fr) auto;
-  gap: 1rem;
-  align-items: baseline;
-  padding: 0.45rem 0;
-  color: inherit !important;
-  text-decoration: none !important;
-  transition: color 160ms ease, transform 160ms ease;
-}
-
-.research-card:hover {
-  transform: translateX(2px);
-}
-
-.research-card:hover h3 {
-  color: var(--jh-blue);
-}
-
-.research-card__content p {
-  max-width: 760px;
-  margin: 0.42rem 0 0;
-  color: var(--jh-muted);
-  font-size: 0.94em !important;
-  line-height: 1.58;
-}
-
-.research-card__formula {
-  color: var(--jh-ink) !important;
-  font-size: 0.96em !important;
-}
-
-.research-card__cta {
-  display: inline-block;
-  margin-top: 0.55rem;
-  color: var(--jh-blue);
-  font-size: 0.88em;
-  font-weight: 400;
-}
-
-.research-card__index {
-  color: #8d98aa;
-  font-size: 0.8em;
-  font-weight: 400;
-}
-
-.status-pill {
-  color: #586274;
-  font-size: 0.74em;
-  font-weight: 400;
-  white-space: nowrap;
-}
-
-.research-card--purple .research-card__index,
-.research-card--purple .status-pill {
-  color: var(--jh-purple);
-}
-
-.research-card--teal .research-card__index,
-.research-card--teal .status-pill {
-  color: var(--jh-teal);
-}
-
-.research-card--gold .research-card__index,
-.research-card--gold .status-pill {
-  color: var(--jh-gold);
-}
-
 .cv-list {
   display: grid;
   gap: 0.58rem;
@@ -934,16 +866,6 @@
   color: var(--jh-muted);
 }
 
-@media (max-width: 900px) {
-  .research-card {
-    grid-template-columns: 2.75rem minmax(0, 1fr);
-  }
-
-  .status-pill {
-    grid-column: 2;
-  }
-}
-
 @media (max-width: 640px) {
   .home-hero {
     padding: 1.15rem 0 1.2rem;
@@ -1064,6 +986,7 @@
   align-items: stretch;
 }
 
+/* Homepage research cards use a vertical layout: index, title, optional visual, then text. */
 .research-card {
   position: relative;
   display: flex;
@@ -1162,28 +1085,7 @@
   line-height: 1.55;
 }
 
-.home-section--physics .research-card__content p:not(.research-card__formula) {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.research-card__formula {
-  align-self: flex-start;
-  margin-top: 0.75rem !important;
-  padding: 0.36rem 0.6rem;
-  border: 1px solid rgba(91, 63, 140, 0.16);
-  border-radius: 999px;
-  background: rgba(91, 63, 140, 0.07);
-  color: var(--jh-purple) !important;
-  font-size: 0.9em !important;
-  font-weight: 650;
-  line-height: 1.2 !important;
-}
-
-.research-card__cta,
-.status-pill {
+.research-card__cta {
   display: inline-flex;
   align-items: center;
   align-self: flex-start;
@@ -1195,21 +1097,14 @@
   white-space: nowrap;
 }
 
-.status-pill::after {
-  content: " \2192";
-}
-
-.research-card--purple .status-pill,
 .research-card--purple .research-card__cta {
   color: var(--jh-purple);
 }
 
-.research-card--teal .status-pill,
 .research-card--teal .research-card__cta {
   color: var(--jh-teal);
 }
 
-.research-card--gold .status-pill,
 .research-card--gold .research-card__cta {
   color: var(--jh-gold);
 }
@@ -1282,10 +1177,6 @@
   .research-card {
     min-height: auto;
   }
-
-  .home-section--physics .research-card__content p:not(.research-card__formula) {
-    -webkit-line-clamp: 3;
-  }
 }
 
 @media (max-width: 640px) {
@@ -1301,13 +1192,6 @@
 /* =========================
    Final homepage balance fixes
    ========================= */
-
-.home-section--physics .research-card__content p:not(.research-card__formula) {
-  display: block;
-  -webkit-line-clamp: unset;
-  -webkit-box-orient: initial;
-  overflow: visible;
-}
 
 .research-grid--equal {
   align-items: start;
@@ -1415,7 +1299,6 @@
   line-height: 1.52;
 }
 
-.status-pill,
 .research-card__cta {
   font-size: 0.8em;
 }
@@ -1815,11 +1698,6 @@
 
 .home-section--ai .research-card:hover h3 {
   color: var(--jh-blue);
-}
-
-.research-card--teal .status-pill,
-.research-card--gold .status-pill {
-  color: var(--jh-muted);
 }
 
 /* =========================
