@@ -36,35 +36,6 @@ redirect_from:
     <!-- <a class="home-button" href="/assets/CV_JunhuaiXu.pdf" target="_blank" rel="noopener">Curriculum Vitae</a> -->
   </section>
 
-  {% if site.data.news %}
-  <section id="news" class="home-section home-section--compact">
-    <div class="section-heading">
-      <p class="section-kicker">Recent News</p>
-    </div>
-
-    <div class="news-list">
-      {% for item in site.data.news limit:5 %}
-        <div class="news-item{% if forloop.first %} news-item--latest{% endif %}">
-          <div class="news-item__date">
-            <time>{{ item.date }}</time>
-          </div>
-          <div class="news-item__body">
-            {% if item.title %}
-              <h3>{{ item.title }}</h3>
-            {% endif %}
-            {% if item.location %}
-              <p class="news-item__location">{{ item.location }}</p>
-            {% endif %}
-            <div class="news-item__text">
-              {{ item.text | markdownify }}
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
-
   <section id="physics-research" class="home-section home-section--physics">
     <div class="section-heading">
       <p class="section-kicker">Physics Research</p>
@@ -227,6 +198,35 @@ redirect_from:
       </div>
     </div>
   </section>
+
+  {% if site.data.news %}
+  <section id="news" class="home-section home-section--compact">
+    <div class="section-heading">
+      <p class="section-kicker">Recent News</p>
+    </div>
+
+    <div class="news-list">
+      {% for item in site.data.news limit:5 %}
+        <div class="news-item{% if forloop.first %} news-item--latest{% endif %}">
+          <div class="news-item__date">
+            <time>{{ item.date }}</time>
+          </div>
+          <div class="news-item__body">
+            {% if item.title %}
+              <h3>{{ item.title }}</h3>
+            {% endif %}
+            {% if item.location %}
+              <p class="news-item__location">{{ item.location }}</p>
+            {% endif %}
+            <div class="news-item__text">
+              {{ item.text | markdownify }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
 
   <section id="education" class="home-section">
     <div class="section-heading">
