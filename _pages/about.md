@@ -14,7 +14,7 @@ redirect_from:
     <div class="home-hero__intro">
       <h1 class="home-hero__name">Junhuai Xu</h1>
       <p class="home-hero__tagline">
-        Experimental nuclear physics, detector instrumentation, and AI for scientific reconstruction.
+        Experimental Nuclear Physics · Short-Range Correlations · AI for Scientific Reconstruction
       </p>
       <p class="home-hero__meta">Ph.D. Candidate, Department of Physics, Tsinghua University</p>
       <div class="home-hero__actions">
