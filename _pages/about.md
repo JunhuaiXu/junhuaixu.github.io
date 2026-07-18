@@ -89,8 +89,8 @@ redirect_from:
         </figure>
         <div class="research-card__content">
           <p>
-            Simulation workflows for atmospheric neutrinos in compact deep-sea detector arrays, linking flux,
-            interactions, detector response, and reconstruction.
+            Exploring how a compact deep-sea Cherenkov array, motivated by the Hai-Ling/TRIDENT opportunity,
+            could probe GeV atmospheric-neutrino oscillations.
           </p>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
