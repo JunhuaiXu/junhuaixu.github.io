@@ -34,18 +34,17 @@ excerpt: "Exploring compact deep-sea Cherenkov arrays for GeV atmospheric-neutri
       <p class="atmospheric-equation__label">Muon-neutrino survival probability</p>
       <div class="detail-equation">
         \[
-        \begin{aligned}
-        P(\nu_\mu\!\rightarrow\!\nu_\mu)
-        &\simeq 1-\sin^2(2\theta_{23})\\
-        &\quad\times\sin^2\!\left(1.27\,\Delta m^2_{32}\frac{L}{E}\right).
-        \end{aligned}
+        P_{\mu\mu}\simeq
+        1-\sin^2(2\theta_{23})\,
+        \sin^2\!\left(1.27\,\Delta m^2_{32}\frac{L}{E}\right).
         \]
       </div>
       <p class="atmospheric-equation__note">
-        In this two-flavor vacuum approximation, \(L\) is measured in kilometers, \(E\) in GeV, and
-        \(\Delta m^2_{32}\) in \(\mathrm{eV}^2\). The mixing angle \(\theta_{23}\) controls the disappearance
-        amplitude, while \(|\Delta m^2_{32}|\) sets the oscillation frequency in \(L/E\). Quantitative calculations
-        require three-flavor propagation through the Earth's matter profile.
+        Here, \(P_{\mu\mu}\equiv P(\nu_\mu\!\rightarrow\!\nu_\mu)\). In this two-flavor vacuum approximation,
+        \(L\) is measured in kilometers, \(E\) in GeV, and \(\Delta m^2_{32}\) in \(\mathrm{eV}^2\).
+        The mixing angle \(\theta_{23}\) controls the disappearance amplitude, while \(|\Delta m^2_{32}|\) sets
+        the oscillation frequency in \(L/E\). Quantitative calculations require three-flavor propagation through
+        the Earth's matter profile.
       </p>
     </div>
 
@@ -62,17 +61,14 @@ excerpt: "Exploring compact deep-sea Cherenkov arrays for GeV atmospheric-neutri
       <div class="atmospheric-baseline__copy">
         <h3>From detector observables to the oscillation pattern</h3>
         <p>
-          The detector records photon arrival times and charges rather than \(L\) or \(E\) directly. Event
-          reconstruction estimates the topology, zenith direction, and neutrino energy. The zenith direction,
-          together with an atmospheric production-height model and the Earth's geometry, gives
-          <span class="inline-math">\(L_{\rm reco}\)</span>.
-        </p>
-        <p>
-          A reconstructed \(L/E\) projection makes the oscillation phase intuitive, while precision analyses
-          commonly retain the two-dimensional
-          <span class="inline-math">\((E_{\rm reco},\cos\theta_{z,\rm reco})\)</span> distribution. Detector
-          resolution, selection efficiency, and topology misclassification determine how much oscillation
-          information remains visible.
+          The detector records photon arrival times and charges rather than \(L\) or \(E\) directly. Reconstruction
+          estimates the event topology, zenith direction, and neutrino energy. The direction and production-height
+          model give <span class="inline-math">\(L_{\rm reco}\)</span>, while the light pattern constrains
+          <span class="inline-math">\(E_{\rm reco}\)</span>. We use \(L_{\rm reco}/E_{\rm reco}\) as an intuitive
+          projection of the oscillation phase; precision analyses may instead retain the two-dimensional
+          <span class="inline-math">\((E_{\rm reco},\cos\theta_{z,\rm reco})\)</span> distribution. In either form,
+          detector resolution, selection efficiency, and topology misclassification determine how much
+          oscillation information remains visible.
         </p>
       </div>
     </div>
