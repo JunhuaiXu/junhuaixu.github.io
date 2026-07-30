@@ -18,7 +18,11 @@
 \definecolor{muted}{HTML}{5F6B7A}
 \definecolor{rule}{HTML}{D9DEE8}
 \definecolor{accent}{HTML}{5B3F8C}
-\hypersetup{urlcolor=accent}
+\hypersetup{
+  urlcolor=accent,
+  pdftitle={Junhuai Xu - Curriculum Vitae},
+  pdfauthor={Junhuai Xu}
+}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
@@ -45,7 +49,7 @@
 \begin{tabularx}{\linewidth}{@{}Xr@{}}
   {\LARGE\bfseries Junhuai Xu} &
   {\large\bfseries\color{accent}Curriculum Vitae} \\
-  Ph.D. Candidate, Department of Physics, Tsinghua University &
+  Ph.D. Candidate, Experimental Nuclear and Particle Physics &
   {\small\color{muted}Updated July 2026} \\
   \textbf{Ph.D. Advisor}: \href{https://inspirehep.net/authors/1062622}{Zhigang Xiao} &
   \href{mailto:xjh22@mails.tsinghua.edu.cn}{xjh22@mails.tsinghua.edu.cn} \\
@@ -59,70 +63,107 @@
 {\color{accent}\hrule height 1.0pt}
 
 \cvsection{Profile}
-Ph.D. candidate in experimental nuclear and particle physics, working across detector instrumentation,
-scientific computing, and physics-informed reconstruction. I develop analysis workflows that connect detector
-calibration, response simulation, event reconstruction, inverse problems, statistical inference, and
-machine-learning methods for nuclear and neutrino experiments.
+Ph.D. candidate in experimental nuclear and particle physics developing
+reconstruction and inference methods for complex detector data. My research
+connects detector calibration, response simulation, inverse problems,
+statistical inference, and physics-informed machine learning across nuclear,
+heavy-ion, and neutrino experiments. I have published five first-author
+peer-reviewed articles.
 
 \cvsection{Research Experience}
 \entry{Nucleon Short-Range Correlations}{Oct. 2023 -- Present}{CSHINE Experiment, RIBLL-1 (HIRFL), Lanzhou, China}
 \begin{itemize}[leftmargin=1.25em,itemsep=1pt,topsep=2pt]
-  \item Extracted the SRC-induced high-momentum-tail fraction in ${}^{124}$Sn, \(R_{\mathrm{HMT}}=(20\pm3)\%\), by comparing precision hard-$\gamma$ spectra with detector-filtered IBUU-MDI transport calculations.
+  \item Within the IBUU-MDI framework, constrained the SRC-induced
+    high-momentum-tail fraction in ${}^{124}$Sn to
+    \(R_{\mathrm{HMT}}=(20\pm3)\%\) using precision hard-$\gamma$ spectra and
+    detector-filtered transport calculations.
   \item Developed calibration and detector-response models for the CsI(Tl) $\gamma$-ray hodoscope used in bremsstrahlung measurements from low-energy heavy-ion collisions.
   \item Implemented Richardson--Lucy spectrum unfolding and quantified reconstruction/systematic uncertainties through pseudo-experiments, closure tests, and consistency checks.
 \end{itemize}
 
 \entry{Correlation Function Imaging}{Feb. 2024 -- Present}{Department of Physics, Tsinghua University}
 \begin{itemize}[leftmargin=1.25em,itemsep=1pt,topsep=2pt]
-  \item Developed a Richardson--Lucy imaging framework for femtoscopic two-particle correlations, reconstructing freeze-out source distributions without assuming a Gaussian source shape.
-  \item Reconstructed identical non-Gaussian source functions for $pp$ and $\bar{p}\bar{p}$ correlations in Au+Au collisions at $\sqrt{s_{NN}}=200$ GeV, providing coordinate-space evidence for matter--antimatter symmetry at freeze-out.
-  \item Extended the imaging strategy toward three-dimensional source reconstruction with reproducible fit, resampling, and validation workflows for collaboration analyses.
+  \item Developed a Richardson--Lucy framework that directly images
+    femtoscopic source functions without imposing a Gaussian shape and
+    simultaneously constrains strong-interaction parameters.
+  \item Reconstructed non-Gaussian source functions from published $pp$ and
+    $\bar{p}\bar{p}$ correlations in Au+Au collisions at
+    $\sqrt{s_{NN}}=200$ GeV; the two source functions agree within uncertainty.
+  \item Contributed to a published three-dimensional extension for pion-source
+    imaging and neutron-skin sensitivity studies in heavy-ion collisions.
 \end{itemize}
 
-\entry{Deep-Sea Neutrino Detection}{Jun. 2024 -- Present}{TRIDENT Collaboration}
+\entry{Deep-Sea Neutrino Detection}{Jun. 2024 -- Present}{TRIDENT Collaboration; first-author manuscript prepared for JINST submission}
 \begin{itemize}[leftmargin=1.25em,itemsep=1pt,topsep=2pt]
-  \item Built an atmospheric-neutrino simulation-to-reconstruction chain combining HONDA fluxes, FLUKA interactions, and Geant4 detector transport for a compact TRIDENT array.
-  \item Developed graph-neural-network reconstruction of event class, direction, and energy from simulated detector responses, benchmarking performance for oscillation analyses.
-  \item Evaluated atmospheric-neutrino oscillation-parameter sensitivity using Poisson-sampled pseudo-experiments and spectral comparisons across parameter hypotheses.
+  \item Built an atmospheric-neutrino simulation-to-reconstruction chain
+    combining HONDA fluxes, FLUKA interactions, and Geant4 detector transport
+    for a compact underwater detector concept motivated by TRIDENT.
+  \item Developed a PyTorch Geometric graph-neural-network workflow using
+    geometry-aware graph construction and Edge Convolution to reconstruct event
+    topology, direction, and energy from sparse detector responses.
+  \item Connected reconstructed outputs to oscillation-parameter inference over
+    64,273 selected events and recovered the input parameters within uncertainty
+    through a physics-level closure test.
 \end{itemize}
 
 \cvsection{Experimental Experience}
 \begin{itemize}[leftmargin=1.25em,itemsep=2pt,topsep=2pt]
-  \item \textbf{CSHINE Experiment} (Lanzhou, China, 2024): participated in beam-time data taking and high-energy $\gamma$-ray measurements with the CSHINE detector system.
-  \item \textbf{SLEGS Beam Test at SSRF} (Shanghai, China, Jan. 2025): performed high-energy $\gamma$-ray response calibration of CsI(Tl) crystals using quasi-monochromatic photon beams and Geant4 simulations.
+  \item \textbf{CSHINE Experiment} (Lanzhou, China, 2024): participated in
+    beam-time data taking and led calibration, event reconstruction, and
+    spectrum extraction for the high-energy $\gamma$-ray detector array.
+  \item \textbf{SLEGS Beam Test at SSRF} (Shanghai, China, Jan. 2025): designed
+    and led a dedicated CsI(Tl) response experiment from detector testing and
+    setup through beam measurement, Geant4 calibration, and analysis.
   \item \textbf{S$\pi$RIT Experiment} (RIKEN, Japan, 2024): supported detector operation and electronics control during SAMURAI beam time, contributing to stable data taking and run coordination.
 \end{itemize}
 
 \cvsection{Technical Skills}
 \begin{tabularx}{\linewidth}{@{}lX@{}}
 \textbf{Physics analysis} & Detector calibration, detector-response simulation, event reconstruction, spectrum unfolding, systematic uncertainty evaluation.\\
-\textbf{Inference} & Inverse problems, Richardson--Lucy deconvolution/imaging, likelihood-based inference, pseudo-experiments, closure tests, resampling.\\
-\textbf{Machine learning} & Graph neural networks, PyTorch, physics-informed reconstruction, simulation-to-inference workflows.\\
-\textbf{Computing} & Python, C/C++, ROOT, Geant4, FLUKA-based workflows, Linux, Git, HPC/GPU-accelerated computing, LaTeX.\\
+\textbf{Inference} & Inverse problems, Richardson--Lucy deconvolution/imaging, likelihood inference, particle filtering, unscented Kalman filtering, pseudo-experiments, closure tests.\\
+\textbf{Machine learning} & PyTorch, PyTorch Geometric, graph neural networks, Edge Convolution, LoRA/PEFT, physics-informed reconstruction.\\
+\textbf{Computing} & Python, C/C++, ROOT, Geant4, FLUKA-based workflows, Linux, Git, HTCondor, HPC/GPU workflows, LaTeX.\\
+\textbf{Experiment} & CAEN-based electronics operation, data acquisition, detector testing, beam-time operation, and run coordination.\\
 \end{tabularx}
 
 \newpage
 \cvsection{Education}
-\entry{Tsinghua University}{Aug. 2022 -- Jun. 2027 (Expected)}{Ph.D. Candidate in Physics}
+\entry{Tsinghua University}{Aug. 2022 -- Jun. 2027 (Expected)}{Ph.D. Candidate in Physics; specialization in Experimental Nuclear and Particle Physics}
 Research areas: short-range correlations, heavy-ion collisions, femtoscopy, neutrino simulation, and machine-learning-based reconstruction.\\[0.25em]
 \entry{South China Normal University}{Aug. 2018 -- Jun. 2022}{B.S. in Optoelectronic Information Science and Engineering}
 GPA: 4.06/5.00; Rank: 1/137. Undergraduate thesis in DIS/SIDIS phenomenology: \textit{A Study of the Nuclear Medium Effect of Hadron Fragmentation Function}.
 
 \cvsection{Selected Publications}
-{\small A complete publication list is available separately on my personal website.}
+{\small Five first-author peer-reviewed articles; complete publication record
+available on \href{https://scholar.google.com/citations?user=XK-LVeIAAAAJ\&hl=en}{Google Scholar}.}
 \begin{itemize}[leftmargin=1.25em,itemsep=2pt,topsep=3pt]
-  \item \textbf{Xu, J.} \textit{et al.}, ``Precise measurement of short-range correlations in nuclei from bremsstrahlung gamma-ray emission in low-energy heavy-ion collisions,'' \href{https://doi.org/10.1103/jw1p-36pb}{\textbf{\textit{Phys. Rev. Res.}} \textbf{7}, 043174 (2025)}.
   \item \textbf{Xu, J.} \textit{et al.}, ``Experimental study of bremsstrahlung $\gamma$-ray emission and short-range correlations in ${}^{124}$Sn+${}^{124}$Sn collisions at 25 MeV/nucleon,'' \href{https://doi.org/10.1103/dhz2-nl56}{\textbf{\textit{Phys. Rev. C}} \textbf{113}, 044613 (2026)}.
-  \item \textbf{Xu, J.} \textit{et al.}, ``Reconstruction of Bremsstrahlung $\gamma$-rays spectrum in heavy ion reactions with Richardson-Lucy algorithm,'' \href{https://doi.org/10.1016/j.physletb.2024.139009}{\textbf{\textit{Phys. Lett. B}} \textbf{857}, 139009 (2024)}.
-  \item \textbf{Xu, J.} \textit{et al.}, ``Imaging Freeze-Out Sources and Extracting Strong Interaction Parameters in Relativistic Heavy-Ion Collisions,'' \href{https://doi.org/10.1088/0256-307X/42/3/031401}{\textbf{\textit{Chin. Phys. Lett.}} \textbf{42}, 031401 (2025)}.
+  \item \textbf{Xu, J.} \textit{et al.}, ``Precise measurement of short-range correlations in nuclei from bremsstrahlung gamma-ray emission in low-energy heavy-ion collisions,'' \href{https://doi.org/10.1103/jw1p-36pb}{\textbf{\textit{Phys. Rev. Res.}} \textbf{7}, 043174 (2025)}.
   \item \textbf{Xu, J.} \textit{et al.}, ``Linear response of CsI(Tl) crystal to energetic photons below 20 MeV,'' \href{https://doi.org/10.1016/j.nima.2025.170787}{\textbf{\textit{Nucl. Instrum. Meth. A}} \textbf{1080}, 170787 (2025)}.
+  \item \textbf{Xu, J.} \textit{et al.}, ``Imaging Freeze-Out Sources and Extracting Strong Interaction Parameters in Relativistic Heavy-Ion Collisions,'' \href{https://doi.org/10.1088/0256-307X/42/3/031401}{\textbf{\textit{Chin. Phys. Lett.}} \textbf{42}, 031401 (2025)}.
+  \item \textbf{Xu, J.} \textit{et al.}, ``Reconstruction of Bremsstrahlung $\gamma$-rays spectrum in heavy ion reactions with Richardson-Lucy algorithm,'' \href{https://doi.org/10.1016/j.physletb.2024.139009}{\textbf{\textit{Phys. Lett. B}} \textbf{857}, 139009 (2024)}.
+\end{itemize}
+
+\cvsection{Selected Presentation}
+\begin{itemize}[leftmargin=1.25em,itemsep=2pt,topsep=2pt]
+  \item \textbf{5th International Workshop on Quantitative Challenges in SRC
+    and EMC-Effect Research} (LBNL, remote, Jun. 2026): ``Experimental Study of
+    Bremsstrahlung Gamma-Ray Emission and Short-Range Correlations in Low-Energy
+    Heavy-Ion Collisions.''
+\end{itemize}
+
+\cvsection{Mentoring and Teaching}
+\begin{itemize}[leftmargin=1.25em,itemsep=2pt,topsep=2pt]
+  \item Mentored an undergraduate project on a plastic-scintillator cosmic-ray
+    detector and an undergraduate thesis on GNN-based neutrino-event topology
+    classification.
+  \item Outstanding Teaching Assistant, Tsinghua University (2024).
 \end{itemize}
 
 \cvsection{Awards}
 \begin{itemize}[leftmargin=1.25em,itemsep=2pt,topsep=2pt]
   \item First-class Comprehensive Scholarship, Tsinghua University (2025).
   \item Second-class Comprehensive Scholarship, Tsinghua University (2024).
-  \item Outstanding Teaching Assistant, Tsinghua University (2024).
   \item Third Prize, National Undergraduate Mathematics Competition Final Round, Non-Math Major (2021).
   \item First Prize, China Undergraduate Mathematical Contest in Modeling (CUMCM, 2020).
 \end{itemize}
