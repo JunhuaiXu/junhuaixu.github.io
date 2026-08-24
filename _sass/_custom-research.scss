@@ -1577,12 +1577,21 @@
   opacity: 0.78;
 }
 
-.cv-list__item .cv-list__degree {
+.cv-list__item .cv-list__institution {
   display: block;
   color: var(--jh-ink);
   font-size: 1em;
-  font-weight: 650;
+  font-weight: 700;
   line-height: 1.35;
+}
+
+.cv-list__item .cv-list__degree {
+  display: block;
+  margin-top: 0.12rem;
+  color: var(--jh-ink);
+  font-size: 0.94em;
+  font-weight: 500;
+  line-height: 1.4;
 }
 
 .cv-list__item .cv-list__detail {
@@ -1590,9 +1599,9 @@
   flex-wrap: wrap;
   gap: 0.1rem 0.34rem;
   align-items: baseline;
-  margin-top: 0.2rem;
+  margin-top: 0.16rem;
   color: var(--jh-muted);
-  font-size: 0.88em;
+  font-size: 0.84em;
   line-height: 1.45;
 }
 

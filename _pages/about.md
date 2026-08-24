@@ -250,9 +250,10 @@ redirect_from:
     <ul class="cv-list cv-list--education">
       <li class="cv-list__item">
         <div class="cv-list__content">
-          <span class="cv-list__degree">Ph.D. Candidate in Experimental Nuclear Physics</span>
+          <span class="cv-list__institution">Tsinghua University</span>
+          <span class="cv-list__degree">Ph.D. Candidate in Physics</span>
           <span class="cv-list__detail">
-            <span>Tsinghua University</span>
+            <span>Research Area: Experimental Nuclear Physics</span>
             <span class="cv-list__separator" aria-hidden="true">&middot;</span>
             <span>Advisor: Prof. <a href="https://inspirehep.net/authors/1062622" target="_blank" rel="noopener">Zhigang Xiao</a></span>
           </span>
@@ -261,10 +262,9 @@ redirect_from:
       </li>
       <li class="cv-list__item">
         <div class="cv-list__content">
+          <span class="cv-list__institution">South China Normal University</span>
           <span class="cv-list__degree">B.S. in Optoelectronic Information Science and Engineering</span>
           <span class="cv-list__detail">
-            <span>South China Normal University</span>
-            <span class="cv-list__separator" aria-hidden="true">&middot;</span>
             <span>Undergraduate Advisors: Prof. Hongxi Xing and Prof. Jiahui Huang</span>
           </span>
         </div>
