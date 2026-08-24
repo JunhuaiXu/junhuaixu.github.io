@@ -4,7 +4,7 @@ title: "Short-Range Correlations in Nuclei"
 permalink: /research/short-range-correlations/
 author_profile: true
 hide_title: true
-excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
+excerpt: "Constraining high-momentum nucleons with bremsstrahlung gamma rays."
 ---
 
 <div class="research-detail research-story">
@@ -48,7 +48,7 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
         <span class="visual-step__icon">20%</span>
         <span class="visual-step__label">Result</span>
         <strong>\(R_{\mathrm{HMT}}\)</strong>
-        <small>\((20 \pm 3)\%\) in \(^{124}\mathrm{Sn}\)</small>
+        <small>IBUU-MDI fit: \((20 \pm 3)\%\)</small>
       </div>
     </div>
   </section>
@@ -82,7 +82,7 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
       If the initial nuclei contain SRC-induced high-momentum nucleons, the participating np pairs carry larger
       relative kinetic energies. This hardens the emitted \(\gamma\)-ray spectrum, especially at the high-energy
       end. Because energetic \(\gamma\) rays interact only electromagnetically with the nuclear medium, they
-      suffer much weaker final-state interactions than hadronic probes and provide a clean window into the early
+      suffer much weaker final-state interactions than hadronic probes and provide a complementary window into the early
       collision dynamics.
     </p>
   </section>
@@ -111,21 +111,22 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
       A central part of this work was to ensure that the extracted SRC fraction was not an artifact of a
       particular background subtraction, detector response treatment, or analysis selection. The \(\gamma\)-ray
       spectrum was validated using independent coincidence selections and background-evaluation strategies.
-      Detector-response effects were treated with Geant4 simulations, and the original \(\gamma\)-ray spectrum
-      was independently reconstructed using the Richardson-Lucy unfolding method.
+      Detector-response effects were treated with Geant4 simulations. The original \(\gamma\)-ray spectrum was
+      also reconstructed with Richardson-Lucy unfolding as a complementary inference route using the same data
+      and response model.
     </p>
     <p>
       The unfolded spectrum allowed a direct comparison with IBUU-MDI calculations without applying the
-      detector-response matrix to the theoretical spectra. The value extracted from this independent
-      reconstruction was consistent with the main forward-folding analysis, supporting the robustness of the
-      final <span class="inline-math">\(R_{\mathrm{HMT}}\)</span> constraint.
+      detector-response matrix to the theoretical spectra. The unfolded extraction agreed with the
+      forward-folded likelihood result within uncertainty, providing a cross-check based on the opposite
+      inference direction.
     </p>
   </section>
 
   <section class="detail-section detail-section--result">
     <h2>Key Result</h2>
     <p>
-      The extracted high-momentum-tail fraction in \(^{124}\mathrm{Sn}\) is
+      Within the IBUU-MDI framework, the fit favors a high-momentum-tail fraction in \(^{124}\mathrm{Sn}\) of
       <span class="inline-math">\(R_{\mathrm{HMT}} = (20 \pm 3)\%\)</span>. Under the adopted HMT parametrization,
       this corresponds to approximately 16% of neutrons and 24% of protons participating in SRC-related
       high-momentum components. This result shows that approximately one fifth of the nucleons in
@@ -145,7 +146,7 @@ excerpt: "Probing high-momentum nucleons with bremsstrahlung gamma rays."
       <li>Performed precision measurements of high-energy \(\gamma\) rays in symmetric \(^{124}\mathrm{Sn}+^{124}\mathrm{Sn}\) collisions at 25 MeV/u with the CSHINE detector system.</li>
       <li>Contributed to CSHINE-Gamma instrumentation and calibration, including CsI(Tl) response validation and detector-performance studies at SLEGS.</li>
       <li>Developed the rare \(\gamma\)-ray analysis framework, including event reconstruction, background control, detector-response correction, and systematic validation.</li>
-      <li>Combined experimental data with IBUU-MDI transport-model calculations to extract the SRC-induced high-momentum-tail fraction in \(^{124}\mathrm{Sn}\): <span class="inline-math">\(R_{\mathrm{HMT}} = (20 \pm 3)\%\)</span>.</li>
+      <li>Combined experimental data with IBUU-MDI transport-model calculations to constrain the model-dependent SRC-induced high-momentum-tail fraction in \(^{124}\mathrm{Sn}\): <span class="inline-math">\(R_{\mathrm{HMT}} = (20 \pm 3)\%\)</span>.</li>
       <li>Developed Richardson-Lucy detector-response unfolding methods to reconstruct the original bremsstrahlung \(\gamma\)-ray spectrum for direct comparison with theoretical calculations.</li>
     </ul>
   </section>

@@ -199,7 +199,7 @@ excerpt: "Bayesian deblurring, inverse problems, and physics-informed reconstruc
       the RL-imaged source is more concentrated at small radii, especially for
       <span class="inline-math">\(r \lt 5~\mathrm{fm}\)</span>, and has reduced density at larger radii. From the
       algorithmic perspective, this work demonstrates that RL can turn a one-dimensional correlation observable
-      into a model-independent source image.
+      into a nonparametric source-function reconstruction for a specified interaction kernel.
     </p>
   </section>
 
@@ -251,7 +251,7 @@ excerpt: "Bayesian deblurring, inverse problems, and physics-informed reconstruc
       without directly inverting <span class="inline-math">\(D_{ij}\)</span>, avoiding numerical instability and
       preserving the positivity of the spectrum.
     </p>
-    <p>This is a typical AI/ML-style scientific computing problem:</p>
+    <p>This is a statistical inverse problem with clear physical constraints:</p>
     <ul class="clean-list">
       <li>construct a high-dimensional response matrix;</li>
       <li>solve an ill-posed inverse problem;</li>
@@ -276,8 +276,8 @@ excerpt: "Bayesian deblurring, inverse problems, and physics-informed reconstruc
       The RL reconstruction method was later applied to the high-statistics
       <span class="inline-math">\(^{124}\mathrm{Sn}+^{124}\mathrm{Sn}\)</span> experiment at 25 MeV/u. The main
       analysis extracted the SRC-induced high-momentum-tail fraction as
-      <span class="inline-math">\(R_{\mathrm{HMT}}=(20\pm3)\%\)</span>. In the PRC study, the RL algorithm was
-      used as an independent reconstruction method. After unfolding the detector response, the reconstructed
+      <span class="inline-math">\(R_{\mathrm{HMT}}=(20\pm3)\%\)</span> within the IBUU-MDI framework. In the PRC
+      study, the RL algorithm provided a complementary reconstruction route. After unfolding the detector response, the reconstructed
       original bremsstrahlung <span class="inline-math">\(\gamma\)</span>-ray spectrum was compared directly with
       IBUU-MDI calculations, giving
       <span class="inline-math">\(R_{\mathrm{HMT}}=(20.8\pm1.8)\%\)</span>, consistent with the primary
@@ -286,7 +286,7 @@ excerpt: "Bayesian deblurring, inverse problems, and physics-informed reconstruc
   </section>
 
   <section class="detail-section">
-    <h2>Why This Belongs to AI &amp; Machine Learning</h2>
+    <h2>Relation to Physics-Informed Inference</h2>
     <p>
       Although the Richardson-Lucy algorithm is not a neural network, it is deeply connected to modern
       machine-learning methodology. It is an iterative probabilistic inference algorithm for hidden-variable

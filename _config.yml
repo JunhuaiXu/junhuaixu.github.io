@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Homepage"
+title                    : "Junhuai Xu"
 title_separator          : "-"
 name                     : &name "Junhuai Xu"
-description              : &description "Ph.D. Candidate, Tsinghua University"
+description              : &description "Experimental nuclear physicist developing detector reconstruction, inverse methods, and physics-informed machine learning."
 url                      : https://junhuaixu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # baseurl                  : "/ruijiezhu" # the subpath of your site, e.g. "/blog"
 repository               : "JunhuaiXu/junhuaixu.github.io"
@@ -62,18 +62,23 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "/images/profile.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Junhuai Xu"
+  links:
+    - "https://scholar.google.com/citations?user=XK-LVeIAAAAJ&hl=en"
+    - "https://orcid.org/0000-0001-7529-8786"
+    - "https://inspirehep.net/authors/1866896"
+    - "https://www.linkedin.com/in/xujunhuai/"
+    - "https://github.com/JunhuaiXu"
 
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -82,7 +87,7 @@ analytics:
 author:
   name             : "Junhuai Xu"
   avatar           : "profile.png"
-  bio              : "Ph.D. Candidate, Tsinghua University"
+  bio              : "Ph.D. Candidate in Experimental Nuclear Physics at Tsinghua University"
   methods:
     - group: "Physics"
       skills:
@@ -120,13 +125,13 @@ author:
   flickr           :
   facebook         : #""
   foursquare       :
-  github           : #""
+  github           : "JunhuaiXu"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "xujunhuai"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -144,7 +149,6 @@ author:
 include:
   - .htaccess
   - _pages
-  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -169,6 +173,28 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - _drafts
+  - _portfolio
+  - _posts
+  - _publications
+  - _teaching
+  - files
+  - markdown_generator
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/year-archive.html
 keep_files:
   - .git
   - .svn

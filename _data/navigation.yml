@@ -12,11 +12,11 @@ main:
   - title: "AI & Methods"
     url: /#ai-methods
 
-  - title: "Education"
-    url: /#education
+  - title: "Experiments"
+    url: /#experiments
 
-  # - title: "Talks"
-  #   url: /#talks
+  - title: "News"
+    url: /#news
 
-  - title: "Awards"
-    url: /#awards
+  - title: "CV"
+    url: /cv/

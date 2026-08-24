@@ -1,2 +1,5 @@
 _site/
 .DS_Store
+assets/files/*.aux
+assets/files/*.log
+assets/files/*.out

@@ -1,59 +1,36 @@
 ---
-layout: archive
-title: "CV"
+layout: single
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
+hide_title: true
+excerpt: "Curriculum vitae and academic materials for Junhuai Xu."
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<div class="research-detail research-story">
+  <section class="detail-hero">
+    <p class="section-kicker">Academic Profile</p>
+    <h1>Curriculum Vitae</h1>
+    <p class="detail-subtitle">Experimental Nuclear Physics · Detector Reconstruction · Physics-Informed Inference</p>
+  </section>
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+  <section class="detail-section">
+    <p>
+      I am a Ph.D. candidate in Experimental Nuclear Physics at Tsinghua University, expecting to graduate in
+      June 2027. My research combines detector calibration and response simulation with inverse reconstruction,
+      statistical inference, and graph-based machine learning for nuclear and neutrino experiments.
+    </p>
+    <p>
+      The downloadable materials below provide my current research experience, publication record, technical
+      background, and future research directions.
+    </p>
+  </section>
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  <div class="detail-actions">
+    <a class="home-button home-button--primary" href="/assets/files/Junhuai_Xu_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+    <a class="home-button" href="/assets/files/Junhuai_Xu_Publication_List.pdf" target="_blank" rel="noopener">Publication List</a>
+    <a class="home-button" href="/assets/files/Junhuai_Xu_Research_Statement.pdf" target="_blank" rel="noopener">Research Statement</a>
+  </div>
+</div>

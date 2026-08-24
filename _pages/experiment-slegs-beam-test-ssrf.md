@@ -131,7 +131,7 @@ excerpt: "High-energy gamma-ray response calibration of CsI(Tl) crystals for CSH
     </p>
     <div class="result-box">
       <span class="result-box__label">Key Result</span>
-      <strong>CsI(Tl) non-linearity &lt; 4% below 20 MeV</strong>
+      <strong>Calibration deviation constrained within approximately 4% below 20 MeV</strong>
       <p>
         High-energy \(\gamma\)-ray response validation for CSHINE-Gamma using quasi-monochromatic photon beams at
         SLEGS.
@@ -167,6 +167,7 @@ excerpt: "High-energy gamma-ray response calibration of CsI(Tl) crystals for CSH
   <section class="detail-section">
     <h2>My Contributions</h2>
     <ul class="clean-list">
+      <li>Led the experimental design, detector testing, setup assembly, calibration strategy, and analysis, and participated in the SLEGS beam campaign.</li>
       <li>Performed high-energy \(\gamma\)-ray response studies of CsI(Tl) crystals using quasi-monochromatic photon beams at SLEGS.</li>
       <li>Analyzed CsI(Tl) response spectra and extracted peak positions for multiple \(\gamma\)-ray beam energies.</li>
       <li>Developed Geant4 detector-response simulations to account for energy leakage, finite resolution, and detector geometry.</li>

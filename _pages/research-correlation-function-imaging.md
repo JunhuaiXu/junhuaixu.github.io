@@ -23,7 +23,7 @@ excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations.
       <div class="visual-step">
         <span class="visual-step__icon">HIC</span>
         <span class="visual-step__label">Freeze-out</span>
-        <strong>Emission source</strong>
+        <strong>Source function</strong>
         <small>Particles leave an expanding fireball</small>
       </div>
       <div class="visual-step">
@@ -73,7 +73,7 @@ excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations.
   <section class="detail-section">
     <h2>Physical Motivation</h2>
     <p>
-      Traditional correlation-function analyses often assume that the emission source has a Gaussian form. This
+      Traditional correlation-function analyses often assume that the source function has a Gaussian form. This
       assumption makes the analysis convenient and allows the extraction of HBT radii, but it may also hide
       important physics. If the collision evolves extremely rapidly, the emitted particles may not be fully
       randomized in coordinate space before freeze-out. In that case, the true source can deviate from a
@@ -81,9 +81,9 @@ excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations.
       the system.
     </p>
     <p>
-      My work focuses on developing a model-independent imaging method that directly reconstructs the source
-      function from experimental correlation functions. This allows us to study not only the source size, but
-      also its detailed shape.
+      My work focuses on developing a nonparametric imaging method that reconstructs the source function from
+      experimental correlation functions without imposing a Gaussian shape. The result still depends on the
+      physical interaction kernel, whose assumptions must be tested explicitly.
     </p>
     <p>The central physics questions are:</p>
     <ul class="clean-list">
@@ -138,10 +138,10 @@ excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations.
       algorithm was then used to reconstruct the original source function.
     </p>
     <p>
-      The reconstructed source converged back to the known input distribution. Importantly, tests with different
-      initial trial source functions led to the same final result, demonstrating the robustness of the iterative
-      imaging procedure. The optimized interaction parameters also converged to the input values, confirming that
-      the method can recover both the source function and the interaction strength.
+      The reconstructed source function was compared with the known input, and its re-projected correlation
+      function was checked against the generated correlation. The optimized interaction parameters also returned
+      the input values within the model test, providing closure for both the source reconstruction and the
+      interaction-parameter extraction.
     </p>
   </section>
 
@@ -199,11 +199,10 @@ excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations.
   <section class="detail-section">
     <h2>Physical Interpretation</h2>
     <p>
-      The non-Gaussian source profile indicates that the freeze-out distribution retains information about the
-      dynamical evolution of the collision. In a fully randomized system, the central-limit picture would
-      naturally lead to a Gaussian-like source distribution. The observed deviation therefore supports the
-      picture of an ultrafast collision, in which part of the spatial information from the early-stage geometry
-      remains visible at freeze-out.
+      The non-Gaussian profile shows that a single Gaussian radius does not capture all of the structure retained
+      in the measured correlation function. Determining whether that structure originates from collective
+      expansion, resonance decays, hadronic rescattering, or other dynamics requires systematic comparisons
+      across collision conditions and source models.
     </p>
     <p>
       For the proton-antiproton comparison, the result provides a femtoscopic coordinate-space test of
@@ -217,10 +216,10 @@ excerpt: "Imaging femtoscopic freeze-out sources from two-particle correlations.
     <h2>My Contributions</h2>
     <ul class="clean-list">
       <li>Developed a Richardson-Lucy-based imaging framework for reconstructing femtoscopic source functions from two-particle correlation functions.</li>
-      <li>Combined source imaging with the Lednicky-Lyuboshitz final-state-interaction model to extract both source distributions and interaction parameters.</li>
+      <li>Combined source imaging with the Lednicky-Lyuboshitz final-state-interaction model to extract both source functions and interaction parameters.</li>
       <li>Validated the inverse-imaging method using controlled model tests with known source functions and interaction parameters.</li>
       <li>Applied the method to STAR proton-proton and antiproton-antiproton correlation functions in Au+Au collisions at <span class="inline-math">\(\sqrt{s_{NN}} = 200~\mathrm{GeV}\)</span>.</li>
-      <li>Demonstrated identical non-Gaussian freeze-out source functions for protons and antiprotons, providing coordinate-space evidence for matter-antimatter symmetry.</li>
+      <li>Found that the non-Gaussian proton and antiproton source functions agree within experimental uncertainty.</li>
     </ul>
   </section>
 

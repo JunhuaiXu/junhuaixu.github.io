@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Junhuai Xu"
-excerpt: "About me"
+title: "Experimental Nuclear Physicist"
+excerpt: "Junhuai Xu develops detector reconstruction, inverse methods, and physics-informed machine learning for nuclear and neutrino experiments."
 author_profile: true
 hide_title: true
 redirect_from:
@@ -15,7 +15,7 @@ redirect_from:
     <div class="home-hero__intro">
       <h1 class="home-hero__name">Junhuai Xu</h1>
       <p class="home-hero__tagline">
-        Experimental Nuclear Physics · Short-Range Correlations · AI for Scientific Reconstruction
+        Experimental Nuclear Physics · Detector Reconstruction · Physics-Informed Inference
       </p>
       <p class="home-hero__meta">Ph.D. Candidate, Department of Physics, Tsinghua University</p>
       <div class="home-hero__actions">
@@ -38,14 +38,15 @@ redirect_from:
     <p class="home-lead">
       Hi, I am a Ph.D. candidate in the Department of Physics at <strong>Tsinghua University</strong>, advised by
       Prof. <a href="https://inspirehep.net/authors/1062622" target="_blank" rel="noopener"><strong>Zhigang Xiao</strong></a>.
-      My research lies at the intersection of <strong>experimental nuclear and particle physics</strong>,
+      My research lies at the intersection of <strong>experimental nuclear physics</strong>,
       <strong>detector instrumentation</strong>, and <strong>scientific computing</strong>.
     </p>
     <p class="home-lead">
-      My work spans short-range correlations in nuclei, atmospheric-neutrino simulations for deep-sea neutrino
-      telescopes, and correlation-function imaging in heavy-ion collisions. Across these projects, I integrate
-      detector calibration, response simulation, event reconstruction, and computational analysis, while extending
-      machine-learning methods to neutrino reconstruction and <strong>inverse problems in physics</strong>.
+      I study short-range correlations and femtoscopic source functions in heavy-ion collisions, together with
+      atmospheric-neutrino reconstruction in sparse underwater detectors. Across these projects, I connect
+      detector calibration, response simulation, event reconstruction, inverse methods, and statistical inference
+      to physics observables, and develop <strong>machine-learning methods grounded in detector response and
+      physics-level validation</strong>.
     </p>
     <div class="research-vision">
       <p class="research-vision__title">Research Vision</p>
@@ -74,7 +75,7 @@ redirect_from:
         </figure>
         <div class="research-card__content">
           <p>
-            Hard bremsstrahlung \(\gamma\) rays as a clean probe of SRC-induced high-momentum nucleons in
+            Hard bremsstrahlung \(\gamma\) rays as a sensitive electromagnetic probe of SRC-induced high-momentum nucleons in
             low-energy heavy-ion collisions.
           </p>
           <span class="research-card__cta">Read More &rarr;</span>
@@ -104,7 +105,7 @@ redirect_from:
         </figure>
         <div class="research-card__content">
           <p>
-            Femtoscopic imaging reconstructs freeze-out source distributions from two-particle correlations
+            Femtoscopic imaging reconstructs freeze-out source functions from two-particle correlation functions
             without assuming a Gaussian source shape.
           </p>
           <span class="research-card__cta">Read More &rarr;</span>
@@ -118,7 +119,7 @@ redirect_from:
       <p class="section-kicker">AI &amp; Computational Methods</p>
     </div>
 
-    <div class="research-grid research-grid--equal">
+    <div class="research-grid research-grid--equal research-grid--two">
       <a class="research-card research-card--purple" href="/ai/richardson-lucy-nuclear-physics/">
         <span class="research-card__index">01</span>
         <div class="research-card__content">
@@ -143,17 +144,6 @@ redirect_from:
         </div>
       </a>
 
-      <a class="research-card research-card--gold" href="/ai/bayesian-filtering-engineering/">
-        <span class="research-card__index">03</span>
-        <div class="research-card__content">
-          <h3>Bayesian Filtering Methods for Engineering Applications</h3>
-          <p>
-            Recursive Bayesian filtering for noisy engineering systems with evolving states, incomplete
-            observations, and uncertainty-aware data fusion.
-          </p>
-          <span class="research-card__cta">Read More &rarr;</span>
-        </div>
-      </a>
     </div>
   </section>
 
@@ -257,13 +247,27 @@ redirect_from:
       <p class="section-kicker">Education</p>
     </div>
 
-    <ul class="cv-list">
+    <ul class="cv-list cv-list--education">
       <li class="cv-list__item">
-        <span class="cv-list__text">Ph.D. Student in Physics, Tsinghua University</span>
+        <div class="cv-list__content">
+          <span class="cv-list__degree">Ph.D. Candidate in Experimental Nuclear Physics</span>
+          <span class="cv-list__detail">
+            <span>Tsinghua University</span>
+            <span class="cv-list__separator" aria-hidden="true">&middot;</span>
+            <span>Advisor: Prof. <a href="https://inspirehep.net/authors/1062622" target="_blank" rel="noopener">Zhigang Xiao</a></span>
+          </span>
+        </div>
         <time>2022 - Present</time>
       </li>
       <li class="cv-list__item">
-        <span class="cv-list__text">Bachelor of Science, South China Normal University</span>
+        <div class="cv-list__content">
+          <span class="cv-list__degree">B.S. in Optoelectronic Information Science and Engineering</span>
+          <span class="cv-list__detail">
+            <span>South China Normal University</span>
+            <span class="cv-list__separator" aria-hidden="true">&middot;</span>
+            <span>Undergraduate Advisors: Prof. Hongxi Xing and Prof. Jiahui Huang</span>
+          </span>
+        </div>
         <time>2018 - 2022</time>
       </li>
     </ul>
@@ -312,6 +316,11 @@ redirect_from:
       <a class="download-button" href="{{ site.author.publication_list | relative_url }}" target="_blank" rel="noopener">
         <i class="fas fa-file-pdf" aria-hidden="true"></i>
         <span>Publication List</span>
+      </a>
+
+      <a class="download-button" href="{{ '/assets/files/Junhuai_Xu_Research_Statement.pdf' | relative_url }}" target="_blank" rel="noopener">
+        <i class="fas fa-file-pdf" aria-hidden="true"></i>
+        <span>Research Statement</span>
       </a>
     </div>
   </section>
