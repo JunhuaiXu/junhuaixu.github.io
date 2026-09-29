@@ -756,6 +756,51 @@
   line-height: 1.5;
 }
 
+.sprit-photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.15rem;
+  margin: 1.35rem 0 1.75rem;
+}
+
+.sprit-photo-gallery .detail-figure {
+  margin: 0;
+}
+
+.sprit-photo--wide {
+  grid-column: 1 / -1;
+}
+
+.sprit-photo__context,
+.sprit-photo__identity {
+  display: block;
+}
+
+.sprit-photo__context {
+  margin-bottom: 0.25rem;
+  color: var(--jh-ink);
+  font-weight: 700;
+}
+
+.sprit-photo__identity {
+  margin-top: 0.35rem;
+  padding-left: 0.58rem;
+  border-left: 2px solid var(--jh-purple);
+  color: var(--jh-purple);
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  .sprit-photo-gallery {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .sprit-photo--wide {
+    grid-column: auto;
+  }
+}
+
 .atmospheric-story .detail-section + .detail-section {
   padding-top: 1.55rem;
   border-top: 1px solid var(--jh-line);

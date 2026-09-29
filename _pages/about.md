@@ -197,19 +197,20 @@ redirect_from:
         </div>
       </div>
 
-      <div class="experience-item">
+      <a class="experience-item experience-item--link" href="/experiments/sprit-riken-samurai/">
         <div class="experience-item__content">
           <h3>S&pi;RIT Experiment</h3>
           <p>
             Supported detector operation and electronics control during SAMURAI beam time at RIKEN,
             contributing to stable data taking and run coordination in the S&pi;RIT collaboration.
           </p>
+          <span class="research-card__cta">Read More &rarr;</span>
         </div>
         <div class="experience-item__meta">
           <span>RIKEN, Japan</span>
-          <time>2024</time>
+          <time>Nov. 2024</time>
         </div>
-      </div>
+      </a>
     </div>
   </section>
 
