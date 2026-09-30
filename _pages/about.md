@@ -119,7 +119,7 @@ redirect_from:
       <p class="section-kicker">AI &amp; Computational Methods</p>
     </div>
 
-    <div class="research-grid research-grid--equal research-grid--two">
+    <div class="research-grid research-grid--equal">
       <a class="research-card research-card--purple" href="/ai/richardson-lucy-nuclear-physics/">
         <span class="research-card__index">01</span>
         <div class="research-card__content">
@@ -139,6 +139,18 @@ redirect_from:
           <p>
             Graph-based reconstruction of sparse detector-hit patterns for neutrino event classification,
             direction reconstruction, and energy estimation.
+          </p>
+          <span class="research-card__cta">Read More &rarr;</span>
+        </div>
+      </a>
+
+      <a class="research-card research-card--gold" href="/ai/bayesian-filtering-engineering/">
+        <span class="research-card__index">03</span>
+        <div class="research-card__content">
+          <h3>Bayesian Filtering for Motion and State Estimation</h3>
+          <p>
+            Unscented Kalman filtering for motion-trajectory estimation and particle filtering for state
+            estimation in nonlinear, partially observed systems.
           </p>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
