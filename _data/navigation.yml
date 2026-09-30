@@ -18,5 +18,8 @@ main:
   - title: "Highlights"
     url: /#news
 
-  - title: "CV"
-    url: /cv/
+  - title: "Education"
+    url: /#education
+
+  - title: "Awards"
+    url: /#awards
