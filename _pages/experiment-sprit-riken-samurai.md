@@ -4,7 +4,7 @@ title: "SπRIT Experiment at RIKEN"
 permalink: /experiments/sprit-riken-samurai/
 author_profile: true
 hide_title: true
-excerpt: "Detector operations and electronics support during the November 2024 SπRIT beam campaign at RIKEN's SAMURAI terminal."
+excerpt: "Pre-experiment preparation in May-June 2024 and detector operations during the formal November SπRIT beam campaign at RIKEN."
 ---
 
 <div class="research-detail research-story">
@@ -12,12 +12,12 @@ excerpt: "Detector operations and electronics support during the November 2024 S
     <p class="section-kicker">Experiment &amp; Collaboration</p>
     <h1>S&pi;RIT Experiment at RIKEN</h1>
     <p class="detail-subtitle">
-      Detector operations and electronics support during the November 2024 SAMURAI beam campaign
+      Pre-experiment preparation in May&ndash;June 2024 and detector operations during the formal November beam campaign
     </p>
   </section>
 
   <section class="detail-section">
-    <h2>The S&pi;RIT Campaign</h2>
+    <h2>Preparation and Formal Beam Campaign</h2>
     <p>
       The S&pi;RIT Time Projection Chamber (TPC) records charged-particle tracks from heavy-ion collisions inside
       the magnetic field of the SAMURAI spectrometer at the RIKEN Nishina Center. Its large pad-plane readout and
@@ -25,9 +25,10 @@ excerpt: "Detector operations and electronics support during the November 2024 S
       beam time.
     </p>
     <p>
-      I joined the collaboration's November 2024 campaign at the SAMURAI terminal, supporting detector operation,
-      electronics control and monitoring, stable data taking, and run coordination. The photographs below document
-      that beam-time experience and identify my position in each image.
+      My involvement covered two phases. From May to June 2024, I participated in pre-experiment preparation. In
+      November 2024, I joined the formal beam experiment at the SAMURAI terminal, supporting detector operation,
+      electronics control and monitoring, stable data taking, and run coordination. All three photographs below
+      were taken during the formal November beam experiment and identify my position in each image.
     </p>
   </section>
 
@@ -35,14 +36,14 @@ excerpt: "Detector operations and electronics support during the November 2024 S
     <figure class="detail-figure sprit-photo sprit-photo--wide">
       <img
         src="/assets/images/sprit-riken-samurai/sprit-team-samurai-terminal-nov-2024.jpg"
-        alt="SπRIT collaboration members at the RIKEN SAMURAI terminal in November 2024; Junhuai Xu is third from the left in the lower standing row, wearing a brown sweater"
+        alt="Full SπRIT collaboration group at the RIKEN SAMURAI terminal during the formal November 2024 beam experiment; Junhuai Xu is third from the left in the lower standing row, wearing a brown sweater"
         width="2400"
         height="1800"
         loading="lazy"
         decoding="async">
       <figcaption>
-        <span class="sprit-photo__context">S&pi;RIT beam campaign at the RIKEN SAMURAI terminal &middot; November 2024</span>
-        Collaboration members in front of the experimental setup.
+        <span class="sprit-photo__context">Full S&pi;RIT Collaboration &middot; Formal beam experiment &middot; November 2024</span>
+        Collaboration group photo in front of the experimental setup at the RIKEN SAMURAI terminal.
         <span class="sprit-photo__identity">Junhuai Xu: third from the left in the lower standing row, wearing a brown sweater.</span>
       </figcaption>
     </figure>
@@ -50,14 +51,14 @@ excerpt: "Detector operations and electronics support during the November 2024 S
     <figure class="detail-figure sprit-photo">
       <img
         src="/assets/images/sprit-riken-samurai/sprit-operations-01-nov-2024.jpg"
-        alt="SπRIT team members in the RIKEN SAMURAI experimental area in November 2024; Junhuai Xu is on the far right, wearing a brown sweater"
+        alt="Tsinghua University team at the RIKEN SAMURAI terminal during the formal November 2024 SπRIT beam experiment; Junhuai Xu is on the far right, wearing a brown sweater"
         width="2400"
         height="1800"
         loading="lazy"
         decoding="async">
       <figcaption>
-        <span class="sprit-photo__context">S&pi;RIT team in the SAMURAI experimental area &middot; November 2024</span>
-        Team members beside the detector-control and monitoring stations.
+        <span class="sprit-photo__context">Tsinghua University team &middot; Formal S&pi;RIT beam experiment &middot; November 2024</span>
+        Team members beside the detector-control and monitoring stations at the SAMURAI terminal.
         <span class="sprit-photo__identity">Junhuai Xu: far right, wearing a brown sweater.</span>
       </figcaption>
     </figure>
@@ -65,14 +66,14 @@ excerpt: "Detector operations and electronics support during the November 2024 S
     <figure class="detail-figure sprit-photo">
       <img
         src="/assets/images/sprit-riken-samurai/sprit-operations-02-nov-2024.jpg"
-        alt="SπRIT team members in the RIKEN SAMURAI experimental area in November 2024; Junhuai Xu is on the far left, wearing a brown sweater"
+        alt="Tsinghua University team at the RIKEN SAMURAI terminal during the formal November 2024 SπRIT beam experiment; Junhuai Xu is on the far left, wearing a brown sweater"
         width="2400"
         height="1800"
         loading="lazy"
         decoding="async">
       <figcaption>
-        <span class="sprit-photo__context">S&pi;RIT team in the SAMURAI experimental area &middot; November 2024</span>
-        Team members in the detector and electronics work area.
+        <span class="sprit-photo__context">Tsinghua University team &middot; Formal S&pi;RIT beam experiment &middot; November 2024</span>
+        Team members in the detector and electronics work area at the SAMURAI terminal.
         <span class="sprit-photo__identity">Junhuai Xu: far left, wearing a brown sweater.</span>
       </figcaption>
     </figure>
@@ -83,8 +84,9 @@ excerpt: "Detector operations and electronics support during the November 2024 S
     <p>
       A key subsystem of the S&pi;RIT TPC is its fast-switching gating grid, which transmits drift electrons from
       triggered nuclear-reaction events while suppressing ion backflow and backgrounds from non-interacting beam
-      particles. For the 2024 campaign, the driver incorporated anti-surge resistors with higher inductive damping,
-      reducing switching noise and supporting reliable operation during extended high-rate beam periods.
+      particles. For the formal November 2024 campaign, the driver incorporated anti-surge resistors with higher
+      inductive damping, reducing switching noise and supporting reliable operation during extended high-rate beam
+      periods.
     </p>
   </section>
 
@@ -102,7 +104,8 @@ excerpt: "Detector operations and electronics support during the November 2024 S
     </ol>
     <p>
       I am a collaboration coauthor on this instrumentation paper, which reports the gating-grid driver design,
-      bench and in-situ performance tests, and the operational improvements used for the 2024 S&pi;RIT campaign.
+      bench and in-situ performance tests, and the operational improvements used for the formal November 2024
+      S&pi;RIT campaign.
     </p>
   </section>
 
