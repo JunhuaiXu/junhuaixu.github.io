@@ -229,7 +229,7 @@ redirect_from:
   {% if site.data.news %}
   <section id="news" class="home-section home-section--compact">
     <div class="section-heading">
-      <p class="section-kicker">Recent News</p>
+      <p class="section-kicker">Recent Highlights</p>
     </div>
 
     <div class="news-list">
@@ -239,6 +239,9 @@ redirect_from:
             <time>{{ item.date }}</time>
           </div>
           <div class="news-item__body">
+            {% if item.category %}
+              <span class="news-item__category">{{ item.category }}</span>
+            {% endif %}
             {% if item.title %}
               <h3>{{ item.title }}</h3>
             {% endif %}
@@ -292,6 +295,10 @@ redirect_from:
     </div>
 
     <ul class="cv-list">
+      <li class="cv-list__item">
+        <span class="cv-list__text">National Scholarship for Doctoral Students</span>
+        <time>2026</time>
+      </li>
       <li class="cv-list__item">
         <span class="cv-list__text">First-class Comprehensive Scholarship, Tsinghua University</span>
         <time>2025</time>

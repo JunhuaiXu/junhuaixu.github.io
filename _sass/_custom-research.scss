@@ -418,6 +418,18 @@
   line-height: 1.32;
 }
 
+.news-item__category {
+  display: inline-flex;
+  margin: 0 0 0.34rem;
+  padding: 0.18rem 0.48rem;
+  border-radius: 999px;
+  background: rgba(91, 63, 140, 0.09);
+  color: var(--jh-purple);
+  font-size: 0.7em;
+  font-weight: 750;
+  letter-spacing: 0.03em;
+}
+
 .news-item__location {
   margin: 0.12rem 0 0;
   color: var(--jh-muted);

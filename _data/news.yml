@@ -1,10 +1,17 @@
 # Add the newest item first. The text field supports simple Markdown links.
+- date: "September 2026"
+  category: "Award"
+  title: "National Scholarship for Doctoral Students"
+  text: "Awarded the 2026 National Scholarship for Doctoral Students."
+
 - date: "June 08-12, 2026"
+  category: "Conference Talk"
   location: "LBNL, Berkeley, California, USA"
   title: "5th International Workshop on Quantitative Challenges in SRC and EMC-Effect Research"
   text: "Presented a remote talk titled *Experimental Study of Bremsstrahlung Gamma Ray Emission and Short-Range Correlations in Low-Energy Heavy-Ion Collisions*."
 
 - date: "May 29-31, 2026"
+  category: "Collaboration Talk"
   location: "Sanya, Hainan, China"
   title: "7th TRIDENT Collaboration Meeting"
   text: "Presented a talk titled *Simulation of Atmospheric Neutrinos with a Compact Underwater Neutrino Telescope*."
