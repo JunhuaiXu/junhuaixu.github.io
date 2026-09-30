@@ -51,11 +51,11 @@ redirect_from:
     <div class="research-vision">
       <p class="research-vision__title">Research Vision</p>
       <p>
-        My long-term goal is to develop <strong>interpretable, physics-informed AI-for-science frameworks</strong>
-        for extracting hidden physical information from complex experimental data. By bridging
-        <strong>inverse-problem formulations</strong>, statistical inference, and machine-learning reconstruction
-        with rigorous detector physics, I aim to build data-driven discovery tools grounded in
-        <strong>experimental validation</strong>.
+        My long-term goal is to develop <strong>interpretable reconstruction and inference methods</strong>
+        that connect instrument response to underlying physical quantities across data-intensive scientific
+        applications. By combining forward modeling, inverse methods, statistical inference, and
+        physics-informed machine learning, I aim to extract reliable information from noisy and incomplete
+        measurements, supported by rigorous simulation- and data-based validation.
       </p>
     </div>
     <!-- <a class="home-button" href="/assets/CV_JunhuaiXu.pdf" target="_blank" rel="noopener">Curriculum Vitae</a> -->
@@ -90,8 +90,8 @@ redirect_from:
         </figure>
         <div class="research-card__content">
           <p>
-            Exploring how a compact deep-sea Cherenkov array, motivated by the Hai-Ling/TRIDENT opportunity,
-            could probe GeV atmospheric-neutrino oscillations.
+            Using detector simulations to explore how different deep-sea Cherenkov array configurations affect
+            sensitivity to GeV atmospheric-neutrino oscillation parameters in the context of Hai-Ling/TRIDENT.
           </p>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
