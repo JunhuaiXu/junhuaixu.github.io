@@ -201,14 +201,14 @@ redirect_from:
         <div class="experience-item__content">
           <h3>S&pi;RIT Experiment</h3>
           <p>
-            Participated in pre-experiment preparation from May to June 2024, then supported detector operation
-            and electronics control during the formal November SAMURAI beam campaign at RIKEN.
+            Contributed to S&pi;RIT experiment preparation in May&ndash;June 2024 and detector and electronics
+            operations during the November 2024 beam campaign at RIKEN.
           </p>
           <span class="research-card__cta">Read More &rarr;</span>
         </div>
         <div class="experience-item__meta">
           <span>RIKEN, Japan</span>
-          <time>May&ndash;Nov. 2024</time>
+          <time>May&ndash;Jun. &amp; Nov. 2024</time>
         </div>
       </a>
     </div>
